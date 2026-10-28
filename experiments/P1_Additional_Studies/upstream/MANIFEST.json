@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/SoftwareQuTech/qoala-mlir",
+  "commit": "3a367ae374b623dee13f6bf3f2f2c332fc530496",
+  "scope": "Exact upstream LIR translation fixtures. Compiler build, frontend, optimization, native execution and effect comparison remain separate gates.",
+  "fixtures": [
+    {
+      "source": "test/Translation/Routines/iQoala-local-routine-no-args-ret-single-meas.mlir",
+      "local": "iQoala-local-routine-no-args-ret-single-meas.mlir",
+      "sha256": "da14501e21f263b319b1ce19053eb4b8f86c8e96b4c3b927b6d41377ff232f00"
+    },
+    {
+      "source": "test/Translation/HostSection/iQoala-classical-comm-ints-singular.mlir",
+      "local": "iQoala-classical-comm-ints-singular.mlir",
+      "sha256": "6b0706d9dd5d4ff0d38a5ebfdf9a1e8a3b074ed35362b52fcbb9e09b5846e72d"
+    },
+    {
+      "source": "test/Translation/Routines/iQoala-local-routine-no-args-no-ret.mlir",
+      "local": "iQoala-local-routine-no-args-no-ret.mlir",
+      "sha256": "c697478e08a1674f54e5ca61bd274c32870e54746dbd01d8666444bc3393d2b0"
+    }
+  ]
+}

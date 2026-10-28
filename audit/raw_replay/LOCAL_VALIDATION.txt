@@ -1,0 +1,13 @@
+test_changed_raw_fails_before_auditor_import_and_never_passes (__main__.AuditChecks.test_changed_raw_fails_before_auditor_import_and_never_passes) ... ok
+test_jsonl_has_exact_record_inventory (__main__.AuditChecks.test_jsonl_has_exact_record_inventory) ... ok
+test_missing_raw_blocks_indexing (__main__.AuditChecks.test_missing_raw_blocks_indexing) ... ok
+test_paths_cannot_escape_study_directory (__main__.AuditChecks.test_paths_cannot_escape_study_directory) ... ok
+test_stream_array_across_large_records_and_unicode (__main__.AuditChecks.test_stream_array_across_large_records_and_unicode) ... ok
+test_truncation_trailing_data_and_trailing_comma_rejected (__main__.AuditChecks.test_truncation_trailing_data_and_trailing_comma_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+
+Six engineering tests only; production full raw replay has NOT executed locally.

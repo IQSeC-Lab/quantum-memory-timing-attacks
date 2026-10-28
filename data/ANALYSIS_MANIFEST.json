@@ -1,0 +1,112 @@
+{
+  "scope": "Reduced analysis dataset: independent paired endpoint differences, calibration bits, and public-clock stream counts. Not full compact records or checkpoint receipts.",
+  "source_archives": [
+    {
+      "path": "data/archives/E1_Raw_Audit_Review_full.zip",
+      "bytes": 75529,
+      "sha256": "34a9c5f5867b82520907eeea7177a7fc7b24be100bd62468a06d3a93491bd8ef"
+    },
+    {
+      "path": "data/archives/E1_Review_complete_safe_resume.zip",
+      "bytes": 4454487,
+      "sha256": "f7a3a8a7da90ab0410a13f1c7d27125e5fe58366f2ae84fd1805cdb757ce4eec"
+    },
+    {
+      "path": "data/archives/P1_E1_Raw_Audit_Fixed_Toolkit.zip",
+      "bytes": 20694,
+      "sha256": "a10cdc68388a74cd54f9c83349f36e1a8d7f233a215b4610ea7edecc5ca04ab1"
+    },
+    {
+      "path": "data/archives/P1_Full_Raw_Replay_LATEST_review.zip",
+      "bytes": 8931959,
+      "sha256": "cfb0b9a94e13a410166e77651dd87ea29998551f18ff255d1ab45e4258f1c185"
+    },
+    {
+      "path": "data/archives/P1_Q16_q16-calibration-20261014T055352249894Z_review.zip",
+      "bytes": 12883027,
+      "sha256": "8cc684c0db92d7493a33331ca6b62feb04499b03a4075a91b34081bd301dc977"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q12_q12-20261013T034634906569Z_review.zip",
+      "bytes": 21374328,
+      "sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q13_q13-20261013T045651939437Z_review.zip",
+      "bytes": 9214685,
+      "sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q14_q14-20261013T064940065373Z_review.zip",
+      "bytes": 15415425,
+      "sha256": "48759fd86082f4d2d2207e186024567ff7a1f20d572082e025e0ab04dcc267a0"
+    },
+    {
+      "path": "data/archives/P1_RQ13_rq13-app-full-20261015T210306094201Z_review.zip",
+      "bytes": 47938490,
+      "sha256": "0cfe69c0c09d34d389401fc1604834b1b5d5828c880b9ea7cb4103da0050341a"
+    },
+    {
+      "path": "data/archives/q16-fresh-planning-compact.zip",
+      "bytes": 4037775,
+      "sha256": "a4f913b28e7bb9040fa3e46d1914ba1d851e4ad884e8514c8f3fff6d211e53fa"
+    },
+    {
+      "path": "data/archives/results-all-additional-memory-recovery-review.zip",
+      "bytes": 29472422,
+      "sha256": "24eaf9412ea7c17c7078de29f62f116d997720bfedb8e1d9aac8da1f55d4a0da"
+    },
+    {
+      "path": "data/archives/results-all-memory-recovery-review.zip",
+      "bytes": 97211637,
+      "sha256": "528c10704b3907cd3ff9c560cc60c7d3deda251311ec6e84ff9b2394d88b5f9a"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/analysis/application.npz",
+      "bytes": 148442,
+      "sha256": "546c8f813c615c3e53480d643ce4715c7692378346f3a9e4ac3956a763978cca"
+    },
+    {
+      "path": "data/analysis/application_earlier.npz",
+      "bytes": 15290,
+      "sha256": "33c7f5ae88f006b2422c2dfb6e705a02e03099b92f071ef1066077acf23de91c"
+    },
+    {
+      "path": "data/analysis/causal.npz",
+      "bytes": 93425,
+      "sha256": "4845bcdbc08a31b30d8dea1bce87a747918e90e54ee26a98abd700c9948d5dd3"
+    },
+    {
+      "path": "data/analysis/e1.npz",
+      "bytes": 3599,
+      "sha256": "631ff829ded6d9c325e37e271a6bb18ad7cf240b1f176720b5a7f40fb1ed2ea7"
+    },
+    {
+      "path": "data/analysis/q12.npz",
+      "bytes": 47209,
+      "sha256": "f8f719ddc024236ada920b83ea41a529401e0e97f33b317bef29887838478b06"
+    },
+    {
+      "path": "data/analysis/q14.npz",
+      "bytes": 12681,
+      "sha256": "cdc2e8bc75bf1c67e1bc82e6c768aadc477f934416ccabc0e42a4d144fc3ce1f"
+    },
+    {
+      "path": "data/analysis/q16.npz",
+      "bytes": 3691,
+      "sha256": "885a4e28cc38b2c86ce278d4dd7eaaf721c094f6212449e8dcca8fe07c907e6e"
+    },
+    {
+      "path": "data/analysis/robustness.npz",
+      "bytes": 183970,
+      "sha256": "0123c75ed6141b4997b92d7b474e01ecc6f5b45e15610773960cd408bd30a7ab"
+    },
+    {
+      "path": "data/analysis/timing.npz",
+      "bytes": 45189,
+      "sha256": "70276415fb13590089dfa1a07d80219dc540ae1919dc26a273c38abd0097375a"
+    }
+  ]
+}

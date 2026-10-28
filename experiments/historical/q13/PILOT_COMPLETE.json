@@ -1,0 +1,18 @@
+{
+  "trials": 1320,
+  "noise_free_controls": 1176,
+  "teleportation_branches_per_arm": {
+    "no_competitor": 24,
+    "random_phase": 24,
+    "fixed_phase": 24
+  },
+  "status": "Integration checks passed, including state, actual channel, chronology and equal CPU work; no attack-effect gate",
+  "resources": {
+    "trials": 1320,
+    "batches": 11,
+    "worker_cpu_seconds": 77.503659449,
+    "worker_wall_seconds": 79.62638066429645,
+    "peak_worker_rss_mib": 256.37890625,
+    "manifest_sha256": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4"
+  }
+}

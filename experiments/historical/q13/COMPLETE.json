@@ -1,0 +1,50 @@
+{
+  "version": "q13-memory-robustness-1",
+  "code_hashes": {
+    "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+    "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+    "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+    "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+    "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+    "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+    "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+  },
+  "counts": {
+    "baseline": 336,
+    "pilot": 1320,
+    "evaluation": 73728
+  },
+  "analysis_sha256": "bd61d5c0b81a17baa87e7bdd9ae54b97682457aef0ce2395ab3df6dca1e19685",
+  "stage_resources": {
+    "baseline": {
+      "trials": 336,
+      "batches": 3,
+      "worker_cpu_seconds": 4.786424899,
+      "worker_wall_seconds": 5.42913194000721,
+      "peak_worker_rss_mib": 133.8515625,
+      "manifest_sha256": "99deafc9a601706738e7a08593173828fc04dbbd1a8ea6009f4b883728cdc659"
+    },
+    "pilot": {
+      "trials": 1320,
+      "batches": 11,
+      "worker_cpu_seconds": 77.503659449,
+      "worker_wall_seconds": 79.62638066429645,
+      "peak_worker_rss_mib": 256.37890625,
+      "manifest_sha256": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4"
+    },
+    "evaluation": {
+      "trials": 73728,
+      "batches": 576,
+      "worker_cpu_seconds": 3994.3931070560034,
+      "worker_wall_seconds": 4091.5889419512823,
+      "peak_worker_rss_mib": 349.11328125,
+      "manifest_sha256": "e8523e251cec0b9aa342b79fb438aca54affafb4ebe61c465541f1a7e323c1f5"
+    }
+  },
+  "status": "Execution complete; independent raw-record audit remains. Completion is not a positive-result claim."
+}

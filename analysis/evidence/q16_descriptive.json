@@ -1,0 +1,98 @@
+{
+  "comparisons": [
+    {
+      "arrival": "renewal",
+      "comparator": "random",
+      "delta_on_time_pp": -0.48828125,
+      "delta_wrong_timely_pp": 0.1708984375,
+      "point_service_gate": false
+    },
+    {
+      "arrival": "renewal",
+      "comparator": "even",
+      "delta_on_time_pp": -0.69580078125,
+      "delta_wrong_timely_pp": 0.244140625,
+      "point_service_gate": false
+    },
+    {
+      "arrival": "periodic_jitter",
+      "comparator": "random",
+      "delta_on_time_pp": -0.37841796875,
+      "delta_wrong_timely_pp": 0.0732421875,
+      "point_service_gate": false
+    },
+    {
+      "arrival": "periodic_jitter",
+      "comparator": "even",
+      "delta_on_time_pp": -0.5859375,
+      "delta_wrong_timely_pp": 0.0732421875,
+      "point_service_gate": false
+    }
+  ],
+  "confirmatory": false,
+  "planning_only": true,
+  "population_guarantee": false,
+  "replay_receipt_sha256": "8c2c16b8e912ed87c3054f6464099c6cd53ddbceedb51dd9323db44bea762122",
+  "rows": [
+    {
+      "arm": "selected",
+      "arrival": "renewal",
+      "correct_timely_pct": 97.6806640625,
+      "late_pct": 1.0986328125,
+      "offered": 8192,
+      "on_time_pct": 98.9013671875,
+      "unfinished": 0,
+      "wrong_timely_pct": 1.220703125
+    },
+    {
+      "arm": "random",
+      "arrival": "renewal",
+      "correct_timely_pct": 98.33984375,
+      "late_pct": 0.6103515625,
+      "offered": 8192,
+      "on_time_pct": 99.3896484375,
+      "unfinished": 0,
+      "wrong_timely_pct": 1.0498046875
+    },
+    {
+      "arm": "even",
+      "arrival": "renewal",
+      "correct_timely_pct": 98.62060546875,
+      "late_pct": 0.40283203125,
+      "offered": 8192,
+      "on_time_pct": 99.59716796875,
+      "unfinished": 0,
+      "wrong_timely_pct": 0.9765625
+    },
+    {
+      "arm": "selected",
+      "arrival": "periodic_jitter",
+      "correct_timely_pct": 97.57080078125,
+      "late_pct": 1.11083984375,
+      "offered": 8192,
+      "on_time_pct": 98.88916015625,
+      "unfinished": 0,
+      "wrong_timely_pct": 1.318359375
+    },
+    {
+      "arm": "random",
+      "arrival": "periodic_jitter",
+      "correct_timely_pct": 98.0224609375,
+      "late_pct": 0.732421875,
+      "offered": 8192,
+      "on_time_pct": 99.267578125,
+      "unfinished": 0,
+      "wrong_timely_pct": 1.2451171875
+    },
+    {
+      "arm": "even",
+      "arrival": "periodic_jitter",
+      "correct_timely_pct": 98.22998046875,
+      "late_pct": 0.52490234375,
+      "offered": 8192,
+      "on_time_pct": 99.47509765625,
+      "unfinished": 0,
+      "wrong_timely_pct": 1.2451171875
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "header_sha256": {
+    "COMPLETE.json": "f49a3f45882c6ca0c736840a7f936c17aef2a7f49d5f956b91c81d9c4434d633",
+    "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+    "prerequisite_evidence.json": "e0f3c466019ed0ac476abd39d277bf57311a1fe5b7fd54df534b5a7e08ed2752",
+    "analysis.json": "e181f16f8e8f8b172537b6a777ea70a0e22574dccc706771b10faa804a359762",
+    "frozen_policies.json": "e9b6819e901ffe0bff470d61c821cc6e0b249d529f28c32495fac7945f7934d6",
+    "prerequisites.json": "a21e501b995f2c70866bd18ae808f1cf74ea3891de322f6e6c54fc25bc4fa07e",
+    "PILOT_COMPLETE.json": "b8c3eb78284222d5be337f572b597af14a53136b1e342d3f2033dc5a29696882",
+    "protocol.json": "6e3e82d4667cb10c8ffd4a668875520ab17ef906ebe48bc06db4b7f259bc97e8",
+    "inherited_calibration_costs.json": "45d6697047bcc55694ad79e67fa05b5b3d537475d711c28a54eae1111c6b3846",
+    "pilot/manifest.json": "284a88bbb74d018a98edfdfca30152fda3c40b191cd251b2974eb41a23817f2e",
+    "evaluation/manifest.json": "77bf9a639bfb7797c269ba8410458d81a15a05610cede064118a6eafbb33e58d"
+  },
+  "source_hashes": {
+    "q14.py": "784be556064d9c9038857cadd86f1f6b7464234077ad08dd102dd79eadfd3dcf",
+    "q14_design.py": "b9b9a2294126205f80d7c6b7e90e583e6a753857025371beda3481f414513718",
+    "q14_engine.py": "0982559e947793dd13f086a040ecbd5e840d8132ad9e501a9a231a1c1c6d4e17",
+    "q14_analysis.py": "79782d41bf651983ee8bfeca83790a257cd9515a1d6ac5620e8866f4cec6f2f1",
+    "q14_prerequisites.py": "9f48f09882ab4a85416af2742c756808e4439a60f606661303c9c703afd14e5f",
+    "q14_tests.py": "ea2841be557c7fd89040a5ca0268061988c9d6e3af89f58367e6da4c7c2541a7",
+    "synthetic_records.py": "b697af9522e266b408ea8c8ae85522381005b5b7bf8b715dde6917471ccfae06",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+    "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+    "q13_raw_checks.py": "c4776aa0aa9655308a19522588e67f674a43151f758a5130c4eaea03039e3baa",
+    "parent_sources.json": "ef9044ebee0a4e6d2ade7fdcb630f301c7af7ce67af9e7aeb6979b4f18137d94",
+    "q14_expected_prerequisites.json": "bd9bb34fb7cd6465b4934688b3430da2d090eb0373a9a69e4df85bdcd420d2a2"
+  },
+  "counts": {
+    "pilot": 1944,
+    "evaluation": 98304
+  },
+  "committed_batches": 784,
+  "total_simulator_executions": 100248,
+  "review_archive_sha256": "48759fd86082f4d2d2207e186024567ff7a1f20d572082e025e0ab04dcc267a0",
+  "primary_contrasts": [
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "effect_pp": 0.18005390351837758,
+      "interval_pp": [
+        0.08249302426869864,
+        0.2665576705570706
+      ],
+      "positive": 25,
+      "negative": 7,
+      "adjusted_sign_p": 0.008409606292843819,
+      "sampled_error_pp": 0.09765625,
+      "sampled_error_interval_pp": [
+        -0.0732421875,
+        0.2685546875
+      ],
+      "storage_difference_ms": 0.09337013024902344
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "effect_pp": 0.18300313276623825,
+      "interval_pp": [
+        0.08406058677828353,
+        0.27047309972315353
+      ],
+      "positive": 25,
+      "negative": 7,
+      "adjusted_sign_p": 0.008409606292843819,
+      "sampled_error_pp": 0.13427734375,
+      "sampled_error_interval_pp": [
+        -0.03662109375,
+        0.3173828125
+      ],
+      "storage_difference_ms": 0.09337013024902344
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "effect_pp": 0.5146742984161078,
+      "interval_pp": [
+        0.4575919194467284,
+        0.5646733880179562
+      ],
+      "positive": 32,
+      "negative": 0,
+      "adjusted_sign_p": 1.862645149230957e-09,
+      "sampled_error_pp": 0.57373046875,
+      "sampled_error_interval_pp": [
+        0.32958984375,
+        0.830078125
+      ],
+      "storage_difference_ms": 0.3568196477050781
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "effect_pp": 0.5335426515431463,
+      "interval_pp": [
+        0.47458219213085,
+        0.5850955910170649
+      ],
+      "positive": 32,
+      "negative": 0,
+      "adjusted_sign_p": 1.862645149230957e-09,
+      "sampled_error_pp": 0.5859375,
+      "sampled_error_interval_pp": [
+        0.35400390625,
+        0.830078125
+      ],
+      "storage_difference_ms": 0.3568196477050781
+    }
+  ]
+}

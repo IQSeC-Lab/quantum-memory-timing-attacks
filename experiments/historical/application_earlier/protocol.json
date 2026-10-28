@@ -1,0 +1,119 @@
+{
+  "CS": "Native E section covers live-state part; output is outside. Annotation is a manual compilation strategy; no original compiler executable is run.",
+  "EDF": "Native numerical application absolute deadline minus now; stable FIFO tie; attacker deadline fixed public epoch+20ms.",
+  "arms": [
+    "none",
+    "random",
+    "even",
+    "selected"
+  ],
+  "baseline": "Independent n=2 rotation-application reconstruction, Table I/Appendix A parameter slice (15ns CPS,50us QNOS,26.6us gates,fidelity .99,T2 10s,155us link,150ns message processing,60ns scheduler messaging). Not original figure replication.",
+  "block_cap_ns": 300000,
+  "budget_ns": 1200000,
+  "cells": [
+    [
+      "paper_default",
+      15,
+      "unoptimized"
+    ],
+    [
+      "paper_default",
+      15,
+      "optimized"
+    ],
+    [
+      "paper_default",
+      1000,
+      "unoptimized"
+    ],
+    [
+      "paper_default",
+      1000,
+      "optimized"
+    ],
+    [
+      "paper_default",
+      10000,
+      "unoptimized"
+    ],
+    [
+      "paper_default",
+      10000,
+      "optimized"
+    ],
+    [
+      "short_memory",
+      15,
+      "unoptimized"
+    ],
+    [
+      "short_memory",
+      15,
+      "optimized"
+    ],
+    [
+      "short_memory",
+      1000,
+      "unoptimized"
+    ],
+    [
+      "short_memory",
+      1000,
+      "optimized"
+    ],
+    [
+      "short_memory",
+      10000,
+      "unoptimized"
+    ],
+    [
+      "short_memory",
+      10000,
+      "optimized"
+    ]
+  ],
+  "deadline_ns": 5000000,
+  "discovery_simulations": 384,
+  "evaluation_simulations": 7680,
+  "horizon_ns": 70000000,
+  "inference": "Stream-paired exploratory effect estimates and simultaneous conservative bounded-mean intervals. No powered confirmatory claim or automatic success from p-values.",
+  "information": "Public 10ms epoch; no individual victim releases, states, traces or outputs in release-plan generation.",
+  "kind": "EXPLORATORY MAIN APPLICATION COMPARISON; NOT Q16 CONFIRMATION",
+  "mode": "full",
+  "native_validation_at_delivery": "PENDING HPC",
+  "own_calibration": "16 phases; own sampled wrong-output counts only; earliest-phase tie. One fixed short-memory/10000ns/unoptimized/FCFS training setting, transferred unchanged.",
+  "period_ns": 10000000,
+  "physical_timing_validated": false,
+  "policies": [
+    "QUOTA_FCFS",
+    "QUOTA_RR",
+    "QUOTA_EDF_NUMERIC",
+    "QUOTA_PROTECTED",
+    "QUOTA_NATIVE_CS"
+  ],
+  "preflight_simulations": 96,
+  "requests_per_stream": 12,
+  "revision": "p1-rq13-rotation-application-v1",
+  "sensitivity": "1000/10000ns host costs and 4ms memory are separate model assumptions, not source hardware configurations or measurements.",
+  "service": "Prospective diagnostic requirement: on-time>=.99 and loss<.005 against both random/even. This does not alter or reuse Q16 confirmation.",
+  "source_sha256": {
+    "UPSTREAM_QOALA_LICENSE.txt": "edc855f9ea82c1b4ed84a38bd62241fa150bbe401f396b9b82223318723aaa41",
+    "app_analysis.py": "1a6fb49e30a9c86d133b871856569713bf92baf694fb629ca7d2a0dc18686ec4",
+    "app_audit.py": "235a7dcfda7bfd21f5c5417e6371188a4f4753611b01f161a99a4b34af6f37e6",
+    "app_cli.py": "dd5d721afbdefe99035ab07073691e2c961c9b6be6a05335153137b3fa848580",
+    "app_design.py": "5cd1fa76ca063cb505a06293d09453752d690c5617011efc8829dc4be4eac4d6",
+    "app_environment.py": "78e35213dfc97b382ce53414aac6217688f63200b56d4ad8e640793af2992114",
+    "app_io.py": "5e8da10bc620e24092756f95d83de6598f0c0aca6900dbbbbd7fccb995a608d6",
+    "app_native.py": "330a2a74a3364fde58e5349fa8cb05c73a534fce6576f5b5de39352879cd1127",
+    "app_policy.py": "7437174c73a8d98b1fbbd2395bc654180165b438e695667e65f8a676dec0f60a",
+    "app_scheduler_audit.py": "61f9f4aeff2a0ec31b31b26eb4783da36b0df0e799e9fe4182e2ebd61f700cf0",
+    "app_synthetic_tests.py": "b32b5b332d5e7408cdc6509201bef64dc88c56bcdd090c1a8749cacc460fdfdb",
+    "app_tests.py": "1d8e10c49b1d552c31bc166e39da7e1e9dc73facf259caf7b1347c861b6a6a88",
+    "legacy_scheduler_fixture.json": "4be64b04e90f1888633377ce799eae5e265291764a208d68013503f794580a23",
+    "lineage.json": "631dbdc88aa9361c6ac09a55fd78acab2bbfb921d23f9a15a4e6799fbb64301c",
+    "parser_signatures.json": "4c60b088f78889e00479071025d24d3d68aedddf2fa16ccc4de55ed83c25f463",
+    "pinned_backend.json": "9e14c76d9695df7aedc6943b0d743b17b654a9950ee060ba4892a479a53dc6ea"
+  },
+  "streams_per_cell": 32,
+  "work": "Identical 28-input reduction (30 host operations), 8 attacker jobs per evaluation stream. Service varies across costs; never padded or resized."
+}

@@ -1,0 +1,4 @@
+Generated six composite results figures (14 panels), data, and six-contrast table.
+Recomposed 6 figures at column width; moved all panel captions below plots.
+[{'study': 'Noise controls', 'streams': 512, 'contrasts': 140, 'intervals_excluding_zero': 0}, {'study': 'Sensitivity', 'streams': 256, 'contrasts': 450, 'intervals_excluding_zero': 0}]
+Storage mechanism: 98304 paired requests per variant; 16384 X+ records per arm.

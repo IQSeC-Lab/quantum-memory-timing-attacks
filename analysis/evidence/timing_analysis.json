@@ -1,0 +1,886 @@
+{
+  "all_offered_summary": [
+    {
+      "configuration": [
+        "plus",
+        "even"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3268
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_00"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3273
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_01"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3320
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_02"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3432
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_03"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3492
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_04"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3566
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_05"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3647
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_06"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3617
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_07"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3597
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_08"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3573
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_09"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3542
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_10"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3432
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_11"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3334
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_12"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3281
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_13"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3239
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_14"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3216
+    },
+    {
+      "configuration": [
+        "plus",
+        "fixed_15"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3216
+    },
+    {
+      "configuration": [
+        "plus",
+        "learned"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3523
+    },
+    {
+      "configuration": [
+        "plus",
+        "none"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3216
+    },
+    {
+      "configuration": [
+        "plus",
+        "random"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 3437
+    },
+    {
+      "configuration": [
+        "teleport",
+        "even"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1306
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_00"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1444
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_01"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1609
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_02"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1739
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_03"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1780
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_04"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1722
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_05"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1567
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_06"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1430
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_07"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1332
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_08"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1263
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_09"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_10"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_11"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_12"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_13"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_14"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "fixed_15"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "learned"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1742
+    },
+    {
+      "configuration": [
+        "teleport",
+        "none"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1260
+    },
+    {
+      "configuration": [
+        "teleport",
+        "random"
+      ],
+      "offered": 16384,
+      "unfinished": 0,
+      "wrong_completed": 1411
+    }
+  ],
+  "comparisons": [
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-random",
+      "family": 36,
+      "lower": -0.001728523620440305,
+      "mean": 0.0052490234375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006977547057940305,
+      "upper": 0.012226570495440306,
+      "variance": 0.022800987852308795,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-even",
+      "family": 36,
+      "lower": 0.008929939511565115,
+      "mean": 0.01556396484375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0066340253321848855,
+      "upper": 0.022197990175934885,
+      "variance": 0.019595384786964765,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_00",
+      "family": 36,
+      "lower": 0.008549580079927024,
+      "mean": 0.0152587890625,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0067092089825729765,
+      "upper": 0.021967998045072976,
+      "variance": 0.020276219418566502,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_01",
+      "family": 36,
+      "lower": 0.0053941203815625425,
+      "mean": 0.01239013671875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0069960163371874575,
+      "upper": 0.01938615305593746,
+      "variance": 0.022980211331629967,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_02",
+      "family": 36,
+      "lower": -0.0016627201734467512,
+      "mean": 0.00555419921875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007216919392196751,
+      "upper": 0.012771118610946751,
+      "variance": 0.025178207158096426,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_03",
+      "family": 36,
+      "lower": -0.005422506503416922,
+      "mean": 0.00189208984375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007314596347166922,
+      "upper": 0.009206686190916923,
+      "variance": 0.02618210005584104,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_04",
+      "family": 36,
+      "lower": -0.009997268951747552,
+      "mean": -0.00262451171875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007372757232997553,
+      "upper": 0.004748245514247553,
+      "variance": 0.02678918061381272,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_05",
+      "family": 36,
+      "lower": -0.014740495732988973,
+      "mean": -0.007568359375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007172136357988973,
+      "upper": -0.00039622301701102737,
+      "variance": 0.02472450243774034,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_06",
+      "family": 36,
+      "lower": -0.01266359890902798,
+      "mean": -0.0057373046875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0069262942215279795,
+      "upper": 0.0011889895340279795,
+      "variance": 0.022307312052699445,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_07",
+      "family": 36,
+      "lower": -0.011469613288720804,
+      "mean": -0.0045166015625,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006953011726220805,
+      "upper": 0.002436410163720805,
+      "variance": 0.022563985319195203,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_08",
+      "family": 36,
+      "lower": -0.01027678437155733,
+      "mean": -0.0030517578125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0072250265590573315,
+      "upper": 0.0041732687465573315,
+      "variance": 0.02526078325760697,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_09",
+      "family": 36,
+      "lower": -0.008647935414919674,
+      "mean": -0.00115966796875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007488267446169674,
+      "upper": 0.006328599477419674,
+      "variance": 0.02801550181948323,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_10",
+      "family": 36,
+      "lower": -0.001804627444590705,
+      "mean": 0.00555419921875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007358826663340705,
+      "upper": 0.012913025882090704,
+      "variance": 0.02664314032052089,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_11",
+      "family": 36,
+      "lower": 0.004425891971861419,
+      "mean": 0.01153564453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007109752559388581,
+      "upper": 0.01864539709063858,
+      "variance": 0.02409935684450917,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_12",
+      "family": 36,
+      "lower": 0.007902144570404123,
+      "mean": 0.0147705078125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006868363242095878,
+      "upper": 0.021638871054595877,
+      "variance": 0.021755816218603126,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_13",
+      "family": 36,
+      "lower": 0.010699646598979425,
+      "mean": 0.017333984375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006634337776020575,
+      "upper": 0.023968322151020575,
+      "variance": 0.019598190101782334,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_14",
+      "family": 36,
+      "lower": 0.012240405428541632,
+      "mean": 0.01873779296875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006497387540208367,
+      "upper": 0.025235180508958368,
+      "variance": 0.018387810386290285,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_15",
+      "family": 36,
+      "lower": 0.012240405428541632,
+      "mean": 0.01873779296875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006497387540208367,
+      "upper": 0.025235180508958368,
+      "variance": 0.018387810386290285,
+      "workload": "plus"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-random",
+      "family": 36,
+      "lower": 0.012879979868412118,
+      "mean": 0.02020263671875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007322656850337882,
+      "upper": 0.02752529356908788,
+      "variance": 0.02626581988928119,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-even",
+      "family": 36,
+      "lower": 0.01929993164067592,
+      "mean": 0.026611328125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.00731139648432408,
+      "upper": 0.03392272460932408,
+      "variance": 0.026148901967740952,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_00",
+      "family": 36,
+      "lower": 0.010371666425404935,
+      "mean": 0.0181884765625,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007816810137095065,
+      "upper": 0.026005286699595065,
+      "variance": 0.03165353317367851,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_01",
+      "family": 36,
+      "lower": 0.0007621981316517715,
+      "mean": 0.00811767578125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0073554776495982285,
+      "upper": 0.015473153430848229,
+      "variance": 0.026608090650130853,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_02",
+      "family": 36,
+      "lower": -0.005820511664754495,
+      "mean": 0.00018310546875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006003617133504495,
+      "upper": 0.006186722602254495,
+      "variance": 0.01434410368574704,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_03",
+      "family": 36,
+      "lower": -0.007945621846523627,
+      "mean": -0.0023193359375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.005626285909023627,
+      "upper": 0.003306949971523627,
+      "variance": 0.011592007888321735,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_04",
+      "family": 36,
+      "lower": -0.005446808198956144,
+      "mean": 0.001220703125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.006667511323956144,
+      "upper": 0.007888214448956144,
+      "variance": 0.019897185249191235,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_05",
+      "family": 36,
+      "lower": 0.0029367546140245246,
+      "mean": 0.01068115234375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.0077443977297254754,
+      "upper": 0.018425550073475475,
+      "variance": 0.03083261907708257,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_06",
+      "family": 36,
+      "lower": 0.010998268252735357,
+      "mean": 0.01904296875,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.008044700497264643,
+      "upper": 0.02708766924726464,
+      "variance": 0.034307428050418115,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_07",
+      "family": 36,
+      "lower": 0.017158820095387134,
+      "mean": 0.0250244140625,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007865593967112866,
+      "upper": 0.032890008029612866,
+      "variance": 0.03221265886799579,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_08",
+      "family": 36,
+      "lower": 0.021679681845399458,
+      "mean": 0.02923583984375,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007556157998350541,
+      "upper": 0.03679199784210054,
+      "variance": 0.028749071153930522,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_09",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_10",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_11",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_12",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_13",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_14",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    },
+    {
+      "alpha": 0.05,
+      "contrast": "learned-minus-fixed_15",
+      "family": 36,
+      "lower": 0.021880643432439,
+      "mean": 0.0294189453125,
+      "method": "Fixed-N two-sided empirical Bernstein / Bonferroni; IID bounded units",
+      "missing": 0,
+      "n": 16384,
+      "radius": 0.007538301880061002,
+      "upper": 0.036957247192561,
+      "variance": 0.02855521384113868,
+      "workload": "teleport"
+    }
+  ],
+  "confirmatory": true,
+  "family": "timing",
+  "learned_minus_best_fixed_grid": {
+    "plus": {
+      "interpretation": "Simultaneous envelope for learned error minus maximum fixed-grid error; oracle diagnostic, not a deployed selector",
+      "lower": -0.014740495732988973,
+      "upper": -0.00039622301701102737
+    },
+    "teleport": {
+      "interpretation": "Simultaneous envelope for learned error minus maximum fixed-grid error; oracle diagnostic, not a deployed selector",
+      "lower": -0.007945621846523627,
+      "upper": 0.003306949971523627
+    }
+  },
+  "mode": "full",
+  "native_rows": 655360
+}

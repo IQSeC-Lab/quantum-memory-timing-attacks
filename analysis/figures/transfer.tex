@@ -1,0 +1,13 @@
+% Column-width, editable TikZ. Panel captions are below plots.
+\begin{tikzpicture}[font=\scriptsize]
+\begin{axis}[at={(1.65cm,0.85cm)},anchor=south west,width=2.95cm,height=1.45cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=-.15,xmax=.9,ymin=-.5,ymax=3.5,y dir=reverse,xtick={0,.4,.8},ytick={0,1,2,3},xlabel={Difference (pp)},xmajorgrids,yticklabels={Plus A,Plus B,Teleport A,Teleport B}]
+\draw[dashed,black!45] (axis cs:0,-0.5)--(axis cs:0,3.5);
+\addplot[only marks,mark=*,mark size=1.3pt,color=blue!55!black,error bars/.cd,x dir=both,x explicit] table[x=mean,y=y,x error minus=minus,x error plus=plus]{figures/data/transfer_infidelity.dat};
+\end{axis}
+\node[] at (3.1,-0.43) {(a) Expected infidelity};
+\begin{axis}[at={(5.1cm,0.85cm)},anchor=south west,width=2.95cm,height=1.45cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=-.15,xmax=.9,ymin=-.5,ymax=3.5,y dir=reverse,xtick={0,.4,.8},ytick={0,1,2,3},xlabel={Difference (pp)},xmajorgrids,yticklabels={,,,}]
+\draw[dashed,black!45] (axis cs:0,-0.5)--(axis cs:0,3.5);
+\addplot[only marks,mark=*,mark size=1.3pt,color=blue!55!black,error bars/.cd,x dir=both,x explicit] table[x=mean,y=y,x error minus=minus,x error plus=plus]{figures/data/transfer_sampled.dat};
+\end{axis}
+\node[] at (6.550000000000001,-0.43) {(b) Verification errors};
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+# Curation provenance
+
+The frozen main package comes from the retained P1_Feedback_Closure source snapshot. The diagnostic suite retains its separately frozen parent. Historical Q12, Q13, Q14, Q16, calibration, and earlier application implementations are extracted from their retained review archives. E1 uses the source and safe-resume adapter in E1_Review_complete_safe_resume.zip. No frozen experiment source or checksum-bound notebook is edited.
+
+Figure/table regeneration code and numerical evidence live under analysis/. Manuscript sections, submission wrappers, bibliography, classes, and the paper PDF are excluded. Fourteen numbered notebook front ends invoke the retained implementations. Eleven recovered original notebooks remain under notebooks/originals/, with their server-specific defaults documented.
+
+The small statistical dataset is an explicitly reduced view. The main and diagnostic full-record checkers export the paired endpoint values only after their protocol, checkpoint, pairing, accounting, and interval checks pass. build_analysis_dataset.py extracts historical campaign/stream units from committed compact records and retains the own calibration bits needed for phase selection. reproduce_analysis.py recomputes the statistical procedures from those independent units, including each original bootstrap seed and endpoint-specific adjustment.
+
+This reduction removes repeated metadata, logs, per-request details, and checkpoint receipts from the default download. It does not round floats or subsample independent units. It is not a lossless replacement for the original archives, and default analysis does not repeat record-integrity or physics validation. An experimental whole-archive recompression format failed integrity checks and is not included in this release.
+
+SOURCE_MANIFEST.json records frozen source and adapter files. data/ANALYSIS_MANIFEST.json records small-data checksums and original archive identities. data/MANIFEST.json retains the twelve full-archive filenames and SHA-256 hashes for optional --full-records verification. DATA_REDUCTION.json records measured sizes and scope. The exact final server auditor-source identity gap remains documented in RELEASE_STATUS.md.

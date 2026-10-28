@@ -1,0 +1,8 @@
+{
+  "revision": "p1-feedback-closure-v1",
+  "existing_Q16_raw_replay": "PASS_192_STREAMS_49152_MEASURED_REQUESTS",
+  "new_native_experiments": "PENDING_EXECUTION",
+  "hardware_validation": false,
+  "planning_service_point_estimates": "MISS_PREDECLARED_SERVICE_OBJECTIVE",
+  "original_Q12_Q13_Q14_Q16_changed": false
+}

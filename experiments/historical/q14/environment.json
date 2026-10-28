@@ -1,0 +1,12 @@
+{
+  "python": "3.10.14 (tags/v3.10.14-25-ge98930d7387-dirty:e98930d7387, May 24 2024, 23:30:09) [GCC 13.2.0]",
+  "versions": {
+    "netsquid": "1.1.8",
+    "pydynaa": "1.0.2",
+    "qoala": "2.1.0",
+    "numpy": "1.26.4",
+    "netqasm": "2.3.0"
+  },
+  "repo_head": "31fa2c9699578d227736557f35cd01a134c4bbde",
+  "scipy": "1.15.3"
+}

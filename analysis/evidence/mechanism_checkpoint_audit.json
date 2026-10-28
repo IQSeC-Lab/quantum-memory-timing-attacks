@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "compact_payloads_verified": 8192,
+  "source_archive_sha256": "528c10704b3907cd3ff9c560cc60c7d3deda251311ec6e84ff9b2394d88b5f9a",
+  "method": "SHA-256 of each retained compressed compact payload compared with its checkpoint receipt; no native raw replay implied."
+}

@@ -1,0 +1,37 @@
+{
+  "auditor_identity": "2f2548544f6a0873fb55aed0ee88e0faa13158b6a88aeaa73eea2c02c358e7dd",
+  "expected_jobs": 11008,
+  "mode": "full",
+  "scope": "Separate replay using frozen trace auditors; no independent noisy-physics simulation or deployed-interface validation.",
+  "simulations_executed": 0,
+  "status": "PASS_FULL_RAW_TO_COMPACT_REPLAY",
+  "studies": [
+    "timing",
+    "application",
+    "causal",
+    "robustness"
+  ],
+  "total_full_jobs": 11008,
+  "totals": {
+    "application": {
+      "jobs": 8192,
+      "records": 655360,
+      "worker_seconds": 129114.84807231871
+    },
+    "causal": {
+      "jobs": 512,
+      "records": 61440,
+      "worker_seconds": 5442.121416239766
+    },
+    "robustness": {
+      "jobs": 256,
+      "records": 115200,
+      "worker_seconds": 10248.31119185104
+    },
+    "timing": {
+      "jobs": 2048,
+      "records": 655360,
+      "worker_seconds": 1976.1777641179506
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "original_compact_archive_bytes": 251030458,
+  "statistical_dataset_bytes": 553496,
+  "reduction_percent": 99.77951042100239,
+  "scope": "Reduced analysis view, not lossless whole-archive recompression. All supplied independent-unit floating values are preserved as float64; complete records/checkpoints/logs remain optional.",
+  "fresh_study_intervals": 632,
+  "numbered_notebooks": 14,
+  "recovered_original_notebooks": 11
+}

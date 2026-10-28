@@ -1,0 +1,19 @@
+{
+  "pilot_trials": 1296,
+  "noise_free_controls": 1176,
+  "teleportation_branches_per_arm": {
+    "no_competitor": 24,
+    "random_phase": 24,
+    "learned": 24
+  },
+  "checks": "CPU chronology, actual admission causality, service budgets, physical storage, correction messages and noise-free outputs",
+  "inference": "Integration gate only; no attack-effect inference",
+  "resources": {
+    "trials": 1296,
+    "batches": 11,
+    "worker_cpu_seconds": 81.822700352,
+    "worker_wall_seconds": 95.72474194224924,
+    "peak_worker_rss_mib": 257.30859375,
+    "manifest_sha256": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58"
+  }
+}

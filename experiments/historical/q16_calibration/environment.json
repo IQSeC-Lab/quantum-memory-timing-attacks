@@ -1,0 +1,20 @@
+{
+  "python": "3.10.14 (tags/v3.10.14-25-ge98930d7387-dirty:e98930d7387, May 24 2024, 23:30:09) [GCC 13.2.0]",
+  "repo_head": "31fa2c9699578d227736557f35cd01a134c4bbde",
+  "reviewed_source_sha256": {
+    "README.md": "0cd2453028518158343fe5be234e08c7bed8f7cfbcf00e85183a8a883213337a",
+    "qoala/sim/host/hostprocessor.py": "b767e62141751c3032a996be51b12a23667797533bd8410443dbae99bb9bbd39",
+    "qoala/sim/procnode.py": "6cdc3b82295ee6564fd43e63f340f3c7f7be535a4b4a2e065b5c8abd04b81e26",
+    "qoala/sim/scheduling/cpusched.py": "e8a07d90f4973a50f3ab6bb48956feffdd250f30943104b113f15c15bb3b37f9",
+    "qoala/sim/scheduling/nodesched.py": "a0e8ef383d99501a6a5ce5d49977884f222c9a070ce27828ebf2d3c2c54c2be0",
+    "qoala/sim/scheduling/onlinenodesched.py": "6f5b9d8708c925230bada418eb340143cc53c5ba0df0341c9e85ce8a093c4406"
+  },
+  "scipy": "1.15.3",
+  "versions": {
+    "netqasm": "2.3.0",
+    "netsquid": "1.1.8",
+    "numpy": "1.26.4",
+    "pydynaa": "1.0.2",
+    "qoala": "2.1.0"
+  }
+}

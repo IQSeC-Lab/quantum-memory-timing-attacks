@@ -1,0 +1,4 @@
+{
+  "error": "KeyboardInterrupt()",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/rahmanms/P1/experiment_code/q16-fresh-planning-2e2a5a02c4b8c5e0/q16_fresh.py\", line 216, in run\n    execute_stage(root,repo,'planning',args.workers,hashes)\n  File \"/home/rahmanms/P1/experiment_code/q16-fresh-planning-2e2a5a02c4b8c5e0/q16_fresh.py\", line 141, in execute_stage\n    for future in concurrent.futures.as_completed(futures):\n  File \"/opt/conda/lib/python3.10/concurrent/futures/_base.py\", line 245, in as_completed\n    waiter.event.wait(wait_timeout)\n  File \"/opt/conda/lib/python3.10/threading.py\", line 607, in wait\n    signaled = self._cond.wait(timeout)\n  File \"/opt/conda/lib/python3.10/threading.py\", line 320, in wait\n    waiter.acquire()\nKeyboardInterrupt\n"
+}

@@ -1,0 +1,99 @@
+{
+  "N": 8192,
+  "alpha": 0.05,
+  "comparison_family": 6,
+  "comparisons": [
+    {
+      "contrast": [
+        "short_memory",
+        10000,
+        "unoptimized",
+        "QUOTA_FCFS",
+        "selected",
+        "QUOTA_FCFS",
+        "random",
+        "infidelity"
+      ],
+      "planning_variance": 0.0004270773433941946
+    },
+    {
+      "contrast": [
+        "short_memory",
+        10000,
+        "unoptimized",
+        "QUOTA_EDF_NUMERIC",
+        "selected",
+        "QUOTA_FCFS",
+        "selected",
+        "correct_timely"
+      ],
+      "planning_variance": 0.005369343637992831
+    },
+    {
+      "contrast": [
+        "short_memory",
+        10000,
+        "unoptimized",
+        "QUOTA_FCFS",
+        "selected",
+        "QUOTA_NATIVE_CS",
+        "selected",
+        "infidelity"
+      ],
+      "planning_variance": 0.00026037194282223556
+    },
+    {
+      "contrast": [
+        "short_memory",
+        10000,
+        "unoptimized",
+        "QUOTA_FCFS",
+        "selected",
+        "QUOTA_NATIVE_CS",
+        "selected",
+        "correct_timely"
+      ],
+      "planning_variance": 0.03432319668458782
+    },
+    {
+      "contrast": [
+        "short_memory",
+        10000,
+        "unoptimized",
+        "QUOTA_PROTECTED",
+        "selected",
+        "QUOTA_EDF_NUMERIC",
+        "selected",
+        "correct_timely"
+      ],
+      "planning_variance": 0.001393089157706093
+    },
+    {
+      "contrast": [
+        "paper_default",
+        15,
+        "unoptimized",
+        "QUOTA_FCFS",
+        "selected",
+        "QUOTA_FCFS",
+        "random",
+        "infidelity"
+      ],
+      "planning_variance": 0.0
+    }
+  ],
+  "historical_results_excluded_from_future_intervals": true,
+  "kind": "Fixed-N precision planning using historical variances only; not power or success assurance",
+  "native_executions_full": {
+    "application": 655360,
+    "timing": 655360
+  },
+  "planning_streams_per_cell": 32,
+  "predicted_halfwidth_pp": 1.7902722282654764,
+  "target_halfwidth_pp": 2,
+  "timing_N": 16384,
+  "timing_family": 36,
+  "timing_worst_case_halfwidth_pp": 3.3451604226561793,
+  "variance_envelope": 0.13729278673835127,
+  "variance_multiplier": 4
+}

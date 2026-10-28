@@ -1,0 +1,23 @@
+{
+  "descriptive_only": true,
+  "streams": 8192,
+  "paired_requests_per_variant": 98304,
+  "xplus_requests_per_arm": {
+    "random": 16384,
+    "selected": 16384
+  },
+  "cdf_display": "1001 ordered ranks; maximum interior rank gap 99/98304 (about 0.101 percentage points)",
+  "bins": "20 equal-count bins per arm, sorted by age; plotted coordinates are bin means; no fitted curve or confidence interval",
+  "all_matched_private_inputs": true,
+  "checkpoint_verification": {
+    "status": "PASS",
+    "compact_payloads_verified": 8192,
+    "source_archive_sha256": "528c10704b3907cd3ff9c560cc60c7d3deda251311ec6e84ff9b2394d88b5f9a",
+    "method": "SHA-256 of each retained compressed compact payload compared with its checkpoint receipt; no native raw replay implied."
+  },
+  "all_active_service_ns": 2400000,
+  "inputs_sha256": {
+    "mechanism_paired_storage.json.gz": "c5616d137dc13a2532b3182b7bb3bd8b62d11ba92969ea17cb5498a9a3699bfe",
+    "mechanism_xplus_records.json.gz": "9596893f58b00ea521a421e5a545d0be35806f7325d91ece1d574dcd3bf37cf7"
+  }
+}

@@ -1,0 +1,37 @@
+COMMAND: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python comparison_suite/P1_Additional_Studies/source/test_suite.py
+test_active_arms_and_policies_match_private_offers (__main__.DesignSafety.test_active_arms_and_policies_match_private_offers) ... ok
+test_channel_interventions_retain_costs (__main__.DesignSafety.test_channel_interventions_retain_costs) ... ok
+test_missing_compiler_is_explicit_block_not_comparison (__main__.DesignSafety.test_missing_compiler_is_explicit_block_not_comparison) ... ok
+test_missing_endpoints_never_drop_offered_requests (__main__.DesignSafety.test_missing_endpoints_never_drop_offered_requests) ... ok
+test_missing_native_stack_cannot_launch_simulations (__main__.DesignSafety.test_missing_native_stack_cannot_launch_simulations) ... ok
+test_module_state_does_not_leak_between_cells (__main__.DesignSafety.test_module_state_does_not_leak_between_cells) ... ok
+test_partial_native_failure_never_creates_success_checkpoint (__main__.DesignSafety.test_partial_native_failure_never_creates_success_checkpoint) ... ok
+test_public_plan_invariant_to_private_parameters (__main__.DesignSafety.test_public_plan_invariant_to_private_parameters) ... ok
+test_smoke_analysis_keeps_all_offered_and_never_infers_effect (__main__.DesignSafety.test_smoke_analysis_keeps_all_offered_and_never_infers_effect) ... ok
+test_tampered_raw_checkpoint_rejected (__main__.DesignSafety.test_tampered_raw_checkpoint_rejected) ... ok
+test_worker_streams_raw_and_binds_checkpoint (__main__.DesignSafety.test_worker_streams_raw_and_binds_checkpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.141s
+
+OK
+
+COMMAND: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python comparison_suite/P1_Additional_Studies/P1_Feedback_Closure/source/offline_tests.py
+test_all_offered_partition (__main__.EngineeringChecks.test_all_offered_partition) ... ok
+test_application_missingness_and_offered_denominator (__main__.EngineeringChecks.test_application_missingness_and_offered_denominator) ... ok
+test_application_offer_noninterference (__main__.EngineeringChecks.test_application_offer_noninterference) ... ok
+test_checkpoint_integrity (__main__.EngineeringChecks.test_checkpoint_integrity) ... ok
+test_fixed_grid (__main__.EngineeringChecks.test_fixed_grid) ... ok
+test_interval_formula (__main__.EngineeringChecks.test_interval_formula) ... ok
+test_native_scalar_serialization (__main__.EngineeringChecks.test_native_scalar_serialization) ... ok
+test_private_pairing_and_fresh_namespace (__main__.EngineeringChecks.test_private_pairing_and_fresh_namespace) ... ok
+test_protocol_roundtrip_and_counts (__main__.EngineeringChecks.test_protocol_roundtrip_and_counts) ... ok
+test_public_schema (__main__.EngineeringChecks.test_public_schema) ... ok
+test_standalone_planner (__main__.EngineeringChecks.test_standalone_planner) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.403s
+
+OK
+
+11 additional and 11 retained engineering tests PASS. Native execution NOT PERFORMED here. Native dependencies and upstream compiler binaries absent. Mocked worker and compact analysis fixtures validate file integrity, fail-stop behavior and aggregation only, not physical outcomes.

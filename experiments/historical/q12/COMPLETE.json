@@ -1,0 +1,48 @@
+{
+  "version": "q12-selfcal-1",
+  "counts": {
+    "pilot": 1296,
+    "calibration": 294912,
+    "evaluation": 98304,
+    "primary_evaluation": 49152
+  },
+  "code_hashes": {
+    "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+    "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+    "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+    "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+  },
+  "frozen_selections_sha256": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+  "analysis_sha256": "0f9a88a04d8342a7ca57febe890d1fa1b1a277f7df0a7d70a9ace6976324ebc2",
+  "stage_resources": {
+    "pilot": {
+      "trials": 1296,
+      "batches": 11,
+      "worker_cpu_seconds": 81.822700352,
+      "worker_wall_seconds": 95.72474194224924,
+      "peak_worker_rss_mib": 257.30859375,
+      "manifest_sha256": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58"
+    },
+    "calibration": {
+      "trials": 294912,
+      "batches": 2304,
+      "worker_cpu_seconds": 16949.624910136037,
+      "worker_wall_seconds": 17363.482739468105,
+      "peak_worker_rss_mib": 1407.19140625,
+      "manifest_sha256": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117"
+    },
+    "evaluation": {
+      "trials": 98304,
+      "batches": 768,
+      "worker_cpu_seconds": 5601.0271623169965,
+      "worker_wall_seconds": 5736.170480694622,
+      "peak_worker_rss_mib": 1412.08984375,
+      "manifest_sha256": "26a18e3dd018d8a1e5a6fd86d4d7e3c874a10560414d5ba4c3d9cccad8762bba"
+    }
+  },
+  "status": "Execution complete; independent raw-record audit still required. This marker does not imply a positive attack result."
+}

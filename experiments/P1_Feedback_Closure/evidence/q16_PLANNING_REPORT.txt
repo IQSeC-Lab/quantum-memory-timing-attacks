@@ -1,0 +1,20 @@
+Q16 fresh planning report
+PLANNING_COMPLETE
+Planning only; no confirmatory attack result.
+Executions: 192; independent paired input streams: 64; measured requests: 49152.
+Deadline: 5 ms; selected job offsets: [0.25,0.25,0.25,0.25] ms.
+
+Arrival | arm | observed on-time fraction | wrong-and-on-time fraction | late | unfinished
+renewal | selected | 0.98901367 | 0.01220703 | 90 | 0
+renewal | random | 0.99389648 | 0.01049805 | 50 | 0
+renewal | even | 0.99597168 | 0.00976562 | 33 | 0
+periodic_jitter | selected | 0.98889160 | 0.01318359 | 91 | 0
+periodic_jitter | random | 0.99267578 | 0.01245117 | 60 | 0
+periodic_jitter | even | 0.99475098 | 0.01245117 | 43 | 0
+
+Use nuisance/service/cost evidence and sensitivity assumptions to freeze final N and confidence method; retain selected policy/deadline.
+
+These 192 simulations are excluded from future confirmatory evaluation.
+No post-result policy or deadline optimization.
+No hardware CPU calibration or deployment authority established.
+32 paired streams per regime do not certify a 99% population service guarantee.

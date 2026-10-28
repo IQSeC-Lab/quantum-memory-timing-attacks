@@ -1,0 +1,194 @@
+{
+  "review_archive_sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d",
+  "run_id": "q13-20261013T045651939437Z",
+  "source_hashes": {
+    "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+    "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+    "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+    "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+    "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+    "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+    "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+  },
+  "header_sha256": {
+    "COMPLETE.json": "120ecffec6f6f1e2785d387ee4123a889fcfa6c1385b131780e04d4181973fed",
+    "BASELINE_COMPLETE.json": "ccfec13999eb5fce1aaab270c9325253a3fb348ba8b224eb3eb40f75db7c53eb",
+    "PILOT_COMPLETE.json": "c299a4b2980e95058b0c21c881e6cef781418549f40e0b4464addb58edb74767",
+    "protocol.json": "12708fefc028388f87bbfbccb5e01ba7a7816a30e9828fd5d0d6b5210e8f21a3",
+    "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+    "analysis.json": "bd61d5c0b81a17baa87e7bdd9ae54b97682457aef0ce2395ab3df6dca1e19685",
+    "baseline/manifest.json": "99deafc9a601706738e7a08593173828fc04dbbd1a8ea6009f4b883728cdc659",
+    "pilot/manifest.json": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4",
+    "evaluation/manifest.json": "e8523e251cec0b9aa342b79fb438aca54affafb4ebe61c465541f1a7e323c1f5"
+  },
+  "counts": {
+    "baseline": 336,
+    "pilot": 1320,
+    "evaluation": 73728
+  },
+  "committed_batches": 590,
+  "primary_contrasts": [
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.2687887562081226,
+      "approximate_adjusted_interval_pp": [
+        0.21688283939524747,
+        0.32149105418233953
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.028553900437767964,
+        0.028553900437767964
+      ],
+      "random_loss_bounds": [
+        0.02586601287568674,
+        0.02586601287568674
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.26878875620812254,
+        0.26878875620812254
+      ],
+      "mean_storage_difference_ms": 0.1669753681640625,
+      "sampled_wrong_output_difference_pp": 0.146484375,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.2771368823087101,
+      "approximate_adjusted_interval_pp": [
+        0.2244644355687303,
+        0.3306927595104206
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.029726981206175333,
+        0.029726981206175333
+      ],
+      "random_loss_bounds": [
+        0.02695561238308823,
+        0.02695561238308823
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.27713688230871014,
+        0.27713688230871014
+      ],
+      "mean_storage_difference_ms": 0.1669753681640625,
+      "sampled_wrong_output_difference_pp": 0.244140625,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.46485714990840743,
+      "approximate_adjusted_interval_pp": [
+        0.4291239968688627,
+        0.49839648224393557
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.015403843458831386,
+        0.015403843458831386
+      ],
+      "random_loss_bounds": [
+        0.010755271959747311,
+        0.010755271959747311
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.4648571499084075,
+        0.4648571499084075
+      ],
+      "mean_storage_difference_ms": 0.34451813232421874,
+      "sampled_wrong_output_difference_pp": 0.78125,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.48411436685877085,
+      "approximate_adjusted_interval_pp": [
+        0.44720614093008315,
+        0.5186996528621334
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.016283631644233937,
+        0.016283631644233937
+      ],
+      "random_loss_bounds": [
+        0.011442487975646228,
+        0.011442487975646228
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.48411436685877085,
+        0.48411436685877085
+      ],
+      "mean_storage_difference_ms": 0.34451813232421874,
+      "sampled_wrong_output_difference_pp": 0.78125,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    }
+  ],
+  "total_simulator_executions": 76060
+}

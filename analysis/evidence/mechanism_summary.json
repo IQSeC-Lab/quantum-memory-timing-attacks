@@ -1,0 +1,42 @@
+{
+  "independent_streams": 8192,
+  "paired_requests_per_variant": 98304,
+  "source_archive_sha256": "528c10704b3907cd3ff9c560cc60c7d3deda251311ec6e84ff9b2394d88b5f9a",
+  "condition": "short_memory, 10000 ns host, FCFS, unoptimized X+ for infidelity panel",
+  "all_attacker_service_ns_per_stream": 2400000,
+  "descriptive_only": true,
+  "storage": {
+    "unoptimized": {
+      "mean_ms": 0.04654306902058919,
+      "median_ms": 0.0,
+      "p05_ms": -1.2807959,
+      "p95_ms": 1.5513434999999967,
+      "positive_fraction": 0.450927734375,
+      "min_ms": -4.147882,
+      "max_ms": 4.597229
+    },
+    "optimized": {
+      "mean_ms": 0.0,
+      "median_ms": 0.0,
+      "p05_ms": 0.0,
+      "p95_ms": 0.0,
+      "positive_fraction": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.0
+    }
+  },
+  "xplus": {
+    "random": {
+      "requests": 16384,
+      "mean_storage_ms": 2.055817441711426,
+      "mean_infidelity_pct": 21.245425076946546,
+      "corr_age_infidelity": 0.9921477910599051
+    },
+    "selected": {
+      "requests": 16384,
+      "mean_storage_ms": 2.1085115864868165,
+      "mean_infidelity_pct": 21.899354051625146,
+      "corr_age_infidelity": 0.993525038720893
+    }
+  }
+}

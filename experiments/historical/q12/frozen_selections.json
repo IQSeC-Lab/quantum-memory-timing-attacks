@@ -1,0 +1,5186 @@
+{
+  "plus|0": {
+    "phase_ns": 2750000,
+    "candidate": "phase_11",
+    "observations_sha256": "9e4e3c5eb069ff0883e182416c9d0378dbf112c69c274902f4d74bcbfd564f9e",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 51
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 39
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 46
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|1": {
+    "phase_ns": 2000000,
+    "candidate": "phase_08",
+    "observations_sha256": "e9883ce3f8dea34c4bb3bc9b7a64397da0105b3bd2a881c17dd4f2455c67370e",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 56
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 50
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 50
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|2": {
+    "phase_ns": 1750000,
+    "candidate": "phase_07",
+    "observations_sha256": "c3bbb29deed36c14552200196b5e18c24d8a3fe1af157f1616cd2f71d6b558d6",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 66
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 42
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 41
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 36
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|3": {
+    "phase_ns": 1500000,
+    "candidate": "phase_06",
+    "observations_sha256": "4a33fae128e864e7d74c4a8179e06cd97fcfac68a6ebb05596d2647d4299503c",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 39
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 50
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 60
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 59
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|4": {
+    "phase_ns": 1500000,
+    "candidate": "phase_06",
+    "observations_sha256": "1b8bcc25d4edbfebc72375857f9dd3967d37f264a84a99d1258677fa09e71763",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 67
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 66
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 36
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 43
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 62
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|5": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "b18e8131a4c65cf93df99e3fbe907b88a9879c726957c1f9ee02a1eb7b2dc115",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 69
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 38
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 41
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 51
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|6": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "d3845c6b0dfbcb4358b5f3f3472d2cd1fb7deaddf9f23c2a0a91186c3b438f5a",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 72
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 49
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 56
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 52
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|7": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "428695b4e0afce7f664859c710ba75643e5f666227995eea4f17721627ee0621",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 67
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 44
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 43
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 58
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|8": {
+    "phase_ns": 2500000,
+    "candidate": "phase_10",
+    "observations_sha256": "6844a27893c436513e323d41039dec32d77c939cf11f2c6dfefa5596e83f85a1",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 39
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 39
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 49
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 43
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 59
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|9": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "9ad05a2e9f67ebb7ca22f9e04141ca6b7a9f2df335a967061ec10c2f247776ec",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 47
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 37
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 39
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|10": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "b1a7a130c568d44cf6e304d5ba302e3a42042b68e9eff0499fd302d698b2b433",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 67
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 38
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 52
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 48
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|11": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "13f72e7d2e828c6e8c0fcd310dadf5f5c3e4210788332c89fa6d4671e6d8bc0f",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 46
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 40
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 48
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|12": {
+    "phase_ns": 1750000,
+    "candidate": "phase_07",
+    "observations_sha256": "07949ff644287183e226f723067770f8e1f24a5c0649e1dda72c160318f8d6bf",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 52
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 45
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 54
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|13": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "99a4f51af5f63ca5347488205e501682ad4a8d6af04f095ba07eeb1f1cfa8026",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 48
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 49
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 46
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|14": {
+    "phase_ns": 1750000,
+    "candidate": "phase_07",
+    "observations_sha256": "4eeeccae5dff76727cc0bc3803750384ed7288ee5500e4f7cb803a4912449c9d",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 70
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 55
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 63
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 52
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|15": {
+    "phase_ns": 2000000,
+    "candidate": "phase_08",
+    "observations_sha256": "386d5d6f17f854acc16864d452a2c942f482474b807fc2e916e88e46d26573a7",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 68
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 52
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 49
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 57
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|16": {
+    "phase_ns": 2250000,
+    "candidate": "phase_09",
+    "observations_sha256": "4eb37768cf2424848dbb25b1faf9892a2d35945f3b73b563d2f95fa4b04b4b71",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 67
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 78
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 47
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 48
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 50
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|17": {
+    "phase_ns": 2250000,
+    "candidate": "phase_09",
+    "observations_sha256": "6e307911edd69db4418e9949cfef9c1b3b9182de1e0b5d7d6c999b51d0fc4616",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 39
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 49
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 50
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 57
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|18": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "7d3ec0a05580cdc409783807bcff168b3c85048c463a0572dece3a60504f7a0e",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 67
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 57
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 40
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 53
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|19": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "48769d5b18380410d4cda569b7c86283cebf4211f9e7a6c7601870ea99970dd9",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 66
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 54
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 52
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 55
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|20": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "bd81b81b424b1d12ea5f9c5def87d537c2b83cffe6bfc42d6dbf32f4e70ac19c",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 51
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 44
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 51
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|21": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "57bbbae9f4edb4f0025a084f0ea73a1fecf54e13f12dc9bacd65becb05f774bd",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 36
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 68
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 68
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 46
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 44
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 53
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|22": {
+    "phase_ns": 1500000,
+    "candidate": "phase_06",
+    "observations_sha256": "5a53af1a6ef11471a0739293b3024dc645aad2642d50be4d4a2b244d2ec26e3d",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 47
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 35
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 49
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|23": {
+    "phase_ns": 2000000,
+    "candidate": "phase_08",
+    "observations_sha256": "340847d210cda763a295aeb09f31b9d57ce496703a6dd5f1c9d912ba0614dae2",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 61
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 49
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 49
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|24": {
+    "phase_ns": 3750000,
+    "candidate": "phase_15",
+    "observations_sha256": "ddfb20f28dcd0a5d0d22de94c421baa0b5a8267f910830f685ad64063939d9da",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 63
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 64
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 60
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 68
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|25": {
+    "phase_ns": 2000000,
+    "candidate": "phase_08",
+    "observations_sha256": "98288dc63093f22a7278ee2d2ac69ee05a578d24245503a296334ef2964f6d86",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 68
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 49
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 46
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 49
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|26": {
+    "phase_ns": 2250000,
+    "candidate": "phase_09",
+    "observations_sha256": "b20bb570a1f7e671e11d7c7267ead605e4922733e19b94c78e908b0b58e4b608",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 59
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 44
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 51
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 51
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|27": {
+    "phase_ns": 1750000,
+    "candidate": "phase_07",
+    "observations_sha256": "59d4526a5c610a4a08327b92cebcbfdd18c08052e8e56ff1e93e77f7cecfbc77",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 54
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 73
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 54
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 52
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 45
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|28": {
+    "phase_ns": 250000,
+    "candidate": "phase_01",
+    "observations_sha256": "78af56f68d0993b6b856ca669ed5452fe8c3fa214058be4c5bee06813510d579",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 69
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 64
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 69
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 50
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 55
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 50
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|29": {
+    "phase_ns": 2000000,
+    "candidate": "phase_08",
+    "observations_sha256": "a37ad54dc8fe7a34115a090c3397a0b53bf448e339320c11802a80eb602548ed",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 66
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 38
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 43
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 44
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 56
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 47
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|30": {
+    "phase_ns": 3000000,
+    "candidate": "phase_12",
+    "observations_sha256": "a50e9117f83c38d3d04baddd7d18409f968663725e78ee4d6926814623416cea",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 50
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 44
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 51
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 58
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 41
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 52
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 61
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 56
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 48
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 56
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 54
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 59
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "plus|31": {
+    "phase_ns": 1500000,
+    "candidate": "phase_06",
+    "observations_sha256": "5801715662c6482a4991b6fdd5b89e2f46916656b2f486b10616597acd46e6b8",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 45
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 42
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 55
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 57
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 49
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 74
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 47
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 65
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 53
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 62
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 60
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 46
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 47
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 48
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 53
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|0": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "9f903c7567f71548c5fd1a6ef4cf93a9ff5e205d3dfc2782cd70035ad4908604",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 12
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 18
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 25
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|1": {
+    "phase_ns": 250000,
+    "candidate": "phase_01",
+    "observations_sha256": "f9377e311b2f9b9daf790e34327f8e46efa2ab197ee979919f3b782c46be50be",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 12
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 9
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 25
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 19
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 21
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|2": {
+    "phase_ns": 250000,
+    "candidate": "phase_01",
+    "observations_sha256": "1cf0c2031d0bd4dd4f58b4818c2ca1970b0fb979911db3f70b8cfb1cfb09fddd",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 11
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 21
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 27
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 17
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|3": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "5c716f028af7d128013eeb450708c3f397272951d3821aeb7436f54244aa47a2",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 21
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 26
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 26
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|4": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "394941e4f7379595c97b265a48a8d4ac0c58f6b847e75fa3c378291f40dde516",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 36
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 21
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 19
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 21
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|5": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "3be6865f49f1bdd88f27e76c90ebc4329a3ef4347d386eab3575a46460e625e3",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 23
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 23
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 20
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|6": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "3d2c51771044821e55011996ee027f1ec0e5ace131d5dbc627f6b2cefbe9784a",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 13
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 13
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 25
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 20
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 14
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|7": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "7eada4f01e784dce357f5eb8199b3b14e9757f74819c855d3c1a4953860598aa",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 14
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 22
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 27
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|8": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "a7e56608f303a99bd1450268170ba03c7eab8e23f8b853143022833c92084b8c",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 12
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 20
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 18
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 21
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|9": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "873d1e59635af38d8463d9beb65c1b7c86ed1d3541427ce1528d8ad9c610ba61",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 39
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 12
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 14
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 23
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 22
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|10": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "4d9be051cfb49698366cae5d1a369676b47be6e82ffc233bdf918ea377a189dd",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 16
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 30
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 26
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|11": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "483eebfdedeed92f26a517beb1e18b7671daf21ab13764a69a50be45885235dd",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 14
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 23
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 16
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|12": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "40182c7bcaa488afe27423c195090cb4ebdaaa51c99423c2b0c71504af76016b",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 15
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 20
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 21
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|13": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "7518a0407bcbc1df787f722f406b872994c6d8d606153b9da39b09c762f0100f",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 18
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 21
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 23
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|14": {
+    "phase_ns": 1250000,
+    "candidate": "phase_05",
+    "observations_sha256": "25cf25a02996b14cdec1983dd6aa07177e1351f71c01ed095188eec72f0c17ab",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 21
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 24
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 26
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|15": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "97c92fdadae9d582db2b451015f10b8c970dfc51f06b26ff0a3946d58f8f3548",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 40
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 26
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 25
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 28
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|16": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "3961688d66f15cf690dea81651f4e4b26e0e4f861f21528b61afe49366002df0",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 17
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 11
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 30
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|17": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "5c413e6e1ee9a9b37d49c440718667a9ad372f22f37d2ddf704f06ea5a890d72",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 22
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 21
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|18": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "2e6a8803135dd91f0317e29387c5bbb6ec602f0635c4500c22bd88bec1761520",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 16
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 17
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 20
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|19": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "c663eaaa3cec8f7c6abc9b304bce43f21d0a88cb567c988f821e56613723f1f9",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 13
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 24
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 19
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 26
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|20": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "3577f673625a15d9b90fe99047b1fceb8749a4940bba92fb5d90b198d5c34911",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 13
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 15
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 19
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 28
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|21": {
+    "phase_ns": 250000,
+    "candidate": "phase_01",
+    "observations_sha256": "6a16aee6fe623b098b23881ee13a12305116127f7d28ea89c1f39ae8761ed9ef",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 13
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 27
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 26
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 15
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|22": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "5049208ba3d419753c6ded84d3471ccb2c1fd3ed0453010807bd7fde0e53fa1a",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 31
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 26
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 26
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|23": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "4ad4240a8be9b69a2dec37908bc079c703cef98daa314ce6363251ba494c20d7",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 15
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 16
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|24": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "6496f692595cd86ae010bdc5488f43a7bbfedebe7730d2b59320b2f71e5e9b5c",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 35
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 30
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 25
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 22
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 18
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|25": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "d1923ac33decc0d655eac96769f9e9391b79d28815781021eb1ef6dc4a8c73ee",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 15
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 21
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|26": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "08432cc355e72fa09579c319c647a33b4ae1ef198b4d818ecd0f7e14067220c5",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 9
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 32
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 22
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 27
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|27": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "18c5271a1498bead3f9c866c79c29bab1179ebea1d1787991883b40f4f1ddcc8",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 12
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 20
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 15
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 19
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|28": {
+    "phase_ns": 1000000,
+    "candidate": "phase_04",
+    "observations_sha256": "26b5d4ec6bec060addb96992fdbc23161609d777e42a88a54a5a4ca25d84fe5e",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 16
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 20
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 18
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 29
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|29": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "354ff7df674efcb11e608c3a56100321eca87f785137d3d387a617a8d2f18d71",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 29
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 37
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 31
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 19
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 20
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 16
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 19
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|30": {
+    "phase_ns": 750000,
+    "candidate": "phase_03",
+    "observations_sha256": "00050a30d8259d59fa6a585e617573514655a4a61b98c057b963621175a315b8",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 34
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 25
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 14
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 20
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 24
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 24
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  },
+  "teleport|31": {
+    "phase_ns": 500000,
+    "candidate": "phase_02",
+    "observations_sha256": "25e9a7cc42e99e569f785f61c4b6f27cbcd7abbb2cb049dadff560bbbb658816",
+    "own_trials": 4608,
+    "own_arm_counts": {
+      "phase_00": {
+        "trials": 256,
+        "errors": 15
+      },
+      "phase_01": {
+        "trials": 256,
+        "errors": 26
+      },
+      "phase_02": {
+        "trials": 256,
+        "errors": 33
+      },
+      "phase_03": {
+        "trials": 256,
+        "errors": 32
+      },
+      "phase_04": {
+        "trials": 256,
+        "errors": 28
+      },
+      "phase_05": {
+        "trials": 256,
+        "errors": 27
+      },
+      "phase_06": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_07": {
+        "trials": 256,
+        "errors": 17
+      },
+      "phase_08": {
+        "trials": 256,
+        "errors": 23
+      },
+      "phase_09": {
+        "trials": 256,
+        "errors": 18
+      },
+      "phase_10": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_11": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_12": {
+        "trials": 256,
+        "errors": 24
+      },
+      "phase_13": {
+        "trials": 256,
+        "errors": 21
+      },
+      "phase_14": {
+        "trials": 256,
+        "errors": 22
+      },
+      "phase_15": {
+        "trials": 256,
+        "errors": 23
+      },
+      "no_competitor": {
+        "trials": 256,
+        "errors": 18
+      },
+      "random_phase": {
+        "trials": 256,
+        "errors": 21
+      }
+    },
+    "selection_rule": "maximum own returned verification errors; earliest phase breaks ties"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "study": "Noise controls",
+    "streams": 512,
+    "contrasts": 140,
+    "intervals_excluding_zero": 0
+  },
+  {
+    "study": "Sensitivity",
+    "streams": 256,
+    "contrasts": 450,
+    "intervals_excluding_zero": 0
+  }
+]

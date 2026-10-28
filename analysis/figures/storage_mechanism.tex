@@ -1,0 +1,18 @@
+% Native recorded durations and snapshot-derived infidelity; no fitted model.
+\begin{tikzpicture}[font=\scriptsize]
+\begin{axis}[at={(.9cm,.85cm)},anchor=south west,scale only axis,width=3.2cm,height=2.1cm,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},xmin=-4.5,xmax=5,xtick={-4,0,4},ymin=0,ymax=100,ytick={0,50,100},xlabel={Added storage (ms)},ylabel={Requests (\%)},ymajorgrids,grid style={black!12},legend style={at={(.5,1.05)},anchor=south,draw=none,font=\scriptsize,legend columns=2,column sep=3pt}]
+\draw[densely dashed,black!35] (axis cs:0,0)--(axis cs:0,100);
+\addplot[black,thick,const plot] table[x=delta_ms,y=cdf_pct]{figures/data/mechanism_cdf_unoptimized.dat};
+\addlegendentry{Early}
+\addplot[blue!55!black,thick] table[x=delta_ms,y=cdf_pct]{figures/data/mechanism_cdf_optimized.dat};
+\addlegendentry{Deferred}
+\end{axis}
+\node at (2.5,-.43) {(a) Selected minus random};
+\begin{axis}[at={(5.1cm,.85cm)},anchor=south west,scale only axis,width=3.2cm,height=2.1cm,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},xmin=0,xmax=5.5,xtick={0,2,4},ymin=0,ymax=40,ytick={0,20,40},xlabel={Storage duration (ms)},ylabel={Infidelity (\%)},ymajorgrids,grid style={black!12},legend style={at={(.5,1.05)},anchor=south,draw=none,font=\scriptsize,legend columns=2,column sep=3pt}]
+\addplot[only marks,mark=o,mark size=1.8pt,black] table[x=age_ms,y=infidelity_pct]{figures/data/mechanism_xplus_random.dat};
+\addlegendentry{Random}
+\addplot[only marks,mark=triangle*,mark size=1.3pt,red!65!black] table[x=age_ms,y=infidelity_pct]{figures/data/mechanism_xplus_selected.dat};
+\addlegendentry{Selected}
+\end{axis}
+\node at (6.7,-.43) {(b) Early preparation, $X+$ input};
+\end{tikzpicture}

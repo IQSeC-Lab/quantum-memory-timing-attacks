@@ -1,0 +1,25 @@
+{"event": "fresh_worker_exit", "pid": 8, "peak_rss_kib": 21420, "wall_seconds": 9.373000011692056e-06}
+{"event": "fresh_worker_exit", "pid": 14, "peak_rss_kib": 22700, "wall_seconds": 9.685000009085343e-06}
+{"event": "fresh_worker_exit", "pid": 13, "peak_rss_kib": 22700, "wall_seconds": 6.9299999836403e-06}
+{"event": "fresh_worker_exit", "pid": 19, "peak_rss_kib": 22700, "wall_seconds": 9.433999991870223e-06}
+{"event": "fresh_worker_exit", "pid": 22, "peak_rss_kib": 22700, "wall_seconds": 6.8199999532225775e-06}
+{"event": "fresh_worker_exit", "pid": 25, "peak_rss_kib": 22700, "wall_seconds": 8.322000041971478e-06}
+{"event": "fresh_worker_exit", "pid": 30, "peak_rss_kib": 22700, "wall_seconds": 0.007380912000030548}
+{"event": "fresh_worker_exit", "pid": 31, "peak_rss_kib": 22700, "wall_seconds": 0.010655742000039936}
+{"stream": 0, "executions": 1, "seconds": 0.0}
+{"stream": 1, "executions": 1, "seconds": 0.0}
+{"event": "fresh_worker_exit", "pid": 36, "peak_rss_kib": 22700, "wall_seconds": 0.007191474000023845}
+{"stream": 2, "executions": 1, "seconds": 0.0}
+test_map_memoryerror_propagates (__main__.RecoveryChecks.test_map_memoryerror_propagates) ... ok
+test_missing_native_preflight_cannot_launch_stages (__main__.RecoveryChecks.test_missing_native_preflight_cannot_launch_stages) ... ok
+test_ordered_map_is_bounded_and_uses_distinct_processes (__main__.RecoveryChecks.test_ordered_map_is_bounded_and_uses_distinct_processes) ... ok
+test_original_executor_restored_after_exception (__main__.RecoveryChecks.test_original_executor_restored_after_exception) ... ok
+test_original_stream_resume_reuses_checkpoints (__main__.RecoveryChecks.test_original_stream_resume_reuses_checkpoints) ... ok
+test_original_worker_preserves_interrupted_partial (__main__.RecoveryChecks.test_original_worker_preserves_interrupted_partial) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.613s
+
+OK
+
+Six host-process engineering tests. Native quantum recovery NOT executed locally. Mock records are temporary lifecycle fixtures, not experiment outcomes.

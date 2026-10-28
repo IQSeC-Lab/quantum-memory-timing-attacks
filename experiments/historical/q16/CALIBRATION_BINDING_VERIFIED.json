@@ -1,0 +1,10 @@
+{
+  "file_sha256": {
+    "COMPLETE.json": "1441f9b485baf12164e4a2be89f980d3d93a9d6f63312673befc6b4d8acb4ba0",
+    "deadline_calibration.json": "269662e7fe958e060faa5d9fea16c9b0248b3fc785bf5b65e7ecf9b47cf95394",
+    "own_policy_selection.json": "1056aa373a6a5cd2fa9e17f32e9524eb2f39ae1fd49927dd892803ccb61053c1",
+    "protocol.json": "bd38a14d5352a0e57f5429b25359c054bb1846b186af4151ad8c6f21d32972b9"
+  },
+  "run_dir": "/home/rahmanms/P1/results/q16-calibration-20261014T055352249894Z",
+  "status": "PASS_REVIEWED_CALIBRATION_IDENTITY"
+}

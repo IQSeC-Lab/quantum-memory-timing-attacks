@@ -1,0 +1,102 @@
+{
+  "paper_doi": "10.1038/s41586-025-08704-w",
+  "dataset_doi": "10.4121/6aa42f05-6823-4848-b235-3ea19e39f4ae.v2",
+  "dataset_sha256": "9c670972ffec0d49e0a41ac8c9fd5b755b9456f40d1a6a570db249be43b04e8f",
+  "reference_report_sha256": "c9066fba6f4a4d424317bd5224d3754a117bebf0996c4b5bcead7d0aa8585c8e",
+  "exact_epr_matrix": [
+    [
+      0.04889726937891738,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.436683308364969,
+      0.28416691260272003,
+      0.0
+    ],
+    [
+      0.0,
+      0.28416691260272003,
+      0.45357189141497184,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.06084753084114204
+    ]
+  ],
+  "known_reference_rows": [
+    {
+      "matrix": "final_text_rounded",
+      "coherence": "final_text",
+      "t_coh_ms": 13.0,
+      "exponent": 1.67,
+      "zero_memory_fidelity": 0.7837162837162833,
+      "fidelity_at_4_8ms": 0.7347618203753163,
+      "fidelity_at_8_95ms": 0.6659785171174968,
+      "exact_crossing_of_point_667_ms": 8.888525507538912,
+      "branch_probabilities": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "matrix": "final_text_rounded",
+      "coherence": "deposited_code",
+      "t_coh_ms": 13.2,
+      "exponent": 1.63,
+      "zero_memory_fidelity": 0.7837162837162833,
+      "fidelity_at_4_8ms": 0.7340922531427893,
+      "fidelity_at_8_95ms": 0.6668622252364711,
+      "exact_crossing_of_point_667_ms": 8.941459911440136,
+      "branch_probabilities": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "matrix": "deposited_exact",
+      "coherence": "final_text",
+      "t_coh_ms": 13.0,
+      "exponent": 1.67,
+      "zero_memory_fidelity": 0.7841669126027195,
+      "fidelity_at_4_8ms": 0.7351346944885245,
+      "fidelity_at_8_95ms": 0.6662421421493817,
+      "exact_crossing_of_point_667_ms": 8.904454287542446,
+      "branch_probabilities": [
+        0.49999999999999994,
+        0.4999999999999999
+      ]
+    },
+    {
+      "matrix": "deposited_exact",
+      "coherence": "deposited_code",
+      "t_coh_ms": 13.2,
+      "exponent": 1.63,
+      "zero_memory_fidelity": 0.7841669126027195,
+      "fidelity_at_4_8ms": 0.7344640637769035,
+      "fidelity_at_8_95ms": 0.6671272538691658,
+      "exact_crossing_of_point_667_ms": 8.957877132097492,
+      "branch_probabilities": [
+        0.49999999999999994,
+        0.4999999999999999
+      ]
+    }
+  ],
+  "profiles": {
+    "final_si": {
+      "t_ms": 13.0,
+      "exponent": 1.67
+    },
+    "deposited_code": {
+      "t_ms": 13.2,
+      "exponent": 1.63
+    }
+  },
+  "baseline_scope": "Full DQC initial matrix and both source parameterizations; six-setting deterministic extension.",
+  "robustness_scope": "Only source memory-decay envelope is transferred to P1 ideal-state/ideal-EPR workloads. No calibrated hardware deployment or imperfect-EPR transfer is claimed."
+}

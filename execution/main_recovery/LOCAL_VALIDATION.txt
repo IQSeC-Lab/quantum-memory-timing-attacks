@@ -1,0 +1,26 @@
+{"event": "fresh_worker_exit", "pid": 8, "peak_rss_kib": 22404, "wall_seconds": 1.2458999663067516e-05}
+{"event": "fresh_worker_exit", "pid": 16, "peak_rss_kib": 22532, "wall_seconds": 1.1247000657022e-05}
+{"event": "fresh_worker_exit", "pid": 13, "peak_rss_kib": 22532, "wall_seconds": 9.944999874278437e-06}
+{"event": "fresh_worker_exit", "pid": 19, "peak_rss_kib": 22532, "wall_seconds": 9.985000360757113e-06}
+{"event": "fresh_worker_exit", "pid": 22, "peak_rss_kib": 22532, "wall_seconds": 8.9939994722954e-06}
+{"event": "fresh_worker_exit", "pid": 25, "peak_rss_kib": 22532, "wall_seconds": 1.0354999176342972e-05}
+{"family": "timing", "mode": "smoke", "completed": 0, "pending": 3}
+{"event": "fresh_worker_exit", "pid": 31, "peak_rss_kib": 22532, "wall_seconds": 0.008573883000281057}
+{"event": "fresh_worker_exit", "pid": 30, "peak_rss_kib": 22532, "wall_seconds": 0.00865913100005855}
+{"completed": 1, "total": 3, "last_seconds": 0.001}
+{"completed": 2, "total": 3, "last_seconds": 0.001}
+{"event": "fresh_worker_exit", "pid": 36, "peak_rss_kib": 22532, "wall_seconds": 0.007471361000170873}
+{"completed": 3, "total": 3, "last_seconds": 0.001}
+{"family": "timing", "mode": "smoke", "completed": 3, "pending": 0}
+test_executor_restored_after_exception (__main__.RecoveryChecks.test_executor_restored_after_exception) ... ok
+test_frozen_source_integrity_and_preflight_fail_closed (__main__.RecoveryChecks.test_frozen_source_integrity_and_preflight_fail_closed) ... ok
+test_memoryerror_propagates_without_hanging_or_success (__main__.RecoveryChecks.test_memoryerror_propagates_without_hanging_or_success) ... ok
+test_one_fresh_process_per_chunk_and_wait_compatibility (__main__.RecoveryChecks.test_one_fresh_process_per_chunk_and_wait_compatibility) ... ok
+test_original_resume_reuses_verified_checkpoints (__main__.RecoveryChecks.test_original_resume_reuses_verified_checkpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.615s
+
+OK
+
+Native quantum recovery has NOT run here. Five engineering tests use ordinary host processes and explicitly labeled temporary fixtures.

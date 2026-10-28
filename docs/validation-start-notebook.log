@@ -1,0 +1,108 @@
+PASS_DATA_CHECKSUMS: 9 analysis inputs
+test_all_offered_partition (__main__.EngineeringChecks.test_all_offered_partition) ... ok
+test_application_missingness_and_offered_denominator (__main__.EngineeringChecks.test_application_missingness_and_offered_denominator) ... ok
+test_application_offer_noninterference (__main__.EngineeringChecks.test_application_offer_noninterference) ... ok
+test_checkpoint_integrity (__main__.EngineeringChecks.test_checkpoint_integrity) ... ok
+test_fixed_grid (__main__.EngineeringChecks.test_fixed_grid) ... ok
+test_interval_formula (__main__.EngineeringChecks.test_interval_formula) ... ok
+test_native_scalar_serialization (__main__.EngineeringChecks.test_native_scalar_serialization) ... ok
+test_private_pairing_and_fresh_namespace (__main__.EngineeringChecks.test_private_pairing_and_fresh_namespace) ... ok
+test_protocol_roundtrip_and_counts (__main__.EngineeringChecks.test_protocol_roundtrip_and_counts) ... ok
+test_public_schema (__main__.EngineeringChecks.test_public_schema) ... ok
+test_standalone_planner (__main__.EngineeringChecks.test_standalone_planner) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.466s
+
+OK
+test_active_arms_and_policies_match_private_offers (__main__.DesignSafety.test_active_arms_and_policies_match_private_offers) ... ok
+test_channel_interventions_retain_costs (__main__.DesignSafety.test_channel_interventions_retain_costs) ... ok
+test_missing_compiler_is_explicit_block_not_comparison (__main__.DesignSafety.test_missing_compiler_is_explicit_block_not_comparison) ... ok
+test_missing_endpoints_never_drop_offered_requests (__main__.DesignSafety.test_missing_endpoints_never_drop_offered_requests) ... ok
+test_missing_native_stack_cannot_launch_simulations (__main__.DesignSafety.test_missing_native_stack_cannot_launch_simulations) ... ok
+test_module_state_does_not_leak_between_cells (__main__.DesignSafety.test_module_state_does_not_leak_between_cells) ... ok
+test_partial_native_failure_never_creates_success_checkpoint (__main__.DesignSafety.test_partial_native_failure_never_creates_success_checkpoint) ... ok
+test_public_plan_invariant_to_private_parameters (__main__.DesignSafety.test_public_plan_invariant_to_private_parameters) ... ok
+test_smoke_analysis_keeps_all_offered_and_never_infers_effect (__main__.DesignSafety.test_smoke_analysis_keeps_all_offered_and_never_infers_effect) ... ok
+test_tampered_raw_checkpoint_rejected (__main__.DesignSafety.test_tampered_raw_checkpoint_rejected) ... ok
+test_worker_streams_raw_and_binds_checkpoint (__main__.DesignSafety.test_worker_streams_raw_and_binds_checkpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.173s
+
+OK
+test_changed_raw_fails_before_auditor_import_and_never_passes (__main__.AuditChecks.test_changed_raw_fails_before_auditor_import_and_never_passes) ... ok
+test_jsonl_has_exact_record_inventory (__main__.AuditChecks.test_jsonl_has_exact_record_inventory) ... ok
+test_missing_raw_blocks_indexing (__main__.AuditChecks.test_missing_raw_blocks_indexing) ... ok
+test_paths_cannot_escape_study_directory (__main__.AuditChecks.test_paths_cannot_escape_study_directory) ... ok
+test_stream_array_across_large_records_and_unicode (__main__.AuditChecks.test_stream_array_across_large_records_and_unicode) ... ok
+test_truncation_trailing_data_and_trailing_comma_rejected (__main__.AuditChecks.test_truncation_trailing_data_and_trailing_comma_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.008s
+
+OK
+test_executor_restored_after_exception (__main__.RecoveryChecks.test_executor_restored_after_exception) ... ok
+test_frozen_source_integrity_and_preflight_fail_closed (__main__.RecoveryChecks.test_frozen_source_integrity_and_preflight_fail_closed) ... ok
+test_memoryerror_propagates_without_hanging_or_success (__main__.RecoveryChecks.test_memoryerror_propagates_without_hanging_or_success) ... {"event": "fresh_worker_exit", "pid": 32, "peak_rss_kib": 22428, "wall_seconds": 1.1326999810989946e-05}
+ok
+test_one_fresh_process_per_chunk_and_wait_compatibility (__main__.RecoveryChecks.test_one_fresh_process_per_chunk_and_wait_compatibility) ... {"event": "fresh_worker_exit", "pid": 38, "peak_rss_kib": 22556, "wall_seconds": 9.383999895362649e-06}
+{"event": "fresh_worker_exit", "pid": 37, "peak_rss_kib": 22556, "wall_seconds": 1.2368000170681626e-05}
+{"event": "fresh_worker_exit", "pid": 43, "peak_rss_kib": 22556, "wall_seconds": 3.421099972911179e-05}
+{"event": "fresh_worker_exit", "pid": 46, "peak_rss_kib": 22556, "wall_seconds": 1.0526000551180914e-05}
+{"event": "fresh_worker_exit", "pid": 49, "peak_rss_kib": 22556, "wall_seconds": 9.575000149197876e-06}
+ok
+test_original_resume_reuses_verified_checkpoints (__main__.RecoveryChecks.test_original_resume_reuses_verified_checkpoints) ... {"family": "timing", "mode": "smoke", "completed": 0, "pending": 3}
+{"event": "fresh_worker_exit", "pid": 54, "peak_rss_kib": 22556, "wall_seconds": 0.007648843999959354}
+{"event": "fresh_worker_exit", "pid": 56, "peak_rss_kib": 22556, "wall_seconds": 0.008627352999610594}
+{"completed": 1, "total": 3, "last_seconds": 0.001}
+{"completed": 2, "total": 3, "last_seconds": 0.001}
+{"event": "fresh_worker_exit", "pid": 60, "peak_rss_kib": 22556, "wall_seconds": 0.01131914899997355}
+{"completed": 3, "total": 3, "last_seconds": 0.001}
+{"family": "timing", "mode": "smoke", "completed": 3, "pending": 0}
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.663s
+
+OK
+test_map_memoryerror_propagates (__main__.RecoveryChecks.test_map_memoryerror_propagates) ... {"event": "fresh_worker_exit", "pid": 66, "peak_rss_kib": 21680, "wall_seconds": 1.0746000043582171e-05}
+ok
+test_missing_native_preflight_cannot_launch_stages (__main__.RecoveryChecks.test_missing_native_preflight_cannot_launch_stages) ... ok
+test_ordered_map_is_bounded_and_uses_distinct_processes (__main__.RecoveryChecks.test_ordered_map_is_bounded_and_uses_distinct_processes) ... {"event": "fresh_worker_exit", "pid": 72, "peak_rss_kib": 22704, "wall_seconds": 1.603399960004026e-05}
+{"event": "fresh_worker_exit", "pid": 71, "peak_rss_kib": 22704, "wall_seconds": 1.260799945157487e-05}
+{"event": "fresh_worker_exit", "pid": 78, "peak_rss_kib": 22704, "wall_seconds": 1.1266000001342036e-05}
+{"event": "fresh_worker_exit", "pid": 77, "peak_rss_kib": 22704, "wall_seconds": 1.127700033975998e-05}
+{"event": "fresh_worker_exit", "pid": 83, "peak_rss_kib": 22704, "wall_seconds": 1.102599981095409e-05}
+ok
+test_original_executor_restored_after_exception (__main__.RecoveryChecks.test_original_executor_restored_after_exception) ... ok
+test_original_stream_resume_reuses_checkpoints (__main__.RecoveryChecks.test_original_stream_resume_reuses_checkpoints) ... {"event": "fresh_worker_exit", "pid": 89, "peak_rss_kib": 22704, "wall_seconds": 0.007981757999914407}
+{"event": "fresh_worker_exit", "pid": 88, "peak_rss_kib": 22704, "wall_seconds": 0.008927588000005926}
+{"stream": 0, "executions": 1, "seconds": 0.0}
+{"stream": 1, "executions": 1, "seconds": 0.0}
+{"event": "fresh_worker_exit", "pid": 94, "peak_rss_kib": 22704, "wall_seconds": 0.0076291749992378755}
+{"stream": 2, "executions": 1, "seconds": 0.0}
+ok
+test_original_worker_preserves_interrupted_partial (__main__.RecoveryChecks.test_original_worker_preserves_interrupted_partial) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.733s
+
+OK
+PASS_ENGINEERING: 39 host-only tests; no native quantum simulations executed.
+timing PASS_INDEPENDENT_UNIT_REANALYSIS
+application PASS_INDEPENDENT_UNIT_REANALYSIS
+causal PASS_INDEPENDENT_UNIT_REANALYSIS
+robustness PASS_INDEPENDENT_UNIT_REANALYSIS
+q12 PASS_INDEPENDENT_UNIT_REANALYSIS
+q14 PASS_INDEPENDENT_UNIT_REANALYSIS
+e1 PASS_INDEPENDENT_UNIT_REANALYSIS
+application_earlier PASS_INDEPENDENT_UNIT_REANALYSIS
+q16 PASS_INDEPENDENT_UNIT_REANALYSIS
+{"status": "PASS_RETAINED_REPLAY_REPORT", "scope": "Checks the completed report; use --full-records to inspect every checkpoint receipt."}
+Generated six composite results figures (14 panels), data, and six-contrast table.
+Recomposed 6 figures at column width; moved all panel captions below plots.
+[{'study': 'Noise controls', 'streams': 512, 'contrasts': 140, 'intervals_excluding_zero': 0}, {'study': 'Sensitivity', 'streams': 256, 'contrasts': 450, 'intervals_excluding_zero': 0}]
+Storage mechanism: 98304 paired requests per variant; 16384 X+ records per arm.
+Repository: /workspace/scratch/7c2da1184502/package_check_final/quantum-memory-timing-attacks
+PASS_START_NOTEBOOK_FROM_EXTRACTED_RELEASE_WITHOUT_FULL_ARCHIVES

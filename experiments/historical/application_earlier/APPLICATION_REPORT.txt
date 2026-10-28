@@ -1,0 +1,13 @@
+RQ1/RQ3 ROTATION APPLICATION COMPARISON
+Mode: full
+Main native simulations: 7680
+Measured quantum requests: 92160
+Equal completed attacker work: True
+
+Exploratory application evidence conditional on modeled CPU costs, source reconstruction, public epoch, admission contract and native noise. No Q16 confirmatory inference.
+No claim that these assumed CPU latencies were physically measured.
+No Q16 sample size, deadline, policy or evidence was changed.
+Noisy physics scope: Native density snapshots and valid states checked; noisy gate/memory evolution is not independently resimulated.
+
+See arm_outcomes.csv and application_summary.json for full outcomes,
+stream-paired primary contrasts, secondary comparisons and service screens.

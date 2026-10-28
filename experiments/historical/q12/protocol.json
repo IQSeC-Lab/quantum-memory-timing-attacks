@@ -1,0 +1,101 @@
+{
+  "version": "q12-selfcal-1",
+  "code_hashes": {
+    "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+    "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+    "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+    "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+  },
+  "repo_pin": "31fa2c9699578d227736557f35cd01a134c4bbde",
+  "counts": {
+    "pilot": 1296,
+    "calibration": 294912,
+    "evaluation": 98304,
+    "primary_evaluation": 49152
+  },
+  "workloads": [
+    "plus",
+    "teleport"
+  ],
+  "scheduler": "FCFS",
+  "independent_calibration_campaigns": 32,
+  "own_trials_per_candidate": 256,
+  "phases_ns": [
+    0,
+    250000,
+    500000,
+    750000,
+    1000000,
+    1250000,
+    1500000,
+    1750000,
+    2000000,
+    2250000,
+    2500000,
+    2750000,
+    3000000,
+    3250000,
+    3500000,
+    3750000
+  ],
+  "calibration_controls": [
+    "no_competitor",
+    "random_phase"
+  ],
+  "primary_trials_per_arm_per_campaign": 256,
+  "secondary_trials_per_arm_per_campaign": 64,
+  "scenarios": {
+    "primary_0500us": {
+      "halfwidth_ns": 500000,
+      "background_load": 0.0,
+      "delay": "uniform"
+    },
+    "uncertainty_1000us": {
+      "halfwidth_ns": 1000000,
+      "background_load": 0.0,
+      "delay": "uniform"
+    },
+    "uncertainty_2000us": {
+      "halfwidth_ns": 2000000,
+      "background_load": 0.0,
+      "delay": "uniform"
+    },
+    "background_005": {
+      "halfwidth_ns": 500000,
+      "background_load": 0.05,
+      "delay": "uniform"
+    },
+    "delay_shift": {
+      "halfwidth_ns": 500000,
+      "background_load": 0.0,
+      "delay": "two_point"
+    }
+  },
+  "epoch_ns": 3000000,
+  "horizon_ns": 30000000,
+  "t2_ns": 4000000,
+  "attack_jobs": 4,
+  "instructions_per_job": 30,
+  "classical_attack_service_ns": 1200000,
+  "roots": {
+    "pilot": 121301,
+    "calibration": 121302,
+    "evaluation": 121303
+  },
+  "bootstrap_root": 121304,
+  "primary_family": 2,
+  "primary_endpoint": "wrong output per offered victim execution; unfinished outputs reported separately",
+  "primary_comparison": "learned minus equal-work random in primary_0500us, one contrast per workload",
+  "analysis": "32 independently calibrated campaign means; 20000 paired-campaign bootstrap resamples with Bonferroni2 tail adjustment (approximate coverage); separate exact sign test for direction, Bonferroni2",
+  "secondary_analysis": "four challenge conditions per workload; pointwise exploratory intervals, no new confirmatory claims",
+  "selection": "own returned verification bits only; maximum phase error count, earliest phase breaks ties; freeze every campaign before any evaluation",
+  "capabilities": "Assumed shared placement; normal program submissions; attacker owns calibration application and its test inputs/outputs; knows victim workload class and a declared coarse request epoch. No exact victim start, victim output, victim qubit or scheduler/queue access is exposed to release_plan.",
+  "timing_assumption": "The experiment injects a declared coarse epoch and independently jitters victim request time. No deployed mechanism for obtaining that epoch is claimed or implemented.",
+  "limitations": "Same workload class and simulator hardware during calibration/transfer; new tenant identity, inputs and randomness, not arbitrary unseen programs. FCFS only. Ideal local gates/EPR; exponential memory dephasing. Reset per execution, not sustained simultaneous calibration. Hardware-baseline reproduction remains separate.",
+  "scientific_success": "Both primary intervals above zero AND adjusted direction tests below .05 AND all primary victim executions complete; otherwise report workload-specific, inconclusive or negative findings. Interval coverage is approximate.",
+  "stopping": "Fixed grid. Pilot validates integration only. No evaluation-guided retuning or sample-size extension."
+}

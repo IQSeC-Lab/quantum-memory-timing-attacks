@@ -1,0 +1,574 @@
+{
+  "identity": {
+    "q12": {
+      "review_archive_sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3",
+      "header_sha256": {
+        "protocol.json": "c3ecc42b7cbd8e889ad6518c8b183e38acce37fc4d543a97f23be06c56a771e9",
+        "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+        "COMPLETE.json": "f759c3932dbf335455d9425a369b85df6d997e8a6eec7910924b915652167422",
+        "PILOT_COMPLETE.json": "e852887482fcbab2ae1f9f87891dce71d73f0aca73351473a19899c47ba48747",
+        "CALIBRATION_COMPLETE.json": "50cc52c1c42285ea607673e4004ac8647e4f49af303f5c0432a555285244f1f0",
+        "frozen_selections.json": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+        "calibration_costs.json": "45d6697047bcc55694ad79e67fa05b5b3d537475d711c28a54eae1111c6b3846",
+        "analysis.json": "0f9a88a04d8342a7ca57febe890d1fa1b1a277f7df0a7d70a9ace6976324ebc2",
+        "pilot/manifest.json": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58",
+        "calibration/manifest.json": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117",
+        "evaluation/manifest.json": "26a18e3dd018d8a1e5a6fd86d4d7e3c874a10560414d5ba4c3d9cccad8762bba"
+      },
+      "original_source_hashes": {
+        "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+        "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+        "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+        "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+        "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+        "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+        "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+        "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+      },
+      "audit_code_sha256": "bd9aeafd8aafe032e21288ce9d9028d66f4b687baedb89e4c3a8a1828b1cb7bb",
+      "audit_version": "q12-raw-audit-1",
+      "audited_trials": 394512,
+      "committed_batches": 3083
+    },
+    "q13": {
+      "review_archive_sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d",
+      "header_sha256": {
+        "COMPLETE.json": "120ecffec6f6f1e2785d387ee4123a889fcfa6c1385b131780e04d4181973fed",
+        "BASELINE_COMPLETE.json": "ccfec13999eb5fce1aaab270c9325253a3fb348ba8b224eb3eb40f75db7c53eb",
+        "PILOT_COMPLETE.json": "c299a4b2980e95058b0c21c881e6cef781418549f40e0b4464addb58edb74767",
+        "protocol.json": "12708fefc028388f87bbfbccb5e01ba7a7816a30e9828fd5d0d6b5210e8f21a3",
+        "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+        "analysis.json": "bd61d5c0b81a17baa87e7bdd9ae54b97682457aef0ce2395ab3df6dca1e19685",
+        "baseline/manifest.json": "99deafc9a601706738e7a08593173828fc04dbbd1a8ea6009f4b883728cdc659",
+        "pilot/manifest.json": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4",
+        "evaluation/manifest.json": "e8523e251cec0b9aa342b79fb438aca54affafb4ebe61c465541f1a7e323c1f5"
+      },
+      "original_source_hashes": {
+        "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+        "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+        "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+        "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+        "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+        "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+        "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+        "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+        "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+        "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+        "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+        "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+      },
+      "audit_code_sha256": "f04aa3951d5b271f65a9f20b7b7f97926a1c450612cdb9550f16492f045ce4e1",
+      "audit_version": "q13-raw-audit-1",
+      "audited_trials": 75384,
+      "committed_batches": 590
+    },
+    "frozen_policies_sha256": "fb7a6c7f267b6ab6d05446d7762f2f27cb4ca66120b129bb9a758f050943f918",
+    "inherited_calibration_costs_sha256": "44190772715721cf5ea1836bd370b28949f0b7e5a6f74fdb17498a40edc94ad9",
+    "hardware_models_sha256": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e"
+  },
+  "evidence": {
+    "q12": {
+      "run_dir": "/home/rahmanms/P1/results/q12-20261013T034634906569Z",
+      "audit_dir": "/home/rahmanms/P1/audits/q12-20261013T034634906569Z-raw-46cd35a2f4a6",
+      "audit_report_sha256": "d774f5fb26f2db9400c179b9e06ea7ae5bbb2ffd096d01cae9d88d82c08d8dbf",
+      "audit_identity_sha256": "43b4933488edb811394b948e4a86b0f8d1410d868e1d4a0a48e9618cbe8fea79",
+      "report": {
+        "version": "q12-raw-audit-1",
+        "status": "PASS",
+        "run_dir": "/home/rahmanms/P1/results/q12-20261013T034634906569Z",
+        "audit_dir": "/home/rahmanms/P1/audits/q12-20261013T034634906569Z-raw-46cd35a2f4a6",
+        "completed_utc": "2026-10-13T05:39:05.694051+00:00",
+        "audit_code_sha256": "bd9aeafd8aafe032e21288ce9d9028d66f4b687baedb89e4c3a8a1828b1cb7bb",
+        "reviewed_archive_sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3",
+        "committed_batches": 3083,
+        "audited_trials": 394512,
+        "stage_metrics": {
+          "pilot": {
+            "trials": 1296,
+            "completed": 1296,
+            "wrong_outputs": 8,
+            "instruction_events": 16434,
+            "epr_events": 1212,
+            "competitor_jobs": 3456,
+            "benign_jobs": 114,
+            "measured_competitor_service_ns": 1036800000.0,
+            "max_abs_admission_delta_ns": 0.0,
+            "max_abs_payload_service_error_ns": 9.313225746154785e-10,
+            "max_abs_competitor_budget_error_ns": 0.0,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "min_start_minus_actual_admission_ns": 0.0,
+            "max_abs_compact_float_delta_ns": 0.0
+          },
+          "calibration": {
+            "trials": 294912,
+            "completed": 294912,
+            "wrong_outputs": 43469,
+            "instruction_events": 3096762,
+            "epr_events": 147456,
+            "competitor_jobs": 1114112,
+            "benign_jobs": 0,
+            "measured_competitor_service_ns": 334233600000.0,
+            "max_abs_admission_delta_ns": 0.0,
+            "max_abs_payload_service_error_ns": 0.0,
+            "max_abs_competitor_budget_error_ns": 0.0,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "min_start_minus_actual_admission_ns": 0.0,
+            "max_abs_compact_float_delta_ns": 0.0
+          },
+          "evaluation": {
+            "trials": 98304,
+            "completed": 98304,
+            "wrong_outputs": 14624,
+            "instruction_events": 1032453,
+            "epr_events": 49152,
+            "competitor_jobs": 262144,
+            "benign_jobs": 73620,
+            "measured_competitor_service_ns": 78643200000.0,
+            "max_abs_admission_delta_ns": 9.313225746154785e-10,
+            "max_abs_payload_service_error_ns": 9.313225746154785e-10,
+            "max_abs_competitor_budget_error_ns": 4.656612873077393e-10,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "min_start_minus_actual_admission_ns": 0.0,
+            "max_abs_compact_float_delta_ns": 0.0
+          }
+        },
+        "reused_audit_checkpoints": 0,
+        "wall_seconds": 173.53431194927543,
+        "python": "3.10.14 (tags/v3.10.14-25-ge98930d7387-dirty:e98930d7387, May 24 2024, 23:30:09) [GCC 13.2.0]",
+        "numpy": "1.26.4",
+        "audit_receipts_sha256": "9e1404df6237cd2a9feec9067259dcea0915a50543d118ff5ce2e571a3e78bc6",
+        "fixed_sample_count": 12,
+        "fixed_raw_samples_sha256": "9a55edd7df3fc9adf53cd58144baa0f11c57096fab89733fc6b41d5dcf9c787b",
+        "checks": {
+          "original_review_identity": true,
+          "all_committed_file_hashes": true,
+          "exact_spec_grid": true,
+          "seeded_inputs_and_frozen_plans": true,
+          "cpu_nonoverlap": true,
+          "actual_admission_causality": true,
+          "measured_equal_service": true,
+          "quantum_event_containment": true,
+          "physical_storage_reconstruction": true,
+          "recorded_bell_bits_match_pauli_branches": true,
+          "all_compact_fields_reconstructed": true
+        },
+        "not_performed": [
+          "No NetSquid runtime execution",
+          "No full density-matrix replay",
+          "No independent peer message-value audit; those values were not retained",
+          "No new statistical analysis or change of Q12 selections"
+        ],
+        "reviewed_primary_contrasts": [
+          {
+            "independent_campaigns": 32,
+            "mean_difference_pp": 0.32958984375,
+            "approximate_bootstrap95_interval_pp": [
+              -0.1220703125,
+              0.78125
+            ],
+            "positive_campaigns": 18,
+            "negative_campaigns": 12,
+            "tied_campaigns": 2,
+            "exact_direction_p": 0.36159460805356514,
+            "adjusted_direction_p": 0.7231892161071303,
+            "family": 2,
+            "workload": "plus",
+            "scenario": "primary_0500us",
+            "comparison": "learned minus equal-work random",
+            "shots_per_arm_per_campaign": 256,
+            "all_compared_targets_completed": true,
+            "mean_storage_difference_ms": 0.09866789575195312,
+            "interpretation": "Prespecified primary family of two",
+            "supports_additional_wrong_outputs": false
+          },
+          {
+            "independent_campaigns": 32,
+            "mean_difference_pp": 1.8310546875,
+            "approximate_bootstrap95_interval_pp": [
+              1.416015625,
+              2.24609375
+            ],
+            "positive_campaigns": 31,
+            "negative_campaigns": 0,
+            "tied_campaigns": 1,
+            "exact_direction_p": 9.313225746154785e-10,
+            "adjusted_direction_p": 1.862645149230957e-09,
+            "family": 2,
+            "workload": "teleport",
+            "scenario": "primary_0500us",
+            "comparison": "learned minus equal-work random",
+            "shots_per_arm_per_campaign": 256,
+            "all_compared_targets_completed": true,
+            "mean_storage_difference_ms": 0.3404582447509766,
+            "interpretation": "Prespecified primary family of two",
+            "supports_additional_wrong_outputs": true
+          }
+        ]
+      },
+      "identity": {
+        "version": "q12-raw-audit-1",
+        "run_dir": "/home/rahmanms/P1/results/q12-20261013T034634906569Z",
+        "review_archive_sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3",
+        "expected_header_sha256": {
+          "protocol.json": "c3ecc42b7cbd8e889ad6518c8b183e38acce37fc4d543a97f23be06c56a771e9",
+          "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+          "COMPLETE.json": "f759c3932dbf335455d9425a369b85df6d997e8a6eec7910924b915652167422",
+          "PILOT_COMPLETE.json": "e852887482fcbab2ae1f9f87891dce71d73f0aca73351473a19899c47ba48747",
+          "CALIBRATION_COMPLETE.json": "50cc52c1c42285ea607673e4004ac8647e4f49af303f5c0432a555285244f1f0",
+          "frozen_selections.json": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+          "calibration_costs.json": "45d6697047bcc55694ad79e67fa05b5b3d537475d711c28a54eae1111c6b3846",
+          "analysis.json": "0f9a88a04d8342a7ca57febe890d1fa1b1a277f7df0a7d70a9ace6976324ebc2",
+          "pilot/manifest.json": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58",
+          "calibration/manifest.json": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117",
+          "evaluation/manifest.json": "26a18e3dd018d8a1e5a6fd86d4d7e3c874a10560414d5ba4c3d9cccad8762bba"
+        },
+        "expected_source_hashes": {
+          "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+          "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+          "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+          "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+          "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+          "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+          "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+          "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+        },
+        "audit_code_hashes": {
+          "q12_raw_audit.py": "790491dfe0dd5e31d97756f28cbd386e8945bac5108721eecbeec4c0a06112db",
+          "q12_raw_checks.py": "7eb5690e06601a633b5f7bc721ec2eff43cc3ab7cbdb6bf22058a904f2b5f0fc",
+          "q12_raw_tests.py": "25a1800bfebbbe1954c94286846c24b1f4c8f23567205c9fd6efd5f424568924",
+          "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+          "q12_expected.json": "f319a7dbb91cdff7af07e68dd2f51e7ed7aa68e0bff7d9deed301a057a48cf09"
+        },
+        "audit_code_sha256": "bd9aeafd8aafe032e21288ce9d9028d66f4b687baedb89e4c3a8a1828b1cb7bb",
+        "numpy_version": "1.26.4",
+        "counts": {
+          "pilot": 1296,
+          "calibration": 294912,
+          "evaluation": 98304
+        },
+        "note": "Original run files opened read-only. Audit outputs and checkpoints are separate."
+      },
+      "completion": {
+        "status": "PASS",
+        "report_sha256": "d774f5fb26f2db9400c179b9e06ea7ae5bbb2ffd096d01cae9d88d82c08d8dbf",
+        "audited_trials": 394512
+      }
+    },
+    "q13": {
+      "run_dir": "/home/rahmanms/P1/results/q13-20261013T045651939437Z",
+      "audit_dir": "/home/rahmanms/P1/audits/q13-20261013T045651939437Z-raw-c8d0d0a69505",
+      "audit_report_sha256": "9a529249541df9a84a66eaa5c4875352791527ed0bbd378f5b5b97725acbe7f9",
+      "audit_identity_sha256": "1e615e89b4e13591520a00f15f0cca598ec969bf01ea9eed498e25f2b2dc20a3",
+      "report": {
+        "version": "q13-raw-audit-1",
+        "status": "PASS",
+        "run_dir": "/home/rahmanms/P1/results/q13-20261013T045651939437Z",
+        "audit_dir": "/home/rahmanms/P1/audits/q13-20261013T045651939437Z-raw-c8d0d0a69505",
+        "completed_utc": "2026-10-13T06:34:06.986199+00:00",
+        "audit_code_sha256": "f04aa3951d5b271f65a9f20b7b7f97926a1c450612cdb9550f16492f045ce4e1",
+        "reviewed_archive_sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d",
+        "committed_batches": 590,
+        "audited_trials": 75384,
+        "stage_metrics": {
+          "baseline": {
+            "trials": 336,
+            "completed": 0,
+            "wrong_outputs": 0,
+            "simulator_executions": 1012,
+            "instruction_events": 0,
+            "epr_events": 0,
+            "competitor_jobs": 0,
+            "measured_competitor_service_ns": 0.0,
+            "baseline_branch_records": 1012,
+            "density_matrices": 1012,
+            "max_abs_admission_delta_ns": 0.0,
+            "max_abs_payload_service_error_ns": 0.0,
+            "max_abs_competitor_budget_error_ns": 0.0,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "max_density_error": 3.3640764320769886e-16,
+            "max_fidelity_error": 3.3306690738754696e-16,
+            "min_start_minus_actual_admission_ns": null
+          },
+          "pilot": {
+            "trials": 1320,
+            "completed": 1320,
+            "wrong_outputs": 0,
+            "simulator_executions": 1320,
+            "instruction_events": 16686,
+            "epr_events": 1224,
+            "competitor_jobs": 3520,
+            "measured_competitor_service_ns": 1056000000.0,
+            "baseline_branch_records": 0,
+            "density_matrices": 1320,
+            "max_abs_admission_delta_ns": 0.0,
+            "max_abs_payload_service_error_ns": 0.0,
+            "max_abs_competitor_budget_error_ns": 0.0,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "max_density_error": 2.220446049250313e-16,
+            "max_fidelity_error": 0.0,
+            "min_start_minus_actual_admission_ns": 0.0
+          },
+          "evaluation": {
+            "trials": 73728,
+            "completed": 73728,
+            "wrong_outputs": 1431,
+            "simulator_executions": 73728,
+            "instruction_events": 773808,
+            "epr_events": 36864,
+            "competitor_jobs": 196608,
+            "measured_competitor_service_ns": 58982400000.0,
+            "baseline_branch_records": 0,
+            "density_matrices": 73728,
+            "max_abs_admission_delta_ns": 0.0,
+            "max_abs_payload_service_error_ns": 0.0,
+            "max_abs_competitor_budget_error_ns": 0.0,
+            "max_abs_storage_reconstruction_error_ns": 0.0,
+            "max_density_error": 2.220446049250313e-16,
+            "max_fidelity_error": 0.0,
+            "min_start_minus_actual_admission_ns": 0.0
+          }
+        },
+        "simulator_executions": 76060,
+        "reused_audit_checkpoints": 48,
+        "wall_seconds": 9.40870279353112,
+        "python": "3.10.14 (tags/v3.10.14-25-ge98930d7387-dirty:e98930d7387, May 24 2024, 23:30:09) [GCC 13.2.0]",
+        "numpy": "1.26.4",
+        "audit_receipts_sha256": "0e82a4171f95f7e10a6de7539f20aa2d0676cb23504a67bd9991c48c5463cabb",
+        "fixed_sample_count": 20,
+        "fixed_raw_samples_sha256": "bb95a4c8d394d4a6982d66c1481667cf4ca4c57d8ec1af0abdbf2a1ae8d38255",
+        "checks": {
+          "original_review_identity": true,
+          "all_committed_file_hashes": true,
+          "exact_spec_grid": true,
+          "seeded_inputs_and_frozen_plans": true,
+          "cpu_nonoverlap": true,
+          "actual_admission_causality": true,
+          "measured_equal_service": true,
+          "quantum_event_containment": true,
+          "physical_storage_reconstruction": true,
+          "recorded_bell_bits_match_pauli_branches": true,
+          "all_compact_fields_reconstructed": true,
+          "memory_density_and_fidelity": true,
+          "baseline_circuit_branches": true,
+          "absolute_age_noise_partition": true
+        },
+        "not_performed": [
+          "No NetSquid runtime execution",
+          "No full replay of unrecorded intermediate quantum states",
+          "No independent peer message-value audit; those values were not retained",
+          "No new statistical analysis or change of Q13 phases"
+        ],
+        "reviewed_primary_contrasts": [
+          {
+            "independent_replications": 32,
+            "mean_difference_pp": 0.2687887562081226,
+            "approximate_adjusted_interval_pp": [
+              0.21688283939524747,
+              0.32149105418233953
+            ],
+            "family": 4,
+            "direction_p": 4.656612873077393e-10,
+            "adjusted_direction_p": 1.862645149230957e-09,
+            "positive_replications": 32,
+            "negative_replications": 0,
+            "ties": 0,
+            "interval_above_zero": true,
+            "interval_above_reporting_reference": false,
+            "reporting_reference_pp": 0.5,
+            "workload": "plus",
+            "profile": "final_si",
+            "scenario": "coarse_500us",
+            "comparison": "fixed minus equal-work random expected infidelity",
+            "all_compared_targets_completed": true,
+            "offered_per_arm": 2048,
+            "fixed_loss_bounds": [
+              0.028553900437767964,
+              0.028553900437767964
+            ],
+            "random_loss_bounds": [
+              0.02586601287568674,
+              0.02586601287568674
+            ],
+            "per_offered_difference_bounds_pp": [
+              0.26878875620812254,
+              0.26878875620812254
+            ],
+            "mean_storage_difference_ms": 0.1669753681640625,
+            "sampled_wrong_output_difference_pp": 0.146484375,
+            "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+            "inference": "Approximate four-comparison simultaneous coverage"
+          },
+          {
+            "independent_replications": 32,
+            "mean_difference_pp": 0.2771368823087101,
+            "approximate_adjusted_interval_pp": [
+              0.2244644355687303,
+              0.3306927595104206
+            ],
+            "family": 4,
+            "direction_p": 4.656612873077393e-10,
+            "adjusted_direction_p": 1.862645149230957e-09,
+            "positive_replications": 32,
+            "negative_replications": 0,
+            "ties": 0,
+            "interval_above_zero": true,
+            "interval_above_reporting_reference": false,
+            "reporting_reference_pp": 0.5,
+            "workload": "plus",
+            "profile": "deposited_code",
+            "scenario": "coarse_500us",
+            "comparison": "fixed minus equal-work random expected infidelity",
+            "all_compared_targets_completed": true,
+            "offered_per_arm": 2048,
+            "fixed_loss_bounds": [
+              0.029726981206175333,
+              0.029726981206175333
+            ],
+            "random_loss_bounds": [
+              0.02695561238308823,
+              0.02695561238308823
+            ],
+            "per_offered_difference_bounds_pp": [
+              0.27713688230871014,
+              0.27713688230871014
+            ],
+            "mean_storage_difference_ms": 0.1669753681640625,
+            "sampled_wrong_output_difference_pp": 0.244140625,
+            "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+            "inference": "Approximate four-comparison simultaneous coverage"
+          },
+          {
+            "independent_replications": 32,
+            "mean_difference_pp": 0.46485714990840743,
+            "approximate_adjusted_interval_pp": [
+              0.4291239968688627,
+              0.49839648224393557
+            ],
+            "family": 4,
+            "direction_p": 4.656612873077393e-10,
+            "adjusted_direction_p": 1.862645149230957e-09,
+            "positive_replications": 32,
+            "negative_replications": 0,
+            "ties": 0,
+            "interval_above_zero": true,
+            "interval_above_reporting_reference": false,
+            "reporting_reference_pp": 0.5,
+            "workload": "teleport",
+            "profile": "final_si",
+            "scenario": "coarse_500us",
+            "comparison": "fixed minus equal-work random expected infidelity",
+            "all_compared_targets_completed": true,
+            "offered_per_arm": 2048,
+            "fixed_loss_bounds": [
+              0.015403843458831386,
+              0.015403843458831386
+            ],
+            "random_loss_bounds": [
+              0.010755271959747311,
+              0.010755271959747311
+            ],
+            "per_offered_difference_bounds_pp": [
+              0.4648571499084075,
+              0.4648571499084075
+            ],
+            "mean_storage_difference_ms": 0.34451813232421874,
+            "sampled_wrong_output_difference_pp": 0.78125,
+            "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+            "inference": "Approximate four-comparison simultaneous coverage"
+          },
+          {
+            "independent_replications": 32,
+            "mean_difference_pp": 0.48411436685877085,
+            "approximate_adjusted_interval_pp": [
+              0.44720614093008315,
+              0.5186996528621334
+            ],
+            "family": 4,
+            "direction_p": 4.656612873077393e-10,
+            "adjusted_direction_p": 1.862645149230957e-09,
+            "positive_replications": 32,
+            "negative_replications": 0,
+            "ties": 0,
+            "interval_above_zero": true,
+            "interval_above_reporting_reference": false,
+            "reporting_reference_pp": 0.5,
+            "workload": "teleport",
+            "profile": "deposited_code",
+            "scenario": "coarse_500us",
+            "comparison": "fixed minus equal-work random expected infidelity",
+            "all_compared_targets_completed": true,
+            "offered_per_arm": 2048,
+            "fixed_loss_bounds": [
+              0.016283631644233937,
+              0.016283631644233937
+            ],
+            "random_loss_bounds": [
+              0.011442487975646228,
+              0.011442487975646228
+            ],
+            "per_offered_difference_bounds_pp": [
+              0.48411436685877085,
+              0.48411436685877085
+            ],
+            "mean_storage_difference_ms": 0.34451813232421874,
+            "sampled_wrong_output_difference_pp": 0.78125,
+            "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+            "inference": "Approximate four-comparison simultaneous coverage"
+          }
+        ]
+      },
+      "identity": {
+        "version": "q13-raw-audit-1",
+        "run_dir": "/home/rahmanms/P1/results/q13-20261013T045651939437Z",
+        "review_archive_sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d",
+        "expected_header_sha256": {
+          "COMPLETE.json": "120ecffec6f6f1e2785d387ee4123a889fcfa6c1385b131780e04d4181973fed",
+          "BASELINE_COMPLETE.json": "ccfec13999eb5fce1aaab270c9325253a3fb348ba8b224eb3eb40f75db7c53eb",
+          "PILOT_COMPLETE.json": "c299a4b2980e95058b0c21c881e6cef781418549f40e0b4464addb58edb74767",
+          "protocol.json": "12708fefc028388f87bbfbccb5e01ba7a7816a30e9828fd5d0d6b5210e8f21a3",
+          "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+          "analysis.json": "bd61d5c0b81a17baa87e7bdd9ae54b97682457aef0ce2395ab3df6dca1e19685",
+          "baseline/manifest.json": "99deafc9a601706738e7a08593173828fc04dbbd1a8ea6009f4b883728cdc659",
+          "pilot/manifest.json": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4",
+          "evaluation/manifest.json": "e8523e251cec0b9aa342b79fb438aca54affafb4ebe61c465541f1a7e323c1f5"
+        },
+        "expected_source_hashes": {
+          "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+          "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+          "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+          "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+          "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+          "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+          "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+          "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+          "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+          "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+          "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+          "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+        },
+        "audit_code_hashes": {
+          "q13_raw_audit.py": "7c62135a4a1f444bee257262e62161aecbb417b1a23f1bbe4e373cdb0836431d",
+          "q13_raw_checks.py": "c4776aa0aa9655308a19522588e67f674a43151f758a5130c4eaea03039e3baa",
+          "q13_raw_tests.py": "15ffdfad52878a1b418fe350510b937cf9bd2be202d6f0030ce1bf18b6688c2e",
+          "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+          "q13_expected.json": "c11b5f631c4393b55b5337474ba8c061b33425b83b684f41844c18a4f4bcf56c",
+          "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+          "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167"
+        },
+        "audit_code_sha256": "f04aa3951d5b271f65a9f20b7b7f97926a1c450612cdb9550f16492f045ce4e1",
+        "numpy_version": "1.26.4",
+        "counts": {
+          "baseline": 336,
+          "pilot": 1320,
+          "evaluation": 73728
+        },
+        "note": "Original run files opened read-only. Audit outputs and checkpoints are separate."
+      },
+      "completion": {
+        "status": "PASS",
+        "report_sha256": "9a529249541df9a84a66eaa5c4875352791527ed0bbd378f5b5b97725acbe7f9",
+        "audited_trials": 75384
+      }
+    }
+  }
+}

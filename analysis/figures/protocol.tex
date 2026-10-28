@@ -1,0 +1,21 @@
+% Column-width, editable TikZ. Panel captions are below plots.
+\begin{tikzpicture}[font=\scriptsize]
+\node[draw,align=center,inner sep=2pt] (own) at (.65,2.0) {Own\\requests};
+\node[draw,align=center,inner sep=2pt] (frozen) at (2,2.0) {Freeze\\phase};
+\node[draw,align=center,inner sep=2pt] (target) at (3.4,2.0) {Fresh\\targets};
+\draw[-{Latex}] (own)--(frozen);\draw[-{Latex}] (frozen)--(target);
+\draw[-{Latex}] (.2,.95)--(4.05,.95);
+\fill[blue!55!black] (.65,.90) rectangle (3.55,1.0);
+\draw[red!65!black,line width=2.5pt] (2.0,1.2)--(3.0,1.2);
+\node[above] at (2.5,1.23) {Competing CPU};
+\node[below] at (.65,.88) {Prepare};\node[below] at (3.55,.88) {Verify};
+\node[anchor=west] at (4.45,2.35) {Early};
+\draw[-{Latex}] (4.5,1.95)--(8.5,1.95);
+\fill[blue!55!black] (4.7,1.90) rectangle (8.2,2.0);
+\node[above] at (5.65,2.03) {Reply 1};\node[above] at (7.0,2.03) {Reply 2};
+\node[anchor=west] at (4.45,1.30) {Deferred};
+\draw[-{Latex}] (4.5,.95)--(8.5,.95);
+\fill[blue!55!black] (7.65,.90) rectangle (8.2,1.0);
+\node[below] at (5.65,.85) {Reply 1};\node[below] at (7.0,.85) {Reply 2};
+\node at (2.15,.05) {(a) Calibrate and evaluate};
+\node at (6.5,.05) {(b) Preparation placement};\end{tikzpicture}

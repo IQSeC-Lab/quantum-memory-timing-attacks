@@ -1,0 +1,175 @@
+{
+  "arrival_regimes": [
+    "renewal",
+    "periodic_jitter"
+  ],
+  "benign_measured_requests": 49152,
+  "benign_streams": 192,
+  "claims": "No confirmatory attack-effect inference, hardware validation, acceptance prediction or final study launch.",
+  "deadline_rule": {
+    "cohort": "All192 benign streams only;256 measured responses per stream.",
+    "completion": "Every offered calibration request including warmup and every background job must finish by fixed horizon; otherwise deadline_status=FAILED.",
+    "empirical_p99": "Nearest rank x_(ceil(0.99*n)), one-indexed; n=256, rank=254.",
+    "interpretation": "Research threshold, not an operational SLA.",
+    "rule": "ceil((6/5)*max(per-stream p99)/100000)*100000 ns."
+  },
+  "deliverable": "Deadline receipt, full candidate table, selected-policy receipt and next-freeze checklist.",
+  "fallback_offsets_ns": [
+    0,
+    2250000,
+    4500000,
+    6750000
+  ],
+  "fixed_timing": {
+    "drain_ns": 200000000,
+    "note": "No deadline-dependent horizon, early stopping, reseeding or outcome-based expansion.",
+    "release_end_ns": {
+      "benign": 8000000000,
+      "own_policy": 3000000000
+    }
+  },
+  "information_boundary": "Own template/seed/public window only; plan precedes private arrivals. Calibration labels concern the calibrator own application, never final victim evaluation.",
+  "inherited_model": {
+    "host_instruction_ns": 10000,
+    "instructions_per_job": 30,
+    "link_ns": 1000,
+    "nominal_benign_load": 0.4,
+    "one_way_latency_ns": 1000000,
+    "operations": "Ideal gates/EPR; native T1/T2 off; inherited final_si channel13ms exponent1.67.",
+    "overhead": "Admission, submission and dispatch zero modeled cost; no hardware calibration.",
+    "qnos_instruction_ns": 1000
+  },
+  "kind": "CALIBRATION ONLY; NO FINAL EVALUATION",
+  "measured_per_stream": {
+    "benign": 256,
+    "own_policy": 64
+  },
+  "own_measured_requests": 65536,
+  "own_policy_streams": 1024,
+  "own_selection": {
+    "denominator": "All64 offered measured own requests in every stream; fixed32 streams per regime.",
+    "eligibility": "Independent audits pass; all offered requests including warmup and all jobs finish; exact requested/executed attacker work; empirical on-time fraction>=0.99 in EACH regime.",
+    "no_feasible": "Record selection_success=false; selected offsets=prespecified even fallback.",
+    "score": "Equal-weight mean of the two regimes wrong-and-on-time/offered rates.",
+    "service_scope": "Descriptive training constraint only; no inferential final service certification.",
+    "tie_break": "Ascending(g_ns,offset_ns); exact integer score comparison."
+  },
+  "own_training_scheduler": "QUOTA_FCFS only; one selected template transfers unchanged later.",
+  "pairing": "Within each stage/arrival/stream, common arrivals, states, background and simulator seed across templates or schedulers. Different stages use disjoint seed domains.",
+  "parent_pilot_bundle_sha256": "5cf47efdc05692414e728edc6e30cb00f7eb45e45ae2abeda31ba0e2a2151729",
+  "primary_workload": "Six-state teleportation; iid uniform state draws, serial admission.",
+  "quota": {
+    "block_cap_ns": 300000,
+    "budget_ns": 1200000,
+    "period_ns": 10000000,
+    "scope": "All attacker PIDs; unbudgeted separate benign/application tenants."
+  },
+  "revision": "q16-calibration-1",
+  "scheduler_policies": [
+    "QUOTA_FCFS",
+    "QUOTA_RR",
+    "QUOTA_PROTECTED"
+  ],
+  "simulator_executions": 1216,
+  "source_sha256": {
+    "backend_cpusched_reference.txt": "e8a07d90f4973a50f3ab6bb48956feffdd250f30943104b113f15c15bb3b37f9",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "parent_sources.json": "9219aaf2c40261511f07c6cdb797ee03ebc788aeeeb76331d9c96d408ffb538f",
+    "pinned_source_hashes.json": "de504749eb1fca3c836372bb03ee0aedde4ef16d3603721ca294c37f20baa28c",
+    "q15_case.py": "36586d1584f7516dc2b25f0b20cca3ca267968e668763fc4b2ab8d715d32f082",
+    "q16.py": "d214323d4e7fa16cb9d4fd0b7bb5e965e5424c67658de00486d2ac6e4bc85056",
+    "q16_audit.py": "95c7139017894197b375159df2ed73fb727641363b99e8470bc940ff6adfef99",
+    "q16_calibration.py": "d12f2f4889b0712102405745fc32bc0a06b10af33c7390500c8a12e7b9531ba1",
+    "q16_calibration_audit.py": "31755257f7527ced495cacad368d94d219a8fe2ee4e7eb22551ff63edc3a86a2",
+    "q16_calibration_design.py": "37235c03a1ba1a6039dd9cb4ba29f8c504ff73955b09724603fe7438ba9b56c0",
+    "q16_calibration_engine.py": "a52ea0f7092cc874fc57690f485f5bf75f33878fb849b909fb11c68c92c8289d",
+    "q16_calibration_tests.py": "361fe7af0381669190e9493ad8d7dae4ac2b7e3149223c9875a93b7fad787375",
+    "q16_design.py": "76fa81a2245cfcf0306648e1b16fe80ef96a333d6a7d5164cf90fb48a6adf164",
+    "q16_engine.py": "c81caa8849c27fd3af9c016a4faed187862a00eb4d511d0b3bdef9664e9cf041",
+    "q16_io.py": "cdc063ee7ecd49c991b423bfb8dc29ed15d03e0ce9dd4c61058b6c17a3a1122c",
+    "q16_policy.py": "3d5debe17ed258dc4f47c8bf8fe1167c6251704c1eaf8551637e48c5fe105fcb",
+    "q16_stress.py": "3c9d3d992bd425d3a1dc255dfb63a424bc3ee4b923ba7e99bb0bc5e6b1a8363b",
+    "q16_stress_audit.py": "71c56bf9089f3d960d439bd05e86636ebc0f0eae9a3f8f2a6b0c5b7c8d5e4986",
+    "q16_stress_design.py": "77c49415c3d68e9310759b02615265a937c8bae5f2a96a36d361abca45156a03",
+    "q16_stress_engine.py": "3bf63ec58cfc114ce9ba0b95b81199a290521e4ef906d8407ae690e58dbc56f6",
+    "q16_stress_tests.py": "0f68cfe097335a81cb3de1cbfa57052fd93935d9fc129bf577e82dbd36224ea6",
+    "q16_tests.py": "623bc28167d9263b4ebda7881414a1e8d392445f82387e7b362d4dbbfdc477e8",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d"
+  },
+  "stages": [
+    "benign",
+    "own_policy"
+  ],
+  "stopping": "Any code/source/audit violation halts with raw evidence preserved. Valid incomplete outcomes are retained and calibration reports failure/ineligibility; no automatic retuning.",
+  "streams_per_cell": 32,
+  "templates_ns": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      250000
+    ],
+    [
+      0,
+      500000
+    ],
+    [
+      0,
+      750000
+    ],
+    [
+      500000,
+      0
+    ],
+    [
+      500000,
+      250000
+    ],
+    [
+      500000,
+      500000
+    ],
+    [
+      500000,
+      750000
+    ],
+    [
+      1000000,
+      0
+    ],
+    [
+      1000000,
+      250000
+    ],
+    [
+      1000000,
+      500000
+    ],
+    [
+      1000000,
+      750000
+    ],
+    [
+      2000000,
+      0
+    ],
+    [
+      2000000,
+      250000
+    ],
+    [
+      2000000,
+      500000
+    ],
+    [
+      2000000,
+      750000
+    ]
+  ],
+  "total_requests": 139008,
+  "warmup_per_stream": 20,
+  "warmup_requests": 24320
+}

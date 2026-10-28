@@ -1,0 +1,14 @@
+{
+  "resources": {
+    "trials": 294912,
+    "batches": 2304,
+    "worker_cpu_seconds": 16949.624910136037,
+    "worker_wall_seconds": 17363.482739468105,
+    "peak_worker_rss_mib": 1407.19140625,
+    "manifest_sha256": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117"
+  },
+  "selections_sha256": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+  "calibration_manifest_sha256": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117",
+  "independent_campaigns": 32,
+  "note": "Every selection used only the owner observation projection; controls and all candidate outcomes are retained."
+}

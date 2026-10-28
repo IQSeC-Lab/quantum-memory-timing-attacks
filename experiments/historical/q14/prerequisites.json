@@ -1,0 +1,67 @@
+{
+  "q12": {
+    "review_archive_sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3",
+    "header_sha256": {
+      "protocol.json": "c3ecc42b7cbd8e889ad6518c8b183e38acce37fc4d543a97f23be06c56a771e9",
+      "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+      "COMPLETE.json": "f759c3932dbf335455d9425a369b85df6d997e8a6eec7910924b915652167422",
+      "PILOT_COMPLETE.json": "e852887482fcbab2ae1f9f87891dce71d73f0aca73351473a19899c47ba48747",
+      "CALIBRATION_COMPLETE.json": "50cc52c1c42285ea607673e4004ac8647e4f49af303f5c0432a555285244f1f0",
+      "frozen_selections.json": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+      "calibration_costs.json": "45d6697047bcc55694ad79e67fa05b5b3d537475d711c28a54eae1111c6b3846",
+      "analysis.json": "0f9a88a04d8342a7ca57febe890d1fa1b1a277f7df0a7d70a9ace6976324ebc2",
+      "pilot/manifest.json": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58",
+      "calibration/manifest.json": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117",
+      "evaluation/manifest.json": "26a18e3dd018d8a1e5a6fd86d4d7e3c874a10560414d5ba4c3d9cccad8762bba"
+    },
+    "original_source_hashes": {
+      "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+      "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+      "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+      "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+      "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+      "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+      "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+      "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+    },
+    "audit_code_sha256": "bd9aeafd8aafe032e21288ce9d9028d66f4b687baedb89e4c3a8a1828b1cb7bb",
+    "audit_version": "q12-raw-audit-1",
+    "audited_trials": 394512,
+    "committed_batches": 3083
+  },
+  "q13": {
+    "review_archive_sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d",
+    "header_sha256": {
+      "COMPLETE.json": "120ecffec6f6f1e2785d387ee4123a889fcfa6c1385b131780e04d4181973fed",
+      "BASELINE_COMPLETE.json": "ccfec13999eb5fce1aaab270c9325253a3fb348ba8b224eb3eb40f75db7c53eb",
+      "PILOT_COMPLETE.json": "c299a4b2980e95058b0c21c881e6cef781418549f40e0b4464addb58edb74767",
+      "protocol.json": "12708fefc028388f87bbfbccb5e01ba7a7816a30e9828fd5d0d6b5210e8f21a3",
+      "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+      "analysis.json": "bd61d5c0b81a17baa87e7bdd9ae54b97682457aef0ce2395ab3df6dca1e19685",
+      "baseline/manifest.json": "99deafc9a601706738e7a08593173828fc04dbbd1a8ea6009f4b883728cdc659",
+      "pilot/manifest.json": "c13b4d11c6d60eba16d3923af22669690322b691c701d05e02c6a576103378b4",
+      "evaluation/manifest.json": "e8523e251cec0b9aa342b79fb438aca54affafb4ebe61c465541f1a7e323c1f5"
+    },
+    "original_source_hashes": {
+      "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+      "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+      "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+      "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+      "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+      "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+      "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+      "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+      "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+      "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+      "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+      "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+    },
+    "audit_code_sha256": "f04aa3951d5b271f65a9f20b7b7f97926a1c450612cdb9550f16492f045ce4e1",
+    "audit_version": "q13-raw-audit-1",
+    "audited_trials": 75384,
+    "committed_batches": 590
+  },
+  "frozen_policies_sha256": "fb7a6c7f267b6ab6d05446d7762f2f27cb4ca66120b129bb9a758f050943f918",
+  "inherited_calibration_costs_sha256": "44190772715721cf5ea1836bd370b28949f0b7e5a6f74fdb17498a40edc94ad9",
+  "hardware_models_sha256": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e"
+}

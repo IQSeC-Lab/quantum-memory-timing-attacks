@@ -1,0 +1,108 @@
+Q16 FRESH PLANNING REVIEW
+Run q16-fresh-planning-20261014T203108751014Z
+Reviewed 2026-10-15
+
+ASSESSMENT
+The fixed-policy planning study completed all 192 simulations, covering 64
+independent input streams (32 per arrival regime), each evaluated under three
+paired release strategies. There are 49,152 measured requests and 52,992
+requests including warmup. Every measured request finished. The original
+protocol explicitly excludes this planning dataset from confirmatory inference.
+
+ENGINEERING AUDIT
+See INDEPENDENT_AUDIT.json and the two raw replay logs for the final status.
+The review verifies the export inventory, frozen source/protocol, per-job
+checkpoint hashes, all raw-to-compact reconstructions, checkpoint manifest,
+summary, text report, and completion hashes. The raw auditor reconstructs CPU
+dispatch and quota occupancy, request release/admission/completion, memory
+storage and the model's density-matrix channel, and joint output categories.
+The archived calibration-binding metadata matches the frozen binding. The
+original calibration files are not in this archive and were not reaudited.
+This is independent replay of saved native evidence, not fresh NetSquid execution.
+
+OUTCOMES (8,192 measured requests per row)
+Arrival          Strategy   On time     Wrong and on time  Late  Unfinished
+renewal          selected   98.9014%    1.2207%              90   0
+renewal          random     99.3896%    1.0498%              50   0
+renewal          even       99.5972%    0.9766%              33   0
+periodic jitter  selected   98.8892%    1.3184%              91   0
+periodic jitter  random     99.2676%    1.2451%              60   0
+periodic jitter  even       99.4751%    1.2451%              43   0
+
+All fractions use offered measured requests as the denominator. Late requests
+are not also counted as wrong-on-time. Wrong outputs at any completion time
+are provided separately in supplementary_diagnostics.json.
+
+DESCRIPTIVE SELECTED-MINUS-COMPARATOR DIFFERENCES (percentage points)
+Arrival          Comparator  Wrong-on-time change  On-time change
+renewal          random      +0.1709               -0.4883
+renewal          even        +0.2441               -0.6958
+periodic jitter  random      +0.0732               -0.3784
+periodic jitter  even        +0.0732               -0.5859
+
+These are planning diagnostics, with no significance or confirmatory success
+claim. Requests inside a stream are not independent experimental replicates.
+The independent units for a future paired analysis are whole streams.
+
+SERVICE REQUIREMENTS
+The frozen prospective family requires an increase in wrong-on-time outputs,
+selected-strategy on-time probability at least 99%, and a completion-rate loss
+strictly smaller than 0.5 percentage points versus each comparator. The observed
+selected-strategy service rates are below 99% in both regimes. The observed
+loss versus evenly spaced work exceeds 0.5 percentage points in both regimes.
+The losses versus random work are below 0.5 percentage points, narrowly so for
+renewal arrivals. Thus the planning point estimates do not satisfy all the
+intended conditions. This does not prove a population failure: 32 streams per
+regime do not establish the relevant population probabilities precisely.
+
+SCHEDULING AND MODEL EVIDENCE
+Requested and executed attacker work match in all arms. Each stream executes
+3,200 jobs at 0.3 ms apiece: 960 ms of service over an 8 s release window. The
+maximum observed per-period occupancy is 1.2 ms per 10 ms period. Budget and
+block limits are enforced in the saved traces. There are no incomplete attacker
+or background jobs. The maximum density reconstruction error is approximately
+2.22e-16. The selected strategy has longer mean storage and higher modeled
+expected infidelity than either comparator in both regimes (see diagnostics).
+These model-based quantities are not independent hardware measurements.
+
+The public release plan is constructed before private victim/background inputs;
+the raw auditor reconstructs that plan. The competitor still assumes knowledge
+of the public clock/period epoch. This narrows the timing-information assumption
+but does not establish provider deployment permissions or measured CPU costs.
+The inherited model uses 10 microseconds per host instruction, ideal gates/EPR,
+and the final_si memory channel. This study has FCFS only, no no-competitor arm,
+and does not compare EDF or the RQ3 protection policies.
+
+RESUME AND COMPUTATIONAL COST
+The archive retains a KeyboardInterrupt receipt and three launcher logs.
+All final checkpoints and the completion manifest are verified; an earlier
+interruption does not by itself invalidate the final completed dataset.
+The successful workers used approximately 48.57 CPU hours in total. Maximum
+reported worker peak memory was 832.96 MiB. These exclude interrupted work,
+coordinator/audit overhead, and export time; they are not total elapsed run time.
+
+RECOMMENDED NEXT STEP
+Preserve this planning run, the selected 0.25 ms offsets, the 5 ms deadline,
+and the separation from future confirmation. No rerun is needed for this audit.
+Before a costly confirmatory launch, explicitly decide whether the frozen
+service requirement remains the scientific target despite these feasibility
+warnings. A confirmatory protocol must specify stream-level inference, the
+comparison family and error control, and a variance-sensitivity sample-size
+calculation based on a prespecified meaningful effect. Do not choose sample
+size from these signed observed effects. More samples reduce uncertainty; they
+do not guarantee that service will meet its requirement.
+
+If the operating point or policy is changed, label that a new exploratory
+study and use a separate future validation set. Do not relax the existing
+service gates or pool these planning records into confirmation. The independent
+main RQ1/RQ3 application comparison remains necessary to address realistic
+computation and strong scheduling baselines.
+
+REPRODUCIBLE REVIEW
+Extract the original full ZIP into an empty directory. From this review bundle:
+python review_q16.py /path/to/extracted/export --workers 6 --output receipt.json
+The script requires Python and the frozen source included in the original ZIP;
+the raw replay path does not require NetSquid. It never runs the simulator.
+The original serial replay command is:
+python /path/to/run/source/q16_fresh.py audit --run-dir /path/to/run
+The seven planning tests were also rerun; see fresh_tests_replay.log.

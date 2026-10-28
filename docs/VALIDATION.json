@@ -1,0 +1,107 @@
+{
+  "status": "PASS_SMALL_STATISTICAL_DATASET_REPRODUCTION",
+  "scope": "Recomputes independent-unit statistical comparisons and selections. Full record/checkpoint checks are optional and separate.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "stages": [
+    {
+      "task": "application",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce_analysis.py",
+        "--family",
+        "application"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.8368923199996061,
+      "returncode": 0
+    },
+    {
+      "task": "diagnostics",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce_analysis.py",
+        "--family",
+        "diagnostics"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 1.1009511479996945,
+      "returncode": 0
+    },
+    {
+      "task": "engineering",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/check_engineering.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 2.6171045070004766,
+      "returncode": 0
+    },
+    {
+      "task": "figures",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "analysis/build_figures.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.25919120500020654,
+      "returncode": 0
+    },
+    {
+      "task": "historical",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce_analysis.py",
+        "--family",
+        "historical"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.9595203100006984,
+      "returncode": 0
+    },
+    {
+      "task": "receipts",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce.py",
+        "receipts"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.035413380000136385,
+      "returncode": 0
+    },
+    {
+      "task": "timing",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce_analysis.py",
+        "--family",
+        "timing"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 1.0099318829998083,
+      "returncode": 0
+    }
+  ],
+  "engineering_tests": 39,
+  "simultaneous_intervals_recomputed": 632,
+  "numbered_notebooks": 14,
+  "recovered_original_notebooks": 11,
+  "native_simulations_executed_during_curation": 0,
+  "raw_server_files_replayed_during_curation": 0,
+  "qualifications": [
+    "No native NetSquid/Qoala execution in this environment.",
+    "The exact final raw-auditor source identity gap remains; see RELEASE_STATUS.md."
+  ],
+  "extracted_release_start_notebook": {
+    "status": "PASS",
+    "full_archives_present": false,
+    "native_simulations": 0,
+    "checks": "Executed every code cell in notebooks/00_Start_Here.ipynb from the extracted code and 0.55 MB data ZIPs."
+  },
+  "statistical_reference_consistency": "PASS: fresh-study plot references and transfer plot endpoints match the reanalysis references"
+}

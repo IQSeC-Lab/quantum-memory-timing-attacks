@@ -1,0 +1,1094 @@
+{
+  "version": "q13-memory-robustness-1",
+  "primary_contrasts": [
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.2687887562081226,
+      "approximate_adjusted_interval_pp": [
+        0.21688283939524747,
+        0.32149105418233953
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.02855390043776801,
+        0.028553900437767954
+      ],
+      "random_loss_bounds": [
+        0.025866012875686753,
+        0.025866012875686684
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.2687887562081326,
+        0.2687887562081201
+      ],
+      "mean_storage_difference_ms": 0.1669753681640625,
+      "sampled_wrong_output_difference_pp": 0.146484375,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.2771368823087101,
+      "approximate_adjusted_interval_pp": [
+        0.2244644355687303,
+        0.3306927595104206
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.0297269812061753,
+        0.02972698120617534
+      ],
+      "random_loss_bounds": [
+        0.026955612383088166,
+        0.02695561238308808
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.27713688230872197,
+        0.27713688230871747
+      ],
+      "mean_storage_difference_ms": 0.1669753681640625,
+      "sampled_wrong_output_difference_pp": 0.244140625,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.4648571499084075,
+      "approximate_adjusted_interval_pp": [
+        0.4291239968688627,
+        0.49839648224393557
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.015403843458831406,
+        0.015403843458831501
+      ],
+      "random_loss_bounds": [
+        0.01075527195974732,
+        0.010755271959747237
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.46485714990841687,
+        0.4648571499084181
+      ],
+      "mean_storage_difference_ms": 0.3445181323242188,
+      "sampled_wrong_output_difference_pp": 0.78125,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.48411436685877085,
+      "approximate_adjusted_interval_pp": [
+        0.44720614093008315,
+        0.5186996528621334
+      ],
+      "family": 4,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.016283631644233968,
+        0.016283631644234076
+      ],
+      "random_loss_bounds": [
+        0.011442487975646239,
+        0.011442487975646287
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.4841143668587681,
+        0.48411436685878373
+      ],
+      "mean_storage_difference_ms": 0.3445181323242188,
+      "sampled_wrong_output_difference_pp": 0.78125,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Approximate four-comparison simultaneous coverage"
+    }
+  ],
+  "secondary_contrasts": [
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.301411044831098,
+      "approximate_adjusted_interval_pp": [
+        0.25756018129602526,
+        0.3447331479365852
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.028925852112487667,
+        0.02892585211248777
+      ],
+      "random_loss_bounds": [
+        0.025911741664175977,
+        0.02591174166417587
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.30141104483117975,
+        0.3014110448311794
+      ],
+      "mean_storage_difference_ms": 0.1881273505859375,
+      "sampled_wrong_output_difference_pp": 0.29296875,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.1530755295691297,
+      "approximate_adjusted_interval_pp": [
+        0.10495945959796804,
+        0.2027459512439035
+      ],
+      "family": 1,
+      "direction_p": 0.0021024015732109547,
+      "adjusted_direction_p": 0.0021024015732109547,
+      "positive_replications": 25,
+      "negative_replications": 7,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.027624753982327784,
+        0.027624753982327777
+      ],
+      "random_loss_bounds": [
+        0.02609399868663642,
+        0.02609399868663642
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.1530755295691362,
+        0.1530755295691355
+      ],
+      "mean_storage_difference_ms": 0.091675580078125,
+      "sampled_wrong_output_difference_pp": 0.1953125,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.31098627053845096,
+      "approximate_adjusted_interval_pp": [
+        0.2662883850041502,
+        0.3550672464857496
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.03011281124918053,
+        0.030112811249180638
+      ],
+      "random_loss_bounds": [
+        0.02700294854379633,
+        0.027002948543796368
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.3109862705384162,
+        0.3109862705384308
+      ],
+      "mean_storage_difference_ms": 0.1881273505859375,
+      "sampled_wrong_output_difference_pp": 0.390625,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.15730872938248555,
+      "approximate_adjusted_interval_pp": [
+        0.10829094484716593,
+        0.2079234286615867
+      ],
+      "family": 1,
+      "direction_p": 0.0021024015732109547,
+      "adjusted_direction_p": 0.0021024015732109547,
+      "positive_replications": 25,
+      "negative_replications": 7,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.028759897551724204,
+        0.028759897551724256
+      ],
+      "random_loss_bounds": [
+        0.0271868102578993,
+        0.027186810257899374
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.15730872938248297,
+        0.15730872938249546
+      ],
+      "mean_storage_difference_ms": 0.091675580078125,
+      "sampled_wrong_output_difference_pp": 0.244140625,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.5469709261777248,
+      "approximate_adjusted_interval_pp": [
+        0.5225686093750469,
+        0.5716926261304958
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": true,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.016422853047307055,
+        0.01642285304730695
+      ],
+      "random_loss_bounds": [
+        0.010953143785530348,
+        0.010953143785530361
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.5469709261776694,
+        0.5469709261776603
+      ],
+      "mean_storage_difference_ms": 0.421127494140625,
+      "sampled_wrong_output_difference_pp": 0.341796875,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.2724912344964322,
+      "approximate_adjusted_interval_pp": [
+        0.2368223891650574,
+        0.3087748664369882
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.013216217504048467,
+        0.013216217504048444
+      ],
+      "random_loss_bounds": [
+        0.010491305159084158,
+        0.010491305159084252
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.2724912344964215,
+        0.2724912344964286
+      ],
+      "mean_storage_difference_ms": 0.1887674296875,
+      "sampled_wrong_output_difference_pp": 0.341796875,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.5712639278312188,
+      "approximate_adjusted_interval_pp": [
+        0.5459689707782187,
+        0.5968984469736064
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": true,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.0173612745215045,
+        0.0173612745215046
+      ],
+      "random_loss_bounds": [
+        0.01164863524319154,
+        0.011648635243191485
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.5712639278313013,
+        0.5712639278313059
+      ],
+      "mean_storage_difference_ms": 0.421127494140625,
+      "sampled_wrong_output_difference_pp": 0.341796875,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    },
+    {
+      "independent_replications": 32,
+      "mean_difference_pp": 0.28241758710106646,
+      "approximate_adjusted_interval_pp": [
+        0.24559033038556483,
+        0.3199541345040624
+      ],
+      "family": 1,
+      "direction_p": 4.656612873077393e-10,
+      "adjusted_direction_p": 4.656612873077393e-10,
+      "positive_replications": 32,
+      "negative_replications": 0,
+      "ties": 0,
+      "interval_above_zero": true,
+      "interval_above_reporting_reference": false,
+      "reporting_reference_pp": 0.5,
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "comparison": "fixed minus equal-work random expected infidelity",
+      "all_compared_targets_completed": true,
+      "offered_per_arm": 2048,
+      "fixed_loss_bounds": [
+        0.013990983971959916,
+        0.013990983971959858
+      ],
+      "random_loss_bounds": [
+        0.011166808100949254,
+        0.011166808100949277
+      ],
+      "per_offered_difference_bounds_pp": [
+        0.28241758710106385,
+        0.2824175871010604
+      ],
+      "mean_storage_difference_ms": 0.1887674296875,
+      "sampled_wrong_output_difference_pp": 0.341796875,
+      "sampled_error_note": "Secondary observed verification errors per offered execution; unfinished counts reported separately",
+      "inference": "Exploratory pointwise coverage"
+    }
+  ],
+  "summaries": [
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 49,
+      "wrong_outputs_per_offered": 0.02392578125,
+      "mean_completed_fidelity": 0.9773311231155328,
+      "mean_completed_storage_ms": 2.018291017578125,
+      "per_offered_infidelity_bounds": [
+        0.022668876884467157,
+        0.02266887688446717
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 56,
+      "wrong_outputs_per_offered": 0.02734375,
+      "mean_completed_fidelity": 0.9741339871243133,
+      "mean_completed_storage_ms": 2.1828854985351565,
+      "per_offered_infidelity_bounds": [
+        0.025866012875686753,
+        0.025866012875686684
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 59,
+      "wrong_outputs_per_offered": 0.02880859375,
+      "mean_completed_fidelity": 0.971446099562232,
+      "mean_completed_storage_ms": 2.3498608666992187,
+      "per_offered_infidelity_bounds": [
+        0.02855390043776801,
+        0.028553900437767954
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 44,
+      "wrong_outputs_per_offered": 0.021484375,
+      "mean_completed_fidelity": 0.9774895224499562,
+      "mean_completed_storage_ms": 2.010770453125,
+      "per_offered_infidelity_bounds": [
+        0.022510477550043775,
+        0.02251047755004376
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 49,
+      "wrong_outputs_per_offered": 0.02392578125,
+      "mean_completed_fidelity": 0.9740882583358241,
+      "mean_completed_storage_ms": 2.1857589111328126,
+      "per_offered_infidelity_bounds": [
+        0.025911741664175977,
+        0.02591174166417587
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 55,
+      "wrong_outputs_per_offered": 0.02685546875,
+      "mean_completed_fidelity": 0.9710741478875131,
+      "mean_completed_storage_ms": 2.37388626171875,
+      "per_offered_infidelity_bounds": [
+        0.028925852112487667,
+        0.02892585211248777
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 43,
+      "wrong_outputs_per_offered": 0.02099609375,
+      "mean_completed_fidelity": 0.9774105873879677,
+      "mean_completed_storage_ms": 2.0126037041015623,
+      "per_offered_infidelity_bounds": [
+        0.02258941261203227,
+        0.02258941261203229
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 47,
+      "wrong_outputs_per_offered": 0.02294921875,
+      "mean_completed_fidelity": 0.9739060013133636,
+      "mean_completed_storage_ms": 2.1941895014648436,
+      "per_offered_infidelity_bounds": [
+        0.02609399868663642,
+        0.02609399868663642
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 51,
+      "wrong_outputs_per_offered": 0.02490234375,
+      "mean_completed_fidelity": 0.9723752460176722,
+      "mean_completed_storage_ms": 2.2858650815429686,
+      "per_offered_infidelity_bounds": [
+        0.027624753982327784,
+        0.027624753982327777
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 52,
+      "wrong_outputs_per_offered": 0.025390625,
+      "mean_completed_fidelity": 0.9762894167243376,
+      "mean_completed_storage_ms": 2.018291017578125,
+      "per_offered_infidelity_bounds": [
+        0.023710583275662417,
+        0.023710583275662334
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 58,
+      "wrong_outputs_per_offered": 0.0283203125,
+      "mean_completed_fidelity": 0.9730443876169117,
+      "mean_completed_storage_ms": 2.1828854985351565,
+      "per_offered_infidelity_bounds": [
+        0.026955612383088166,
+        0.02695561238308808
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 63,
+      "wrong_outputs_per_offered": 0.03076171875,
+      "mean_completed_fidelity": 0.9702730187938247,
+      "mean_completed_storage_ms": 2.3498608666992187,
+      "per_offered_infidelity_bounds": [
+        0.0297269812061753,
+        0.02972698120617534
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 45,
+      "wrong_outputs_per_offered": 0.02197265625,
+      "mean_completed_fidelity": 0.9764495677845482,
+      "mean_completed_storage_ms": 2.010770453125,
+      "per_offered_infidelity_bounds": [
+        0.023550432215451902,
+        0.023550432215451833
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 52,
+      "wrong_outputs_per_offered": 0.025390625,
+      "mean_completed_fidelity": 0.9729970514562036,
+      "mean_completed_storage_ms": 2.1857589111328126,
+      "per_offered_infidelity_bounds": [
+        0.02700294854379633,
+        0.027002948543796368
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 60,
+      "wrong_outputs_per_offered": 0.029296875,
+      "mean_completed_fidelity": 0.9698871887508191,
+      "mean_completed_storage_ms": 2.37388626171875,
+      "per_offered_infidelity_bounds": [
+        0.03011281124918053,
+        0.030112811249180638
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 43,
+      "wrong_outputs_per_offered": 0.02099609375,
+      "mean_completed_fidelity": 0.9763721434815323,
+      "mean_completed_storage_ms": 2.0126037041015623,
+      "per_offered_infidelity_bounds": [
+        0.02362785651846759,
+        0.02362785651846755
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 47,
+      "wrong_outputs_per_offered": 0.02294921875,
+      "mean_completed_fidelity": 0.9728131897421007,
+      "mean_completed_storage_ms": 2.1941895014648436,
+      "per_offered_infidelity_bounds": [
+        0.0271868102578993,
+        0.027186810257899374
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "plus",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 52,
+      "wrong_outputs_per_offered": 0.025390625,
+      "mean_completed_fidelity": 0.9712401024482759,
+      "mean_completed_storage_ms": 2.2858650815429686,
+      "per_offered_infidelity_bounds": [
+        0.028759897551724204,
+        0.028759897551724256
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 20,
+      "wrong_outputs_per_offered": 0.009765625,
+      "mean_completed_fidelity": 0.9917586299752712,
+      "mean_completed_storage_ms": 1.094091099609375,
+      "per_offered_infidelity_bounds": [
+        0.008241370024728712,
+        0.0082413700247288
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 29,
+      "wrong_outputs_per_offered": 0.01416015625,
+      "mean_completed_fidelity": 0.9892447280402528,
+      "mean_completed_storage_ms": 1.26207290625,
+      "per_offered_infidelity_bounds": [
+        0.01075527195974732,
+        0.010755271959747237
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_500us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 45,
+      "wrong_outputs_per_offered": 0.02197265625,
+      "mean_completed_fidelity": 0.9845961565411686,
+      "mean_completed_storage_ms": 1.6065910385742188,
+      "per_offered_infidelity_bounds": [
+        0.015403843458831406,
+        0.015403843458831501
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 19,
+      "wrong_outputs_per_offered": 0.00927734375,
+      "mean_completed_fidelity": 0.9917910393577145,
+      "mean_completed_storage_ms": 1.089852458984375,
+      "per_offered_infidelity_bounds": [
+        0.008208960642285466,
+        0.00820896064228549
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 22,
+      "wrong_outputs_per_offered": 0.0107421875,
+      "mean_completed_fidelity": 0.9890468562144696,
+      "mean_completed_storage_ms": 1.276872505859375,
+      "per_offered_infidelity_bounds": [
+        0.010953143785530348,
+        0.010953143785530361
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "exact_epoch",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 29,
+      "wrong_outputs_per_offered": 0.01416015625,
+      "mean_completed_fidelity": 0.9835771469526923,
+      "mean_completed_storage_ms": 1.698,
+      "per_offered_infidelity_bounds": [
+        0.016422853047307055,
+        0.01642285304730695
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 23,
+      "wrong_outputs_per_offered": 0.01123046875,
+      "mean_completed_fidelity": 0.9918355736156302,
+      "mean_completed_storage_ms": 1.0867478076171875,
+      "per_offered_infidelity_bounds": [
+        0.008164426384369722,
+        0.00816442638436965
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 26,
+      "wrong_outputs_per_offered": 0.0126953125,
+      "mean_completed_fidelity": 0.989508694840916,
+      "mean_completed_storage_ms": 1.2417841787109376,
+      "per_offered_infidelity_bounds": [
+        0.010491305159084158,
+        0.010491305159084252
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "final_si",
+      "scenario": "coarse_1000us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 33,
+      "wrong_outputs_per_offered": 0.01611328125,
+      "mean_completed_fidelity": 0.9867837824959516,
+      "mean_completed_storage_ms": 1.4305516083984375,
+      "per_offered_infidelity_bounds": [
+        0.013216217504048467,
+        0.013216217504048444
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 23,
+      "wrong_outputs_per_offered": 0.01123046875,
+      "mean_completed_fidelity": 0.9911570410573648,
+      "mean_completed_storage_ms": 1.094091099609375,
+      "per_offered_infidelity_bounds": [
+        0.008842958942635246,
+        0.008842958942635315
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 32,
+      "wrong_outputs_per_offered": 0.015625,
+      "mean_completed_fidelity": 0.9885575120243537,
+      "mean_completed_storage_ms": 1.26207290625,
+      "per_offered_infidelity_bounds": [
+        0.011442487975646239,
+        0.011442487975646287
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_500us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 48,
+      "wrong_outputs_per_offered": 0.0234375,
+      "mean_completed_fidelity": 0.9837163683557661,
+      "mean_completed_storage_ms": 1.6065910385742188,
+      "per_offered_infidelity_bounds": [
+        0.016283631644233968,
+        0.016283631644234076
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 20,
+      "wrong_outputs_per_offered": 0.009765625,
+      "mean_completed_fidelity": 0.991192279879648,
+      "mean_completed_storage_ms": 1.089852458984375,
+      "per_offered_infidelity_bounds": [
+        0.008807720120352044,
+        0.008807720120352025
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 24,
+      "wrong_outputs_per_offered": 0.01171875,
+      "mean_completed_fidelity": 0.9883513647568084,
+      "mean_completed_storage_ms": 1.276872505859375,
+      "per_offered_infidelity_bounds": [
+        0.01164863524319154,
+        0.011648635243191485
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "exact_epoch",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 31,
+      "wrong_outputs_per_offered": 0.01513671875,
+      "mean_completed_fidelity": 0.9826387254784964,
+      "mean_completed_storage_ms": 1.698,
+      "per_offered_infidelity_bounds": [
+        0.0173612745215045,
+        0.0173612745215046
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 23,
+      "wrong_outputs_per_offered": 0.01123046875,
+      "mean_completed_fidelity": 0.9912385029945241,
+      "mean_completed_storage_ms": 1.0867478076171875,
+      "per_offered_infidelity_bounds": [
+        0.008761497005475894,
+        0.008761497005475904
+      ],
+      "competitor_service_ns": 0
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 26,
+      "wrong_outputs_per_offered": 0.0126953125,
+      "mean_completed_fidelity": 0.9888331918990507,
+      "mean_completed_storage_ms": 1.2417841787109376,
+      "per_offered_infidelity_bounds": [
+        0.011166808100949254,
+        0.011166808100949277
+      ],
+      "competitor_service_ns": 1200000
+    },
+    {
+      "workload": "teleport",
+      "profile": "deposited_code",
+      "scenario": "coarse_1000us",
+      "arm": "fixed_phase",
+      "offered": 2048,
+      "unfinished": 0,
+      "wrong_outputs": 33,
+      "wrong_outputs_per_offered": 0.01611328125,
+      "mean_completed_fidelity": 0.98600901602804,
+      "mean_completed_storage_ms": 1.4305516083984375,
+      "per_offered_infidelity_bounds": [
+        0.013990983971959916,
+        0.013990983971959858
+      ],
+      "competitor_service_ns": 1200000
+    }
+  ],
+  "all_four_primary_intervals_above_zero": true,
+  "no_evaluation_selection": true,
+  "no_latency_filter": true,
+  "scope": "Parameter-informed sensitivity of ideal P1 workloads, conditional on the declared epoch and placement. Not a hardware attack or whole-system calibration.",
+  "inference": "Density-matrix fidelity is simulator ground truth. Intervals describe random scheduling/message inputs conditional on the model; they do not incorporate uncertainty in fitted hardware parameters. Sign tests concern direction, not mean effect. A positive result does not by itself establish practicality."
+}

@@ -1,0 +1,288 @@
+{
+  "executable": "/home/rahmanms/P1/.venv-p1/bin/python",
+  "imported_backend": {
+    "qoala/lang/parse.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/lang/parse.py",
+      "sha256": "81a429481aece5f3a35a40a7c0479e2124070c78aa3f4b9e1e5f99eb806eb452"
+    },
+    "qoala/runtime/task.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/runtime/task.py",
+      "sha256": "b77c21620c6789be29736475094344e4d29d030f7285000e00d0556665bb1849"
+    },
+    "qoala/runtime/taskbuilder.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/runtime/taskbuilder.py",
+      "sha256": "3ea2d8d5c0d1ad037e99afa0aa56907a0e9d463dae5b9320eff8d2f5429c3884"
+    },
+    "qoala/sim/driver.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/driver.py",
+      "sha256": "a92da8d8ec7f121b9e79bf295e05d9115df4cf3f06ee3b824b4d49614d621012"
+    },
+    "qoala/sim/host/hostprocessor.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/host/hostprocessor.py",
+      "sha256": "b767e62141751c3032a996be51b12a23667797533bd8410443dbae99bb9bbd39"
+    },
+    "qoala/sim/procnode.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/procnode.py",
+      "sha256": "6cdc3b82295ee6564fd43e63f340f3c7f7be535a4b4a2e065b5c8abd04b81e26"
+    },
+    "qoala/sim/qnos/qnosprocessor.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/qnos/qnosprocessor.py",
+      "sha256": "7b6166ca11ac72c1ccd4bc76f9e22d128253e3c0b84405b65c1e5076a0759d6d"
+    },
+    "qoala/sim/scheduling/cpusched.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/scheduling/cpusched.py",
+      "sha256": "e8a07d90f4973a50f3ab6bb48956feffdd250f30943104b113f15c15bb3b37f9"
+    },
+    "qoala/sim/scheduling/nodesched.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/scheduling/nodesched.py",
+      "sha256": "a0e8ef383d99501a6a5ce5d49977884f222c9a070ce27828ebf2d3c2c54c2be0"
+    },
+    "qoala/sim/scheduling/onlinenodesched.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/scheduling/onlinenodesched.py",
+      "sha256": "6f5b9d8708c925230bada418eb340143cc53c5ba0df0341c9e85ce8a093c4406"
+    },
+    "qoala/sim/scheduling/procsched.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/scheduling/procsched.py",
+      "sha256": "08a2aab379aae65738001bee20d9ecc22027b0631bc3ce533b75b8148179a4a9"
+    },
+    "qoala/sim/scheduling/qpusched.py": {
+      "path": "/home/rahmanms/P1/qoala-sim/qoala/sim/scheduling/qpusched.py",
+      "sha256": "781525f53a7b8461ee29430f1d9b034f027f641de8118c211237d80c3c2a8930"
+    }
+  },
+  "installed_packages": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "black",
+      "version": "22.3.0"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.2"
+    },
+    {
+      "name": "coverage",
+      "version": "7.16.2"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "cysignals",
+      "version": "1.12.5"
+    },
+    {
+      "name": "dacite",
+      "version": "1.9.2"
+    },
+    {
+      "name": "exceptiongroup",
+      "version": "1.3.1"
+    },
+    {
+      "name": "execnet",
+      "version": "2.1.2"
+    },
+    {
+      "name": "flake8",
+      "version": "4.0.1"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.65.0"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "isort",
+      "version": "5.10.1"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.6.3"
+    },
+    {
+      "name": "mccabe",
+      "version": "0.6.1"
+    },
+    {
+      "name": "mypy",
+      "version": "1.11.2"
+    },
+    {
+      "name": "mypy_extensions",
+      "version": "1.1.0"
+    },
+    {
+      "name": "netqasm",
+      "version": "2.3.0"
+    },
+    {
+      "name": "netsquid",
+      "version": "1.1.8"
+    },
+    {
+      "name": "netsquid-magic",
+      "version": "14.0.0"
+    },
+    {
+      "name": "netsquid-physlayer",
+      "version": "4.3.1"
+    },
+    {
+      "name": "networkx",
+      "version": "3.1"
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "2.3.3"
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.12.4"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    {
+      "name": "pycodestyle",
+      "version": "2.8.0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.0"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.0"
+    },
+    {
+      "name": "pydynaa",
+      "version": "1.0.2"
+    },
+    {
+      "name": "pyflakes",
+      "version": "2.4.0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pytest",
+      "version": "7.4.4"
+    },
+    {
+      "name": "pytest-xdist",
+      "version": "3.8.0"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.5"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "qlink-interface",
+      "version": "1.0.0"
+    },
+    {
+      "name": "qoala",
+      "version": "2.1.0"
+    },
+    {
+      "name": "qoala",
+      "version": "2.1.0"
+    },
+    {
+      "name": "scipy",
+      "version": "1.15.3"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0"
+    },
+    {
+      "name": "types-PyYAML",
+      "version": "6.0.12.20260906"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0"
+    }
+  ],
+  "platform": "Linux-4.18.0-553.173.1.el8_10.x86_64-x86_64-with-glibc2.34",
+  "python": "3.10.14 (tags/v3.10.14-25-ge98930d7387-dirty:e98930d7387, May 24 2024, 23:30:09) [GCC 13.2.0]",
+  "repo_head": "31fa2c9699578d227736557f35cd01a134c4bbde",
+  "simulation_access": "In-process Python API; independent native process per fixture; no remote service",
+  "timing_scope": "Configured simulation times; wall time is computational cost only",
+  "versions": {
+    "netqasm": "2.3.0",
+    "netsquid": "1.1.8",
+    "numpy": "1.26.4",
+    "pydynaa": "1.0.2",
+    "qoala": "2.1.0",
+    "scipy": "1.15.3"
+  }
+}

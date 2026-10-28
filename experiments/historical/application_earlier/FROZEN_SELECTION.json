@@ -1,0 +1,89 @@
+{
+  "decision_inputs": "Own sampled output bits only. No density, trace or target data.",
+  "discovery_records_sha256": "474b77cd7ff62ef56fb0c439b0c48ec1cf4b61b83191688e24130b2cabf7f1d7",
+  "mode": "full",
+  "revision": "p1-rq13-rotation-application-v1",
+  "scores": [
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 0
+    },
+    {
+      "errors": 3,
+      "own_executions": 24,
+      "phase_ns": 250000
+    },
+    {
+      "errors": 3,
+      "own_executions": 24,
+      "phase_ns": 500000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 750000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 1000000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 1250000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 1500000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 1750000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 2000000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 2250000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 2500000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 2750000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 3000000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 3250000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 3500000
+    },
+    {
+      "errors": 2,
+      "own_executions": 24,
+      "phase_ns": 3750000
+    }
+  ],
+  "selected_phase_ns": 250000
+}

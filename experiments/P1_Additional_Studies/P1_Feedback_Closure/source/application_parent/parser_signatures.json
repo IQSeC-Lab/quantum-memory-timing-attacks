@@ -1,0 +1,1737 @@
+{
+  "classical": {
+    "blocks": [
+      {
+        "name": "reduce_0",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "AddCValueOp",
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {}
+  },
+  "unoptimized:Z+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "client": {
+    "blocks": [
+      {
+        "name": "send",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp",
+          "SendCMsgOp",
+          "SendCMsgOp"
+        ]
+      }
+    ],
+    "routines": {}
+  },
+  "unoptimized:Z+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Z-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Z-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:X+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "h Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "h Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:X+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "h Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "h Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:X-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "h Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "h Q0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:X-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "h Q0"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "h Q0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Y+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 3 1"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "rot_x Q0 1 1",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Y+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 3 1"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "rot_x Q0 1 1",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Y-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 1 1"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "rot_x Q0 3 1",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "unoptimized:Y-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "prepare",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate0",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": 0,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "rotate1",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "verify",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "prepare_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 1 1"
+      ],
+      "rotate_state": [
+        "set Q0 0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4"
+      ],
+      "verify_state": [
+        "set Q0 0",
+        "rot_x Q0 3 1",
+        "meas Q0 M0",
+        "set R0 0",
+        "store M0 @output[R0]"
+      ]
+    }
+  },
+  "optimized:Z+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Z+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Z-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "x Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Z-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "x Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:X+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "h Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "h Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:X+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "h Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "h Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:X-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "h Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "h Q0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:X-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "x Q0",
+        "h Q0",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "h Q0",
+        "x Q0",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Y+:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 3 1",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "rot_x Q0 1 1",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Y+:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 3 1",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "rot_x Q0 1 1",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Y-:plain": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": null,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 1 1",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "rot_x Q0 3 1",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  },
+  "optimized:Y-:cs": {
+    "blocks": [
+      {
+        "name": "setup",
+        "critical_section": null,
+        "op_types": [
+          "AssignCValueOp"
+        ]
+      },
+      {
+        "name": "receive0",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "receive1",
+        "critical_section": null,
+        "op_types": [
+          "ReceiveCMsgOp"
+        ]
+      },
+      {
+        "name": "sum_angles",
+        "critical_section": null,
+        "op_types": [
+          "AddCValueOp"
+        ]
+      },
+      {
+        "name": "merged",
+        "critical_section": 0,
+        "op_types": [
+          "RunSubroutineOp"
+        ]
+      },
+      {
+        "name": "output",
+        "critical_section": null,
+        "op_types": [
+          "ReturnResultOp"
+        ]
+      }
+    ],
+    "routines": {
+      "merged_state": [
+        "set Q0 0",
+        "init Q0",
+        "rot_x Q0 1 1",
+        "set C15 0",
+        "load R0 @input[C15]",
+        "rot_x Q0 R0 4",
+        "rot_x Q0 3 1",
+        "meas Q0 M0",
+        "set R1 0",
+        "store M0 @output[R1]"
+      ]
+    }
+  }
+}

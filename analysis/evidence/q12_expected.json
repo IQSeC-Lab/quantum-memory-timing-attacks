@@ -1,0 +1,80 @@
+{
+  "run_id": "q12-20261013T034634906569Z",
+  "source_hashes": {
+    "q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+    "q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+    "q12.py": "c23787da81c5ab88f580e98cd83267e401dba8a6bd6113f3f0a2676ab5e226c7",
+    "q12_tests.py": "7ace9e67460c084af713778372eda207a4ea4a165d9eb054eba4154d455bc740",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c"
+  },
+  "source_bundle_sha256": "470078ab4b2c014d42b97dbba496934a0195ae13a58d3404274c06b8e5b3b7b4",
+  "header_sha256": {
+    "protocol.json": "c3ecc42b7cbd8e889ad6518c8b183e38acce37fc4d543a97f23be06c56a771e9",
+    "environment.json": "449f8d9742daf223a2f7935d180dca403bc04d7d673d1efc1cd26d4c15ecc446",
+    "COMPLETE.json": "f759c3932dbf335455d9425a369b85df6d997e8a6eec7910924b915652167422",
+    "PILOT_COMPLETE.json": "e852887482fcbab2ae1f9f87891dce71d73f0aca73351473a19899c47ba48747",
+    "CALIBRATION_COMPLETE.json": "50cc52c1c42285ea607673e4004ac8647e4f49af303f5c0432a555285244f1f0",
+    "frozen_selections.json": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+    "calibration_costs.json": "45d6697047bcc55694ad79e67fa05b5b3d537475d711c28a54eae1111c6b3846",
+    "analysis.json": "0f9a88a04d8342a7ca57febe890d1fa1b1a277f7df0a7d70a9ace6976324ebc2",
+    "pilot/manifest.json": "cf0d7c9e59f50a2d84a2878b4ae49bd5b59b2adb91d3f3abe2154ca7d2eaaa58",
+    "calibration/manifest.json": "7d1004d332e004503a9234419fa530a1a1d2810f06b557162a03c5ffa8d89117",
+    "evaluation/manifest.json": "26a18e3dd018d8a1e5a6fd86d4d7e3c874a10560414d5ba4c3d9cccad8762bba"
+  },
+  "counts": {
+    "pilot": 1296,
+    "calibration": 294912,
+    "evaluation": 98304
+  },
+  "committed_batches": 3083,
+  "review_archive_sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3",
+  "primary_contrasts": [
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 0.32958984375,
+      "approximate_bootstrap95_interval_pp": [
+        -0.1220703125,
+        0.78125
+      ],
+      "positive_campaigns": 18,
+      "negative_campaigns": 12,
+      "tied_campaigns": 2,
+      "exact_direction_p": 0.36159460805356514,
+      "adjusted_direction_p": 0.7231892161071303,
+      "family": 2,
+      "workload": "plus",
+      "scenario": "primary_0500us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 256,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.09866789575195312,
+      "interpretation": "Prespecified primary family of two",
+      "supports_additional_wrong_outputs": false
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.8310546875,
+      "approximate_bootstrap95_interval_pp": [
+        1.416015625,
+        2.24609375
+      ],
+      "positive_campaigns": 31,
+      "negative_campaigns": 0,
+      "tied_campaigns": 1,
+      "exact_direction_p": 9.313225746154785e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "family": 2,
+      "workload": "teleport",
+      "scenario": "primary_0500us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 256,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.3404582447509766,
+      "interpretation": "Prespecified primary family of two",
+      "supports_additional_wrong_outputs": true
+    }
+  ]
+}

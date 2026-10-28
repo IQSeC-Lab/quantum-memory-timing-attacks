@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "data/archives/E1_Raw_Audit_Review_full.zip",
+      "bytes": 75529,
+      "sha256": "34a9c5f5867b82520907eeea7177a7fc7b24be100bd62468a06d3a93491bd8ef"
+    },
+    {
+      "path": "data/archives/E1_Review_complete_safe_resume.zip",
+      "bytes": 4454487,
+      "sha256": "f7a3a8a7da90ab0410a13f1c7d27125e5fe58366f2ae84fd1805cdb757ce4eec"
+    },
+    {
+      "path": "data/archives/P1_E1_Raw_Audit_Fixed_Toolkit.zip",
+      "bytes": 20694,
+      "sha256": "a10cdc68388a74cd54f9c83349f36e1a8d7f233a215b4610ea7edecc5ca04ab1"
+    },
+    {
+      "path": "data/archives/P1_Full_Raw_Replay_LATEST_review.zip",
+      "bytes": 8931959,
+      "sha256": "cfb0b9a94e13a410166e77651dd87ea29998551f18ff255d1ab45e4258f1c185"
+    },
+    {
+      "path": "data/archives/P1_Q16_q16-calibration-20261014T055352249894Z_review.zip",
+      "bytes": 12883027,
+      "sha256": "8cc684c0db92d7493a33331ca6b62feb04499b03a4075a91b34081bd301dc977"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q12_q12-20261013T034634906569Z_review.zip",
+      "bytes": 21374328,
+      "sha256": "cff1aee12156154aef575ad3414bc9b4a0b1b5d169b38a5543303ba7d9e0cad3"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q13_q13-20261013T045651939437Z_review.zip",
+      "bytes": 9214685,
+      "sha256": "de2b3f8b13c015c4caa3445644fae4246e628172de40f5fa11ed0699d949b08d"
+    },
+    {
+      "path": "data/archives/P1_Qoala_Q14_q14-20261013T064940065373Z_review.zip",
+      "bytes": 15415425,
+      "sha256": "48759fd86082f4d2d2207e186024567ff7a1f20d572082e025e0ab04dcc267a0"
+    },
+    {
+      "path": "data/archives/P1_RQ13_rq13-app-full-20261015T210306094201Z_review.zip",
+      "bytes": 47938490,
+      "sha256": "0cfe69c0c09d34d389401fc1604834b1b5d5828c880b9ea7cb4103da0050341a"
+    },
+    {
+      "path": "data/archives/q16-fresh-planning-compact.zip",
+      "bytes": 4037775,
+      "sha256": "a4f913b28e7bb9040fa3e46d1914ba1d851e4ad884e8514c8f3fff6d211e53fa"
+    },
+    {
+      "path": "data/archives/results-all-additional-memory-recovery-review.zip",
+      "bytes": 29472422,
+      "sha256": "24eaf9412ea7c17c7078de29f62f116d997720bfedb8e1d9aac8da1f55d4a0da"
+    },
+    {
+      "path": "data/archives/results-all-memory-recovery-review.zip",
+      "bytes": 97211637,
+      "sha256": "528c10704b3907cd3ff9c560cc60c7d3deda251311ec6e84ff9b2394d88b5f9a"
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "version": "q12-selfcal-1",
+  "primary_contrasts": [
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 0.32958984375,
+      "approximate_bootstrap95_interval_pp": [
+        -0.1220703125,
+        0.78125
+      ],
+      "positive_campaigns": 18,
+      "negative_campaigns": 12,
+      "tied_campaigns": 2,
+      "exact_direction_p": 0.36159460805356514,
+      "adjusted_direction_p": 0.7231892161071303,
+      "family": 2,
+      "workload": "plus",
+      "scenario": "primary_0500us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 256,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.09866789575195312,
+      "interpretation": "Prespecified primary family of two",
+      "supports_additional_wrong_outputs": false
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.8310546875,
+      "approximate_bootstrap95_interval_pp": [
+        1.416015625,
+        2.24609375
+      ],
+      "positive_campaigns": 31,
+      "negative_campaigns": 0,
+      "tied_campaigns": 1,
+      "exact_direction_p": 9.313225746154785e-10,
+      "adjusted_direction_p": 1.862645149230957e-09,
+      "family": 2,
+      "workload": "teleport",
+      "scenario": "primary_0500us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 256,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.3404582447509766,
+      "interpretation": "Prespecified primary family of two",
+      "supports_additional_wrong_outputs": true
+    }
+  ],
+  "secondary_contrasts": [
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 0.732421875,
+      "approximate_bootstrap95_interval_pp": [
+        0.146484375,
+        1.3671875
+      ],
+      "positive_campaigns": 13,
+      "negative_campaigns": 4,
+      "tied_campaigns": 15,
+      "exact_direction_p": 0.049041748046875,
+      "adjusted_direction_p": 0.049041748046875,
+      "family": 1,
+      "workload": "plus",
+      "scenario": "uncertainty_1000us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.07515064208984375,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 0.146484375,
+      "approximate_bootstrap95_interval_pp": [
+        -0.390625,
+        0.732421875
+      ],
+      "positive_campaigns": 10,
+      "negative_campaigns": 10,
+      "tied_campaigns": 12,
+      "exact_direction_p": 1.0,
+      "adjusted_direction_p": 1.0,
+      "family": 1,
+      "workload": "plus",
+      "scenario": "uncertainty_2000us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.0280558271484375,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.220703125,
+      "approximate_bootstrap95_interval_pp": [
+        0.634765625,
+        1.806640625
+      ],
+      "positive_campaigns": 20,
+      "negative_campaigns": 5,
+      "tied_campaigns": 7,
+      "exact_direction_p": 0.004077315330505371,
+      "adjusted_direction_p": 0.004077315330505371,
+      "family": 1,
+      "workload": "plus",
+      "scenario": "background_005",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.10738449758597313,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": -0.29296875,
+      "approximate_bootstrap95_interval_pp": [
+        -1.171875,
+        0.68359375
+      ],
+      "positive_campaigns": 8,
+      "negative_campaigns": 14,
+      "tied_campaigns": 10,
+      "exact_direction_p": 0.28627872467041016,
+      "adjusted_direction_p": 0.28627872467041016,
+      "family": 1,
+      "workload": "plus",
+      "scenario": "delay_shift",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.012625997558593748,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.5625,
+      "approximate_bootstrap95_interval_pp": [
+        0.8288574218750011,
+        2.392578125
+      ],
+      "positive_campaigns": 19,
+      "negative_campaigns": 3,
+      "tied_campaigns": 10,
+      "exact_direction_p": 0.0008554458618164062,
+      "adjusted_direction_p": 0.0008554458618164062,
+      "family": 1,
+      "workload": "teleport",
+      "scenario": "uncertainty_1000us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.20385686328125,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 0.439453125,
+      "approximate_bootstrap95_interval_pp": [
+        -0.09765625,
+        0.9765625
+      ],
+      "positive_campaigns": 12,
+      "negative_campaigns": 6,
+      "tied_campaigns": 14,
+      "exact_direction_p": 0.237884521484375,
+      "adjusted_direction_p": 0.237884521484375,
+      "family": 1,
+      "workload": "teleport",
+      "scenario": "uncertainty_2000us",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.057901794921875,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.66015625,
+      "approximate_bootstrap95_interval_pp": [
+        0.927734375,
+        2.490234375
+      ],
+      "positive_campaigns": 19,
+      "negative_campaigns": 3,
+      "tied_campaigns": 10,
+      "exact_direction_p": 0.0008554458618164062,
+      "adjusted_direction_p": 0.0008554458618164062,
+      "family": 1,
+      "workload": "teleport",
+      "scenario": "background_005",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.370210288245191,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    },
+    {
+      "independent_campaigns": 32,
+      "mean_difference_pp": 1.220703125,
+      "approximate_bootstrap95_interval_pp": [
+        0.537109375,
+        1.953125
+      ],
+      "positive_campaigns": 17,
+      "negative_campaigns": 6,
+      "tied_campaigns": 9,
+      "exact_direction_p": 0.03468966484069824,
+      "adjusted_direction_p": 0.03468966484069824,
+      "family": 1,
+      "workload": "teleport",
+      "scenario": "delay_shift",
+      "comparison": "learned minus equal-work random",
+      "shots_per_arm_per_campaign": 64,
+      "all_compared_targets_completed": true,
+      "mean_storage_difference_ms": 0.172351529296875,
+      "interpretation": "Exploratory pointwise interval; no multiplicity-controlled secondary claim"
+    }
+  ],
+  "summaries": [
+    {
+      "workload": "plus",
+      "scenario": "primary_0500us",
+      "arm": "no_competitor",
+      "offered": 8192,
+      "wrong_outputs": 1636,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.19970703125,
+      "wrong_or_unfinished_fraction": 0.19970703125,
+      "mean_completed_storage_ms": 2.033645319091797,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "plus",
+      "scenario": "primary_0500us",
+      "arm": "random_phase",
+      "offered": 8192,
+      "wrong_outputs": 1751,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.2137451171875,
+      "wrong_or_unfinished_fraction": 0.2137451171875,
+      "mean_completed_storage_ms": 2.2182452790527343,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "primary_0500us",
+      "arm": "learned",
+      "offered": 8192,
+      "wrong_outputs": 1778,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.217041015625,
+      "wrong_or_unfinished_fraction": 0.217041015625,
+      "mean_completed_storage_ms": 2.3169131748046876,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 409,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.19970703125,
+      "wrong_or_unfinished_fraction": 0.19970703125,
+      "mean_completed_storage_ms": 2.0331351845703125,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 425,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.20751953125,
+      "wrong_or_unfinished_fraction": 0.20751953125,
+      "mean_completed_storage_ms": 2.2043325786132812,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_1000us",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 440,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.21484375,
+      "wrong_or_unfinished_fraction": 0.21484375,
+      "mean_completed_storage_ms": 2.279483220703125,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_2000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 416,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.203125,
+      "wrong_or_unfinished_fraction": 0.203125,
+      "mean_completed_storage_ms": 2.011764918945312,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_2000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 438,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.2138671875,
+      "wrong_or_unfinished_fraction": 0.2138671875,
+      "mean_completed_storage_ms": 2.1703598901367185,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "uncertainty_2000us",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 441,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.21533203125,
+      "wrong_or_unfinished_fraction": 0.21533203125,
+      "mean_completed_storage_ms": 2.1984157172851564,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "background_005",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 402,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.1962890625,
+      "wrong_or_unfinished_fraction": 0.1962890625,
+      "mean_completed_storage_ms": 2.013788180306814,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "plus",
+      "scenario": "background_005",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 428,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.208984375,
+      "wrong_or_unfinished_fraction": 0.208984375,
+      "mean_completed_storage_ms": 2.217805590500885,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "background_005",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 453,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.22119140625,
+      "wrong_or_unfinished_fraction": 0.22119140625,
+      "mean_completed_storage_ms": 2.325190088086858,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "delay_shift",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 358,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.1748046875,
+      "wrong_or_unfinished_fraction": 0.1748046875,
+      "mean_completed_storage_ms": 2.0659218750000004,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "plus",
+      "scenario": "delay_shift",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 391,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.19091796875,
+      "wrong_or_unfinished_fraction": 0.19091796875,
+      "mean_completed_storage_ms": 2.2023917734375003,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "plus",
+      "scenario": "delay_shift",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 385,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.18798828125,
+      "wrong_or_unfinished_fraction": 0.18798828125,
+      "mean_completed_storage_ms": 2.215017770996094,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "primary_0500us",
+      "arm": "no_competitor",
+      "offered": 8192,
+      "wrong_outputs": 657,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0802001953125,
+      "wrong_or_unfinished_fraction": 0.0802001953125,
+      "mean_completed_storage_ms": 1.0851208477783203,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "teleport",
+      "scenario": "primary_0500us",
+      "arm": "random_phase",
+      "offered": 8192,
+      "wrong_outputs": 741,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0904541015625,
+      "wrong_or_unfinished_fraction": 0.0904541015625,
+      "mean_completed_storage_ms": 1.258115498413086,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "primary_0500us",
+      "arm": "learned",
+      "offered": 8192,
+      "wrong_outputs": 891,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.1087646484375,
+      "wrong_or_unfinished_fraction": 0.1087646484375,
+      "mean_completed_storage_ms": 1.5985737431640623,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_1000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 163,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.07958984375,
+      "wrong_or_unfinished_fraction": 0.07958984375,
+      "mean_completed_storage_ms": 1.103185337402344,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_1000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 178,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0869140625,
+      "wrong_or_unfinished_fraction": 0.0869140625,
+      "mean_completed_storage_ms": 1.2479562841796874,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_1000us",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 210,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.1025390625,
+      "wrong_or_unfinished_fraction": 0.1025390625,
+      "mean_completed_storage_ms": 1.4518131474609373,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_2000us",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 177,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.08642578125,
+      "wrong_or_unfinished_fraction": 0.08642578125,
+      "mean_completed_storage_ms": 1.0792586240234374,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_2000us",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 186,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0908203125,
+      "wrong_or_unfinished_fraction": 0.0908203125,
+      "mean_completed_storage_ms": 1.2026812158203126,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "uncertainty_2000us",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 195,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.09521484375,
+      "wrong_or_unfinished_fraction": 0.09521484375,
+      "mean_completed_storage_ms": 1.2605830107421874,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "background_005",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 182,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0888671875,
+      "wrong_or_unfinished_fraction": 0.0888671875,
+      "mean_completed_storage_ms": 1.0832172855889688,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "teleport",
+      "scenario": "background_005",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 210,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.1025390625,
+      "wrong_or_unfinished_fraction": 0.1025390625,
+      "mean_completed_storage_ms": 1.27679110825057,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "background_005",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 244,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.119140625,
+      "wrong_or_unfinished_fraction": 0.119140625,
+      "mean_completed_storage_ms": 1.647001396495761,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "delay_shift",
+      "arm": "no_competitor",
+      "offered": 2048,
+      "wrong_outputs": 126,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0615234375,
+      "wrong_or_unfinished_fraction": 0.0615234375,
+      "mean_completed_storage_ms": 1.0620742187499999,
+      "competitor_service_ns_per_execution": 0
+    },
+    {
+      "workload": "teleport",
+      "scenario": "delay_shift",
+      "arm": "random_phase",
+      "offered": 2048,
+      "wrong_outputs": 144,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.0703125,
+      "wrong_or_unfinished_fraction": 0.0703125,
+      "mean_completed_storage_ms": 1.1946977963867185,
+      "competitor_service_ns_per_execution": 1200000
+    },
+    {
+      "workload": "teleport",
+      "scenario": "delay_shift",
+      "arm": "learned",
+      "offered": 2048,
+      "wrong_outputs": 169,
+      "unfinished": 0,
+      "wrong_output_fraction": 0.08251953125,
+      "wrong_or_unfinished_fraction": 0.08251953125,
+      "mean_completed_storage_ms": 1.3670493256835936,
+      "competitor_service_ns_per_execution": 1200000
+    }
+  ],
+  "both_workloads_meet_prespecified_criterion": false,
+  "calibration_costs": {
+    "plus|0": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|1": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|10": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|11": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|12": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|13": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|14": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|15": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|16": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|17": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|18": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|19": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|2": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|20": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|21": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|22": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|23": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|24": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|25": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|26": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|27": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|28": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|29": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|3": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|30": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|31": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|4": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|5": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|6": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|7": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|8": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "plus|9": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5637120000,
+      "alice_cpu_service_ns": 92160000,
+      "completed_epr_pairs": 0
+    },
+    "teleport|0": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|1": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|10": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|11": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|12": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|13": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|14": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|15": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|16": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|17": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|18": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|19": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|2": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|20": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|21": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|22": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|23": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|24": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|25": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|26": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|27": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|28": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|29": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|3": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|30": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|31": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|4": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|5": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|6": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|7": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|8": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    },
+    "teleport|9": {
+      "own_application_executions": 4608,
+      "competing_cpu_service_ns": 5222400000,
+      "bob_cpu_service_ns": 5683200000,
+      "alice_cpu_service_ns": 506880000,
+      "completed_epr_pairs": 4608
+    }
+  },
+  "selected_phases": {
+    "plus|0": 2750000,
+    "plus|1": 2000000,
+    "plus|2": 1750000,
+    "plus|3": 1500000,
+    "plus|4": 1500000,
+    "plus|5": 1250000,
+    "plus|6": 1250000,
+    "plus|7": 500000,
+    "plus|8": 2500000,
+    "plus|9": 500000,
+    "plus|10": 1250000,
+    "plus|11": 1000000,
+    "plus|12": 1750000,
+    "plus|13": 750000,
+    "plus|14": 1750000,
+    "plus|15": 2000000,
+    "plus|16": 2250000,
+    "plus|17": 2250000,
+    "plus|18": 1250000,
+    "plus|19": 1250000,
+    "plus|20": 1000000,
+    "plus|21": 500000,
+    "plus|22": 1500000,
+    "plus|23": 2000000,
+    "plus|24": 3750000,
+    "plus|25": 2000000,
+    "plus|26": 2250000,
+    "plus|27": 1750000,
+    "plus|28": 250000,
+    "plus|29": 2000000,
+    "plus|30": 3000000,
+    "plus|31": 1500000,
+    "teleport|0": 500000,
+    "teleport|1": 250000,
+    "teleport|2": 250000,
+    "teleport|3": 750000,
+    "teleport|4": 750000,
+    "teleport|5": 500000,
+    "teleport|6": 500000,
+    "teleport|7": 750000,
+    "teleport|8": 750000,
+    "teleport|9": 1000000,
+    "teleport|10": 1000000,
+    "teleport|11": 1000000,
+    "teleport|12": 500000,
+    "teleport|13": 500000,
+    "teleport|14": 1250000,
+    "teleport|15": 750000,
+    "teleport|16": 750000,
+    "teleport|17": 1000000,
+    "teleport|18": 500000,
+    "teleport|19": 1000000,
+    "teleport|20": 750000,
+    "teleport|21": 250000,
+    "teleport|22": 750000,
+    "teleport|23": 750000,
+    "teleport|24": 500000,
+    "teleport|25": 750000,
+    "teleport|26": 750000,
+    "teleport|27": 500000,
+    "teleport|28": 1000000,
+    "teleport|29": 750000,
+    "teleport|30": 750000,
+    "teleport|31": 500000
+  },
+  "inference": "Campaigns, not individual shots, are independent units. Bootstrap mean intervals are approximate; sign tests address direction, a different estimand. All primary and secondary cells retained.",
+  "scope": "Conditional on supplied coarse execution epoch, workload-class knowledge, calibration-job access and co-location. No deployed timing API or hardware attack is demonstrated."
+}

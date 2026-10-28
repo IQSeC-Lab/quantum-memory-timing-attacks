@@ -1,0 +1,151 @@
+{
+  "status": "PASS_OFFLINE_REPRODUCTION",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "stages": [
+    {
+      "task": "diagnostics",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/verify_diagnostics.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 15.12678278500016,
+      "returncode": 0
+    },
+    {
+      "task": "engineering",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/check_engineering.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 2.5826794159997917,
+      "returncode": 0
+    },
+    {
+      "task": "figures",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "paper/build_figures.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.25982638000004954,
+      "returncode": 0
+    },
+    {
+      "task": "historical",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/verify_historical.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 15.425086485000065,
+      "returncode": 0
+    },
+    {
+      "task": "receipts",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/reproduce.py",
+        "receipts"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 0.2577938700001141,
+      "returncode": 0
+    },
+    {
+      "task": "timing",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/verify_main.py"
+      ],
+      "status": "PASS",
+      "elapsed_seconds": 44.25121118800007,
+      "returncode": 0
+    }
+  ],
+  "engineering_tests": 39,
+  "simultaneous_intervals_recomputed": 632,
+  "native_simulations_executed_during_curation": 0,
+  "raw_server_files_replayed_during_curation": 0,
+  "retained_completed_replay": {
+    "jobs": 11008,
+    "records": 1487360
+  },
+  "qualifications": [
+    "Native NetSquid/Qoala stack unavailable in drafting environment.",
+    "Recovered raw auditor source differs from completed server receipt identity; see RELEASE_STATUS.md."
+  ],
+  "extracted_release_verification": {
+    "status": "PASS",
+    "stages": [
+      {
+        "task": "diagnostics",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "scripts/verify_diagnostics.py"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 15.735514723000051,
+        "returncode": 0
+      },
+      {
+        "task": "engineering",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "scripts/check_engineering.py"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 2.7009537899998577,
+        "returncode": 0
+      },
+      {
+        "task": "figures",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "paper/build_figures.py"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 0.26699784900029044,
+        "returncode": 0
+      },
+      {
+        "task": "historical",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "scripts/verify_historical.py"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 17.302580642000066,
+        "returncode": 0
+      },
+      {
+        "task": "receipts",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "scripts/reproduce.py",
+          "receipts"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 0.3213962720001291,
+        "returncode": 0
+      },
+      {
+        "task": "timing",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "scripts/verify_main.py"
+        ],
+        "status": "PASS",
+        "elapsed_seconds": 36.524456095999994,
+        "returncode": 0
+      }
+    ],
+    "scope": "Extracted code ZIP in a different directory, same Python environment, companion archives mounted through a local symlink. Not a clean native environment test."
+  },
+  "scope": "Prior full compact-record checks, distinct from the reduced statistical dataset."
+}

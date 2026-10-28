@@ -1,0 +1,213 @@
+{
+  "start_here": "notebooks/00_Start_Here.ipynb",
+  "studies": [
+    {
+      "notebook": "notebooks/01_RQ1_Campaign_Timing.ipynb",
+      "title": "RQ1 \u2014 Original campaign timing",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "q12"
+      ],
+      "native_source": "experiments/historical/q12/source/q12.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/02_RQ1_Calibration_Cost.ipynb",
+      "title": "RQ1 \u2014 Calibration cost and simpler policies",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "e1"
+      ],
+      "native_source": "experiments/historical/calibration_cost/source/p1_e1_resume.py",
+      "default_native_execution": false,
+      "native_prerequisites": [
+        "q12_run"
+      ]
+    },
+    {
+      "notebook": "notebooks/03_RQ1_Timing_Grid.ipynb",
+      "title": "RQ1 \u2014 Fresh timing grid at equal competing work",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "timing"
+      ],
+      "native_source": "execution/main_recovery/recover_native.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/04_RQ2_Memory_Transfer.ipynb",
+      "title": "RQ2 \u2014 Frozen-policy transfer across memory models",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "q14"
+      ],
+      "native_source": "experiments/historical/q14/source/q14.py",
+      "default_native_execution": false,
+      "native_prerequisites": [
+        "q12_run",
+        "q13_run",
+        "q12_audit",
+        "q13_audit"
+      ]
+    },
+    {
+      "notebook": "notebooks/05_RQ3_Preparation_and_Storage.ipynb",
+      "title": "RQ3 \u2014 Preparation placement and recorded storage",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "application"
+      ],
+      "native_source": "execution/main_recovery/recover_native.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/06_RQ4_Quality_and_Deadlines.ipynb",
+      "title": "RQ4 \u2014 Scheduling protection, quality, and deadlines",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "application"
+      ],
+      "native_source": "execution/main_recovery/recover_native.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/07_Noise_Controls.ipynb",
+      "title": "Noise controls \u2014 Ideal, memory-only, gate-only, and combined",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "diagnostics"
+      ],
+      "native_source": "execution/diagnostic_recovery/recover_additional.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/08_Sensitivity.ipynb",
+      "title": "Sensitivity \u2014 Fifteen one-factor configurations",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "diagnostics"
+      ],
+      "native_source": "execution/diagnostic_recovery/recover_additional.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/09_Public_Clock.ipynb",
+      "title": "Public-clock interference \u2014 Weaker timing access",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "q16"
+      ],
+      "native_source": "experiments/historical/q16/source/q16_fresh.py",
+      "default_native_execution": false,
+      "native_prerequisites": [
+        "calibration_dir"
+      ]
+    },
+    {
+      "notebook": "notebooks/10_Earlier_Application.ipynb",
+      "title": "Earlier application factorial study",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "application_earlier"
+      ],
+      "native_source": "experiments/historical/application_earlier/source/app_cli.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/11_Predecessor_Memory_Models.ipynb",
+      "title": "Predecessor Q13 \u2014 Memory-model prerequisite",
+      "origin": "curated front end",
+      "analysis_command": null,
+      "native_source": "experiments/historical/q13/source/q13.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/12_Public_Clock_Calibration.ipynb",
+      "title": "Public-clock calibration \u2014 Retained predecessor",
+      "origin": "curated front end",
+      "analysis_command": null,
+      "native_source": "experiments/historical/q16_calibration/source/q16_calibration.py",
+      "default_native_execution": false,
+      "native_prerequisites": []
+    },
+    {
+      "notebook": "notebooks/13_Raw_Replay.ipynb",
+      "title": "Completed raw replay \u2014 Receipts and exact-source qualification",
+      "origin": "curated front end",
+      "analysis_command": [
+        "scripts/reproduce.py",
+        "receipts"
+      ],
+      "native_source": "audit/raw_replay/audit_raw.py",
+      "default_native_execution": false,
+      "native_prerequisites": [
+        "main_root",
+        "additional_root"
+      ]
+    }
+  ],
+  "recovered_originals": [
+    {
+      "path": "notebooks/originals/P1_Additional_Studies.ipynb",
+      "sha256": "1831f4f15f201ca76c76564fae36a3a762f4f15d5a93e077f5b6695494a46071"
+    },
+    {
+      "path": "notebooks/originals/P1_E1_Calibration_Cost_Server.ipynb",
+      "sha256": "b9428a6e33c9de934c0b0b4ac4fdd562d7e7350fafeb82eb3edd549bc7ebba57"
+    },
+    {
+      "path": "notebooks/originals/P1_E1_Safe_Resume_After_Pilot.ipynb",
+      "sha256": "9104f449cc19f014bc8ba15c069135c6bb6fd5d56ec7a5e7d978f591ae926f99"
+    },
+    {
+      "path": "notebooks/originals/P1_Full_Raw_Replay.ipynb",
+      "sha256": "32205e090c09a3a173adac5967711e0db118ff86f3c05492b72329ffe5e96dda"
+    },
+    {
+      "path": "notebooks/originals/P1_Independent_Application_Validation_Fixed.ipynb",
+      "sha256": "fccea8fdeb6ad41bf89ed0a697afad8708859c608c2478e47cdaa329cc676c45"
+    },
+    {
+      "path": "notebooks/originals/P1_Qoala_Q12_Server.ipynb",
+      "sha256": "785ddbddd6c6619e49317c26622b714fbc0f6de0b670838473c1f08d989cf30b"
+    },
+    {
+      "path": "notebooks/originals/P1_Qoala_Q13_Server.ipynb",
+      "sha256": "d754be5ebd688eab0b8bd2f7092881bd7875460c425a8f0d25b967dd5020d19d"
+    },
+    {
+      "path": "notebooks/originals/P1_Qoala_Q14_Frozen_Transfer_Server.ipynb",
+      "sha256": "ecffb845c52e347315f5dad7d68e5b8923a0d1187cfdc61275f0c7fbc9a6e83d"
+    },
+    {
+      "path": "notebooks/originals/P1_Qoala_Q14_Raw_Audit_Server.ipynb",
+      "sha256": "e4d4bd0963ed64f21ad2042f8df19f063e2341ab8ea1908b8994deacf27abcc6"
+    },
+    {
+      "path": "notebooks/originals/P1_Resume_Additional_Diagnostics.ipynb",
+      "sha256": "2efce77bb2496ad94e1b381973f1a91f2daf7235819239c291eeae0d78669700"
+    },
+    {
+      "path": "notebooks/originals/P1_Resume_After_MemoryError.ipynb",
+      "sha256": "13a752add1100b1a8959697b3b3f14ba93b49dff9fbe62b2c2111d6d56c4662b"
+    }
+  ]
+}

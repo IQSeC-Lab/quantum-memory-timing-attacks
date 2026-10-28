@@ -1,0 +1,51 @@
+{
+  "checks": {
+    "numpy": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/__init__.py",
+      "version": "2.3.5"
+    }
+  },
+  "errors": [
+    "netsquid: No module named 'netsquid'",
+    "pydynaa: No module named 'pydynaa'",
+    "qoala: No module named 'qoala'",
+    "netqasm: No module named 'netqasm'"
+  ],
+  "native_execution_performed": false,
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "source_hashes": {
+    "evidence/q12_frozen_selections.json": "1bab7613ebe132bc4704b41d25b8c118fa2830e9225705f1da33a0de1a363257",
+    "source/analyze_saved.py": "1967cd0d70ff762920a373923e9ef11dee63285c4cb599dfb6c8e5e518ffba8a",
+    "source/application_parent/UPSTREAM_QOALA_LICENSE.txt": "edc855f9ea82c1b4ed84a38bd62241fa150bbe401f396b9b82223318723aaa41",
+    "source/application_parent/app_analysis.py": "1a6fb49e30a9c86d133b871856569713bf92baf694fb629ca7d2a0dc18686ec4",
+    "source/application_parent/app_audit.py": "235a7dcfda7bfd21f5c5417e6371188a4f4753611b01f161a99a4b34af6f37e6",
+    "source/application_parent/app_cli.py": "dd5d721afbdefe99035ab07073691e2c961c9b6be6a05335153137b3fa848580",
+    "source/application_parent/app_design.py": "5cd1fa76ca063cb505a06293d09453752d690c5617011efc8829dc4be4eac4d6",
+    "source/application_parent/app_environment.py": "78e35213dfc97b382ce53414aac6217688f63200b56d4ad8e640793af2992114",
+    "source/application_parent/app_io.py": "5e8da10bc620e24092756f95d83de6598f0c0aca6900dbbbbd7fccb995a608d6",
+    "source/application_parent/app_native.py": "330a2a74a3364fde58e5349fa8cb05c73a534fce6576f5b5de39352879cd1127",
+    "source/application_parent/app_policy.py": "7437174c73a8d98b1fbbd2395bc654180165b438e695667e65f8a676dec0f60a",
+    "source/application_parent/app_scheduler_audit.py": "61f9f4aeff2a0ec31b31b26eb4783da36b0df0e799e9fe4182e2ebd61f700cf0",
+    "source/application_parent/app_synthetic_tests.py": "b32b5b332d5e7408cdc6509201bef64dc88c56bcdd090c1a8749cacc460fdfdb",
+    "source/application_parent/app_tests.py": "1d8e10c49b1d552c31bc166e39da7e1e9dc73facf259caf7b1347c861b6a6a88",
+    "source/application_parent/legacy_scheduler_fixture.json": "4be64b04e90f1888633377ce799eae5e265291764a208d68013503f794580a23",
+    "source/application_parent/lineage.json": "631dbdc88aa9361c6ac09a55fd78acab2bbfb921d23f9a15a4e6799fbb64301c",
+    "source/application_parent/parser_signatures.json": "4c60b088f78889e00479071025d24d3d68aedddf2fa16ccc4de55ed83c25f463",
+    "source/application_parent/pinned_backend.json": "9e14c76d9695df7aedc6943b0d743b17b654a9950ee060ba4892a479a53dc6ea",
+    "source/closure_audit.py": "5108412593dbe876a3b5b94b310e3006ad1a1e1649822aac04a969f132b97284",
+    "source/closure_design.py": "617f043e22b736b474fe08e127e56212a8ea0d3d70930693543982e9b3a8da72",
+    "source/closure_native.py": "8bc9dbe71266730cf192d245d6f9378d624b5c7c29e44a7ff17eab36d6a0560b",
+    "source/closure_runner.py": "2156c03ac7d8666d24a228a0f82cd0587acec2afc42a782af52bef0ee46b2b8c",
+    "source/closure_stats.py": "f95f6d60a0fb288b7bc88e6c6e5d6cec0b564829277682d73997c27c61ef2638",
+    "source/offline_tests.py": "b0aab1db3ba307af1211f96c9b8c20773e9d17f92f853112e187b73f2c182a69",
+    "source/primary_parent/p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "source/primary_parent/parent_sources.json": "ecc916fb756046f3c1073d326c87c6cd9773b7ec7273a88d9b311edb7daff90c",
+    "source/primary_parent/q12_design.py": "6077584210f3aabfb772a9f26315e37917196502589739e6be692d51598585ff",
+    "source/primary_parent/q12_engine.py": "86aecd38969847369a35be52a1f60b34fca868afdee84289be70c135fd3ecd4e",
+    "source/primary_parent/q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "source/primary_parent/time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "source/public_policy.py": "4fd7a3be36eb98755b9af323e607099399622c7709a5022fe92d7aeaf1e00620",
+    "source/replay_q16.py": "9e5a00e6f470685c9d301d6fb253c578e9b1ef8eeac0c41c636f7e9cb9c08f33"
+  },
+  "status": "BLOCKED"
+}

@@ -1,0 +1,21 @@
+% Column-width, editable TikZ. Panel captions are below plots.
+\begin{tikzpicture}[font=\scriptsize]
+\draw[red!65!black] (1.2,2.8)--(1.5499999999999998,2.8);\node[anchor=west] at (1.63,2.8) {Selected};
+\draw[black] (3.5,2.8)--(3.85,2.8);\node[anchor=west] at (3.93,2.8) {Random};
+\draw[blue!55!black] (5.8,2.8)--(6.1499999999999995,2.8);\node[anchor=west] at (6.2299999999999995,2.8) {Even};
+\begin{axis}[at={(0.9cm,0.7cm)},anchor=south west,width=3.2cm,height=1.6cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=-.3,xmax=1.3,xtick={0,1},xticklabels={Renewal,Jitter},ymajorgrids,ymin=98.7,ymax=99.75,ytick={99,99.5},ylabel={Timely (\%)}]
+\addplot[black!45,dashed] coordinates {(-.3,99) (1.3,99)};
+\addplot[color=red!65!black,mark=*,mark size=1.4pt] table[x=x,y=value]{figures/data/clock_selected.dat};
+\addplot[color=black,mark=square*,mark size=1.4pt] table[x=x,y=value]{figures/data/clock_random.dat};
+\addplot[color=blue!55!black,mark=triangle*,mark size=1.4pt] table[x=x,y=value]{figures/data/clock_even.dat};
+
+\end{axis}
+\node[] at (2.5,-0.02) {(a) Timely completion};
+\begin{axis}[at={(5.0cm,0.7cm)},anchor=south west,width=3.2cm,height=1.6cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=-.3,xmax=1.3,xtick={0,1},xticklabels={Renewal,Jitter},ymajorgrids,ymin=0,ymax=.85,ytick={0,.5},ylabel={Loss (pp)}]
+\addplot[black!45,dashed] coordinates {(-.3,.5) (1.3,.5)};
+\addplot[color=black,mark=square*,mark size=1.4pt] table[x=x,y=value]{figures/data/clock_loss_random.dat};
+\addplot[color=blue!55!black,mark=triangle*,mark size=1.4pt] table[x=x,y=value]{figures/data/clock_loss_even.dat};
+
+\end{axis}
+\node[] at (6.6,-0.02) {(b) Loss against controls};
+\end{tikzpicture}

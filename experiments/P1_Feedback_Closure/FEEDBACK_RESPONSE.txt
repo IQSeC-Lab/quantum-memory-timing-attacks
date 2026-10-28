@@ -1,0 +1,61 @@
+FEEDBACK RESPONSE -- 24 OCTOBER 2026
+
+Feedback 1: Shared placement, admission, and target timing are assumed.
+
+Completed: recovered the completed public-clock Q16 planning run; freshly
+replayed all 192 raw streams with exact reconstruction; added its model,
+all six outcome rows, prospective service objective, and observed failure
+to meet that objective to the paper. Distinguished this information
+contract from the supplied coarse request epoch in the primary result.
+
+Prepared: a strict public-only planner and additive native submission
+adapter. Its information contract can be exercised independently of
+private target inputs, with evaluator audits kept separate.
+
+Remaining: native validation of the new adapter and a concrete deployed
+admission/sharing/clock interface. Simulator code does not establish those
+permissions. Q16 provides planning evidence, not a confirmatory attack.
+
+Feedback 2: No inexpensive strong fixed-phase baseline for learned timing.
+
+Completed: narrowed abstract, contributions, RQ1 and discussion so none
+claims that learning outperforms the best fixed phase. Retained idle,
+random, even and historical fixed-phase evidence with their real scope.
+
+Prepared: paired native comparisons against every one of the 16 fixed
+phases under the same public timing contract, completed-work checks,
+fresh inputs and simultaneous fixed-N inference. Frozen historical
+policies are reused without retraining; inference is conditional on
+that finite ensemble. The best-grid envelope is explicitly an oracle
+diagnostic, not a selector trained on target outcomes.
+
+Remaining: native smoke gate, full execution and audit. There is no new
+baseline result yet. If a cheap fixed rule matches or exceeds learned
+timing, the learning claim must narrow; the basic timing mechanism may
+still be supported by its existing comparisons.
+
+Feedback 3: Application effects and defense rankings lack confirmation.
+
+Completed: every existing application estimate/ranking remains labeled
+descriptive or exploratory; zero measured differences are not generalized
+to universal protection. All-offered service and late/error overlap are
+retained. Q16 negative service evidence is reported without post-hoc
+significance tests or changes to its objectives.
+
+Prepared: fixed fresh-stream replication, six named primary contrasts,
+variance-only precision plan, family-controlled empirical Bernstein
+intervals, preserved failures and hash-bound checkpoints. N=8,192 targets
+a 2-point half-width under a fourfold variance envelope; no power or
+positive-result guarantee is made.
+
+Remaining: native execution and subsequent independent raw audit. The
+new protocol is a concrete experiment package, not validated evidence.
+
+CURRENT TAKEAWAY
+
+The controlled teleportation attack remains supported under its supplied
+coarse epoch and declared noise/runtime scales. Source-default and
+optimized application executions limit generality. Public-clock planning
+does not meet its observed service objective. The feedback is addressed
+in the manuscript and follow-up design, but the two new empirical gaps
+remain open until the prepared native studies are executed and audited.

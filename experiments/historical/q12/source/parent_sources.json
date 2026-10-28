@@ -1,0 +1,9 @@
+{
+  "origin": "Q11-v3/Q9S recorded-data audit bundle; validated adapter reused unchanged",
+  "audit_bundle_sha256": "328ccec206c431f6d98470473fe007f0d9892d3a7d0335c6421b7de34ba13d91",
+  "sha256": {
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02"
+  }
+}

@@ -1,0 +1,3850 @@
+{
+  "deadline_ns": 5000000,
+  "failures": [],
+  "interpretation": "Research deadline under the inherited bridge model; not an operational SLA.",
+  "maximum_per_stream_p99_ns": 4113307,
+  "per_stream": [
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3816756,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3127522,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3356695,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3716344,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3225517,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3552805,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4076415,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3485916,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3008944,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3364026,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3425565,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4009975,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3140230,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3253458,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2995181,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2774916,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3534050,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2920557,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2792694,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2925172,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3163756,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3254500,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3156370,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2965433,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3560138,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3467044,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3288675,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3096275,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2959446,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3320410,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2954458,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3363900,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2867512,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3447059,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3301108,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2998409,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3761750,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3019062,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3036839,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3404678,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3143692,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3625805,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3634118,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3006657,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3372583,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2920263,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3623675,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3128538,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2822000,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3679200,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3232610,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3738654,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3168689,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2967739,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3460439,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3403000,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4035263,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2876023,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3199708,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3416587,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3209131,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3365050,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3129331,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4113307,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_FCFS",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3209949,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3071626,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3161182,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3302435,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3212098,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3237349,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3516017,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3243888,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2999944,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3228758,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3125565,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3261694,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3025339,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3067506,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2591210,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2765467,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3234050,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2850043,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2539137,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2824705,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3123013,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3145719,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2785206,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2764772,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3047092,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3167044,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3245579,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3005446,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2848317,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3054491,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2954458,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3129000,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2858512,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3032250,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3227941,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2860422,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3155750,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2939289,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2985097,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3050577,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3143692,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3274989,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3322118,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2898216,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3069583,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2847922,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3107168,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3108977,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2565785,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3332237,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3030856,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3157039,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2947913,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2958739,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3048826,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3180680,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3220543,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2864023,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3116991,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2976413,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2869124,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3227191,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3068163,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3210307,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_RR",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3806584,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3118522,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3352897,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3716344,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3222517,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3552805,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4076415,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3482916,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3008944,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3228758,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3182096,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3373238,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3059934,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3250458,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2940180,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2765467,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3308446,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2920557,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2792694,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2916172,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3160756,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3245500,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3156370,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2965433,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3551138,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3467044,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3288675,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3093275,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2956446,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3320410,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2954458,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3205089,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "renewal",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2858512,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 0,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3444059,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 1,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3298108,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 2,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2998409,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 3,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3761750,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 4,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3007062,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 5,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3033839,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 6,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3392678,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 7,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3143692,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 8,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3341437,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 9,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3622118,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 10,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3006657,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 11,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3071028,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 12,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2920263,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 13,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3620675,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 14,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3116538,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 15,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2822000,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 16,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3676200,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 17,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3131633,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 18,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3735654,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 19,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3168689,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 20,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2958739,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 21,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3460439,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 22,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3400000,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 23,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 4035263,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 24,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 2866806,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 25,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3196708,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 26,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3416587,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 27,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3197131,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 28,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3353050,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 29,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3129331,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 30,
+        "template": null,
+        "workload": "teleport"
+      }
+    },
+    {
+      "completed_measured": 256,
+      "offered_measured": 256,
+      "quantile": {
+        "n": 256,
+        "p99_ns": 3810307,
+        "rank": 254
+      },
+      "spec": {
+        "application_owner": "benign_calibration",
+        "arm": "none",
+        "arrival": "periodic_jitter",
+        "profile": "final_si",
+        "scheduler": "QUOTA_PROTECTED",
+        "stage": "benign",
+        "stream": 31,
+        "template": null,
+        "workload": "teleport"
+      }
+    }
+  ],
+  "rule": "Nearest rank ceil(.99*n);1.2*maximum across192streams;round upward100000ns.",
+  "status": "FROZEN"
+}

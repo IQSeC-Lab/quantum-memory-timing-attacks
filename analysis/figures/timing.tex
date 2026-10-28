@@ -1,0 +1,18 @@
+% Column-width, editable TikZ. Panel captions are below plots.
+\begin{tikzpicture}[font=\scriptsize]
+\begin{axis}[at={(2.0cm,3.75cm)},anchor=south west,width=6.25cm,height=1.35cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=-.4,xmax=3.7,ymin=-.5,ymax=3.5,y dir=reverse,ytick={0,1,2,3},yticklabels={Plus/random,Plus/even,Teleport/random,Teleport/even},xtick={0,1,2,3},xlabel={Error difference (pp)},xmajorgrids]
+\draw[dashed,black!45] (axis cs:0,-0.5)--(axis cs:0,3.5);
+\addplot[only marks,mark=*,mark size=1.3pt,color=blue!55!black,error bars/.cd,x dir=both,x explicit] table[x=mean,y=y,x error minus=minus,x error plus=plus]{figures/data/timing_contrasts.dat};
+\end{axis}
+\node[] at (4.5,2.65) {(a) Learned minus equal-work controls};
+\begin{axis}[at={(0.8cm,0.8cm)},anchor=south west,width=3.25cm,height=1.5cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=0,xmax=3.75,ymin=7.5,ymax=12,xtick={0,1,2,3},xlabel={Phase (ms)},ylabel={Error (\%)},ymajorgrids]
+\addplot[black,mark=*,mark size=.8pt] table[x=phase,y=error]{figures/data/grid_teleport.dat};
+\addplot[red!65!black,dashed] coordinates {(0,10.63232421875) (3.75,10.63232421875)};
+\end{axis}
+\node[] at (2.4,-0.43) {(b) Teleportation};
+\begin{axis}[at={(4.95cm,0.8cm)},anchor=south west,width=3.25cm,height=1.5cm,scale only axis,axis lines=left,tick align=outside,/tikz/font=\scriptsize,tick label style={font=\scriptsize},label style={font=\scriptsize},grid style={black!12},scaled ticks=false,xmin=0,xmax=3.75,ymin=19,ymax=24,xtick={0,1,2,3},xlabel={Phase (ms)},ylabel={Error (\%)},ymajorgrids]
+\addplot[black,mark=*,mark size=.8pt] table[x=phase,y=error]{figures/data/grid_plus.dat};
+\addplot[red!65!black,dashed] coordinates {(0,21.502685546875) (3.75,21.502685546875)};
+\end{axis}
+\node[] at (6.550000000000001,-0.43) {(c) Stored plus state};
+\end{tikzpicture}

@@ -1,0 +1,14 @@
+{
+  "q13_source_hashes": {
+    "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+    "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+    "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+    "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e"
+  },
+  "raw_checker_sha256": "c4776aa0aa9655308a19522588e67f674a43151f758a5130c4eaea03039e3baa",
+  "provenance": "Runtime adapter derives from completed Q13. Source-derived memory parameters and existing Case class unchanged. New learned-policy inputs, seed roots, validation, prerequisites and analysis are explicit in Q14."
+}

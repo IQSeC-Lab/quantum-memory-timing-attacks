@@ -1,0 +1,19 @@
+{
+  "trials": 1944,
+  "noise_free_controls": 1176,
+  "teleportation_branches_per_arm": {
+    "no_competitor": 24,
+    "random_phase": 24,
+    "learned": 24
+  },
+  "learned_policies_exercised": 64,
+  "status": "Correctness gate passed, including independent raw checks. No attack-effect gate.",
+  "resources": {
+    "trials": 1944,
+    "batches": 16,
+    "worker_cpu_seconds": 121.21614060500002,
+    "worker_wall_seconds": 144.94358293525875,
+    "peak_worker_rss_mib": 256.78125,
+    "manifest_sha256": "284a88bbb74d018a98edfdfca30152fda3c40b191cd251b2974eb41a23817f2e"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "retained_q15_source_sha256": {
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "q15_case.py": "36586d1584f7516dc2b25f0b20cca3ca267968e668763fc4b2ab8d715d32f082",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e"
+  },
+  "q15_bundle_sha256": "89975dc9cb6b6836ac9fe81603a72665ada78cd8d388a787f04f3c4cfe6e54c4",
+  "q15_run": "q15-20261013T193537720307Z",
+  "reuse": "Inherited workload and observation code. Q16 adds a new budget adapter and stream checker; Q15 policy selection and effect estimates are not reused."
+}

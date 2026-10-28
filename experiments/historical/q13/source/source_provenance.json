@@ -1,0 +1,32 @@
+{
+  "unchanged_parent_sources": {
+    "p1_engine.py": {
+      "source": "p1_q12/src/p1_engine.py",
+      "sha256": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79"
+    },
+    "q6_reference.py": {
+      "source": "p1_q12/src/q6_reference.py",
+      "sha256": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d"
+    },
+    "time_checks.py": {
+      "source": "p1_q12/src/time_checks.py",
+      "sha256": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02"
+    },
+    "physics_reference.py": {
+      "source": "p1_hardware_followup/reproduction/physics_reference.py",
+      "sha256": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167"
+    }
+  },
+  "pinned_qoala_api_files": {
+    "qdevice.py": "f6f31135aa5bdacb26e1f9aaf6f989668e92e3cacc379d9389b2539947a796a6",
+    "procnode.py": "6cdc3b82295ee6564fd43e63f340f3c7f7be535a4b4a2e065b5c8abd04b81e26",
+    "memmgr.py": "3fd206d9355271092cbfe8bc91a0cc4d210d70c97623dc670a49eb2ccbae2c04",
+    "qnosprocessor.py": "7b6166ca11ac72c1ccd4bc76f9e22d128253e3c0b84405b65c1e5076a0759d6d"
+  },
+  "pinned_qoala_url": "https://github.com/QuTech-Delft/qoala-sim/tree/31fa2c9699578d227736557f35cd01a134c4bbde",
+  "sources": [
+    "https://doi.org/10.1038/s41586-025-08704-w",
+    "https://doi.org/10.4121/6aa42f05-6823-4848-b235-3ea19e39f4ae.v2"
+  ],
+  "q12_result_files_consumed": []
+}

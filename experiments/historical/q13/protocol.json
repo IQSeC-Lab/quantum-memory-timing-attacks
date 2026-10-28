@@ -1,0 +1,72 @@
+{
+  "version": "q13-memory-robustness-1",
+  "code_hashes": {
+    "q13.py": "b6f722ac535198648049dbba40672365b9dc6151f3e9163812efacd6dc181223",
+    "q13_design.py": "d7f3b2e9478d96d7a8b896b14149e53c2fdb468aefac86df2840bb93635873b6",
+    "q13_engine.py": "e113bc55f8cea1d2cfbe5910575703f927442b9de286c8660428ac5c707a2d1f",
+    "q13_baseline.py": "0c9bb789e6f624a777f6db0932aea2fc97d2c206f32960f9a9d944b050575c16",
+    "q13_analysis.py": "8584d9397ac6cc9f513e23c23f1fb800fd1bd789526e26b949d3d4d4f05e2a8e",
+    "q13_tests.py": "ca8babeb255752fb2a0a88fe7c2f5ef02754e6bc0c9c5ea5604862c9fc81d222",
+    "p1_engine.py": "c315948175dcd5b8fad283b19646a211c274227fb626067c39c0e8b8cd097f79",
+    "q6_reference.py": "c5ed223be5f7ac83895a410400cd7676a12231ede41fcc64337eeaa6be33d57d",
+    "time_checks.py": "e7ad04c0635832ad87a9a4c54b8ec4ad1abd09e2455c5960942d2548744cfb02",
+    "physics_reference.py": "f316e4b1723e13c1d380dc7363b762d962889c01b64fe4b555d84c46e6a96167",
+    "hardware_models.json": "703973f61c1b641139ed6116e472ab950da0337e8e77d5ab50abcd7e7dc2bf7e",
+    "source_provenance.json": "a077be06b6f07cacf25f670eec55ea3c667c538a419d87d234ca8e9a28f0cd70"
+  },
+  "repo_pin": "31fa2c9699578d227736557f35cd01a134c4bbde",
+  "counts": {
+    "baseline": 336,
+    "pilot": 1320,
+    "evaluation": 73728
+  },
+  "profiles": {
+    "final_si": {
+      "t_ms": 13.0,
+      "exponent": 1.67
+    },
+    "deposited_code": {
+      "t_ms": 13.2,
+      "exponent": 1.63
+    }
+  },
+  "workloads": [
+    "plus",
+    "teleport"
+  ],
+  "scenarios": {
+    "coarse_500us": 500000,
+    "exact_epoch": 0,
+    "coarse_1000us": 1000000
+  },
+  "replications": 32,
+  "trials_per_arm_per_replication": 64,
+  "fixed_phases_ns": {
+    "plus": 1250000,
+    "teleport": 500000
+  },
+  "phase_provenance": "Existing Q12 integration-pilot constants, frozen independently of any Q12 evaluation. They are not claimed optimal or learned in this study.",
+  "competitor_jobs": 4,
+  "instructions_per_job": 30,
+  "competitor_cpu_service_ns": 1200000,
+  "roots": {
+    "baseline": 131301,
+    "pilot": 131302,
+    "evaluation": 131303
+  },
+  "bootstrap_root": 131304,
+  "baseline": "336 parameter/circuit/age/partition cases, each requiring both client measurement branches, at most 64 seeded attempts per case. Branch search validates mathematics; it is not experimental data.",
+  "primary": "Fixed minus equal-work random expected infidelity, at first verification gate, at +/-0.5 ms request uncertainty. Four contrasts: two workloads x two physical profiles.",
+  "primary_family": 4,
+  "inference": "32 independent Monte Carlo replication means, 20,000 paired bootstrap resamples; Bonferroni four-comparison intervals with approximate coverage. Exact sign tests describe direction separately. Uncertainty is Monte Carlo variability conditional on the fixed model, not physical-parameter uncertainty.",
+  "reporting_reference_pp": 0.5,
+  "reporting_reference_note": "0.5 percentage points is a disclosed reporting reference only; it does not establish practical significance by itself.",
+  "secondary": "Exact epoch and +/-1 ms are exploratory pointwise contrasts. Sampled verification error, unfinished fraction, latency, and no-competitor arms are all retained.",
+  "noise_implementation": "Native memory noise disabled. Full-age isotropic depolarization is applied once immediately before verification, then the actual NetSquid measurement samples its output. Equivalent to distributed storage noise only for these ideal local gates, remote measurements, and nonadaptive Bob corrections; the pilot checks state and channel equality.",
+  "timing_layers": "The coherence envelope is source-derived. Qoala host instruction 10 us, QNOS instruction 1 us, ideal gates/EPR, 1 us EPR link, and 0.5\u20131.5 ms one-way messages remain P1 modelling assumptions. The source QNPU 10 us tick is not a host-instruction measurement. Storage endpoints differ from the source trace endpoint and are labelled.",
+  "capabilities": "Assumed co-location, normal competing CPU jobs, known workload class and a supplied coarse request epoch. Release policy receives no victim outcome, actual preparation time, quantum state, or trace.",
+  "limitations": "No deployment, admission-policy proof, learned attack, calibrated full QNodeOS model, finite-temperature relaxation, gate/readout noise, sustained traffic, or imperfect-EPR transfer in the Qoala experiment. Baseline alone uses the source EPR matrices.",
+  "incomplete": "Never drop unfinished executions. Report per-offered loss bounds; suppress fidelity-effect inference if either compared arm has any missing fidelity or unfinished output.",
+  "stopping": "Fixed samples and phases. Baseline and pilot are correctness gates, never positive-effect gates. No Q12 output is read; no evaluation-guided retuning or sample extension.",
+  "no_latency_filter": true
+}

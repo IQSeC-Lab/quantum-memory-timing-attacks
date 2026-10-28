@@ -1,0 +1,16 @@
+test_all_offered_partition (__main__.EngineeringChecks.test_all_offered_partition) ... ok
+test_application_missingness_and_offered_denominator (__main__.EngineeringChecks.test_application_missingness_and_offered_denominator) ... ok
+test_application_offer_noninterference (__main__.EngineeringChecks.test_application_offer_noninterference) ... ok
+test_checkpoint_integrity (__main__.EngineeringChecks.test_checkpoint_integrity) ... ok
+test_fixed_grid (__main__.EngineeringChecks.test_fixed_grid) ... ok
+test_interval_formula (__main__.EngineeringChecks.test_interval_formula) ... ok
+test_native_scalar_serialization (__main__.EngineeringChecks.test_native_scalar_serialization) ... ok
+test_private_pairing_and_fresh_namespace (__main__.EngineeringChecks.test_private_pairing_and_fresh_namespace) ... ok
+test_protocol_roundtrip_and_counts (__main__.EngineeringChecks.test_protocol_roundtrip_and_counts) ... ok
+test_public_schema (__main__.EngineeringChecks.test_public_schema) ... ok
+test_standalone_planner (__main__.EngineeringChecks.test_standalone_planner) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.609s
+
+OK

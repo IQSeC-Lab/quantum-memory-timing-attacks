@@ -1,0 +1,450 @@
+{
+  "plus|0": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|1": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|10": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|11": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|12": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|13": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|14": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|15": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|16": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|17": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|18": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|19": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|2": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|20": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|21": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|22": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|23": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|24": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|25": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|26": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|27": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|28": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|29": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|3": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|30": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|31": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|4": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|5": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|6": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|7": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|8": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "plus|9": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5637120000,
+    "alice_cpu_service_ns": 92160000,
+    "completed_epr_pairs": 0
+  },
+  "teleport|0": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|1": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|10": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|11": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|12": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|13": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|14": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|15": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|16": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|17": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|18": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|19": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|2": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|20": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|21": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|22": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|23": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|24": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|25": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|26": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|27": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|28": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|29": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|3": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|30": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|31": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|4": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|5": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|6": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|7": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|8": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  },
+  "teleport|9": {
+    "own_application_executions": 4608,
+    "competing_cpu_service_ns": 5222400000,
+    "bob_cpu_service_ns": 5683200000,
+    "alice_cpu_service_ns": 506880000,
+    "completed_epr_pairs": 4608
+  }
+}

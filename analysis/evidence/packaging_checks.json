@@ -1,0 +1,18 @@
+{
+  "status": "PASS_STORAGE_MECHANISM_PREVIEW",
+  "figures": 7,
+  "panels": 16,
+  "tables": 3,
+  "streams_for_new_figure": 8192,
+  "paired_requests_per_variant": 98304,
+  "xplus_requests_per_arm": 16384,
+  "descriptive_only": true,
+  "section3_pages": [
+    1,
+    2
+  ],
+  "section4_approx_content_pages": 2.3,
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "fresh_raw_replay": "PENDING"
+}
