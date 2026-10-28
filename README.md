@@ -2,9 +2,21 @@
 
 Reproducibility artifact for **“Exploiting Quantum Memory Decoherence through Classical Scheduling in Shared Network Nodes.”**
 
-This artifact studies how the release times of classical jobs affect quantum information stored at a shared network node. It includes the experiment implementations, frozen configurations and selections, retained compact results, statistical checks, editable TikZ figures, and replay evidence supporting the paper.
+This artifact studies how the release times of classical jobs affect quantum information stored at a shared network node. It includes the experiment implementations, frozen configurations and selections, retained compact results, statistical checks, and replay evidence supporting the paper.
 
-The instructions below follow the paper's experimental subsections and research questions. The central distinction is between **reproducing an analysis of existing results** and **executing new native simulations**. Neither operation constitutes a hardware experiment.
+
+## Citation
+```bibtex
+@article{kamol2026quantumMemoryTiming,
+  title  = {Exploiting Quantum Memory Decoherence through Classical Scheduling in Quantum Network Nodes},
+  author = {Kamol, Md Mahmuduzzaman and Nowmi, Saeefa Rubaiyet and Farheen, Tasnuva and
+            Khan, Samee U. and Rahman, Mohammad Saidur},
+  year   = {2026},
+}
+```
+
+
+The instructions below follow the paper's experimental subsections and research questions. 
 
 ## 1. Choose a reproduction path
 
@@ -411,10 +423,6 @@ The full replay excludes historical Q12/Q13/Q14/Q16 and E1. Their checks and rec
 | Default reanalysis succeeds but full-record checks cannot find archives | The lightweight dataset and optional full archives serve different verification scopes; see Section 4 |
 | Diagnostic interval contains zero | This is an expected scientific outcome, not a software failure |
 
-## 10. Citation, license, and release status
+## 10. Release status
 
-The MIT license applies to original artifact code. Retained third-party notices remain applicable, including the Qoala-derived components and bundled TeX files. NetSquid is obtained separately under its own terms. See `THIRD_PARTY_NOTICES.md`.
-
-Use the paper's final bibliographic entry when available. No DOI, publication status, release tag, or public artifact URL is invented in this working package.
-
-This is a curated release candidate. `docs/VALIDATION.json` records checks actually executed; `docs/RELEASE_STATUS.md` lists remaining release qualifications. A public release should preserve the companion-data checksums and identify a fixed code version so readers can reproduce the artifact associated with the paper.
+We provide this repository as a release candidate. We document completed validation checks in `docs/VALIDATION.json` and outstanding release requirements in `docs/RELEASE_STATUS.md`. Before publication, we will assign a version tag and preserve the companion-data checksums so readers can identify and reproduce the artifact supporting the paper.
